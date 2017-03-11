@@ -1,0 +1,21 @@
+{
+  "name": "gitkraken-i18n",
+  "version": "1.0.0",
+  "description": "Unofficial GitKraken i18n project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megos/gitkraken-i18n.git"
+  },
+  "author": "megos",
+  "bugs": {
+    "url": "https://github.com/megos/gitkraken-i18n/issues"
+  },
+  "homepage": "https://github.com/megos/gitkraken-i18n#readme",
+  "devDependencies": {
+    "asar": "^0.13.0"
+  }
+}
