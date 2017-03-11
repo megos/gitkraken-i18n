@@ -4,7 +4,10 @@
   "description": "Unofficial GitKraken i18n project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "extract": "asar e app.asar.original app.extract",
+    "pack": "asar p app.extract app.asar",
+    "remove": "rm app.extract/src/strings/en-us.json",
+    "hardlink-jp": "ln ja-jp.json app.extract/src/strings/en-us.json"
   },
   "repository": {
     "type": "git",
