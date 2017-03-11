@@ -1,2 +1,15 @@
 # gitkraken-i18n
-unofficial GitKraken i18n project
+Unofficial GitKraken i18n project
+
+## Contents
+- [Japanese](README-ja.md)
+
+## Requirement
+- git
+
+## Patch
+- Construction
+
+
+## Translate
+- Construction

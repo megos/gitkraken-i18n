@@ -1,4 +1,9 @@
+# translate files
 *.asar
+app.extract
+
+# Mac
+.DS_Store
 
 # Logs
 logs
