@@ -2,8 +2,6 @@
   "languageOption": {
     "label": "English (US)",
     "value": "en-us"
-    // "label": "Japanese (JP)",
-    // "value": "ja-jp"
   },
   "localizationInfo": {
     "verboseDateTimeFormat": "MMMM Do YYYY, h:mm a"
