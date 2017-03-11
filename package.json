@@ -1,0 +1,24 @@
+{
+  "name": "gitkraken-i18n",
+  "version": "1.0.0",
+  "description": "Unofficial GitKraken i18n project",
+  "main": "index.js",
+  "scripts": {
+    "extract": "asar e app.asar.original app.extract",
+    "pack": "asar p app.extract app.asar",
+    "remove": "rm app.extract/src/strings/en-us.json",
+    "hardlink-jp": "ln ja-jp.json app.extract/src/strings/en-us.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megos/gitkraken-i18n.git"
+  },
+  "author": "megos",
+  "bugs": {
+    "url": "https://github.com/megos/gitkraken-i18n/issues"
+  },
+  "homepage": "https://github.com/megos/gitkraken-i18n#readme",
+  "devDependencies": {
+    "asar": "^0.13.0"
+  }
+}
