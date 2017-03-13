@@ -25,7 +25,7 @@ GitKraken非公式日本語化プロジェクト
 1. デフォルトのen-us.jsonを削除
  - `npm run remove`
 1. プロジェクト直下にある`ja-jp.json`を翻訳する
-1. ja-jp.jsonをus-en.jsonとしてコ
+1. ja-jp.jsonをen-us.jsonとしてコピー
  - `npm run copy-jp`
 1. asarで`app.extract`を`app.asar`としてパッケージ
  - `npm run pack`
