@@ -9,6 +9,7 @@
     "pack": "asar p app.extract app.asar --unpack *.node --unpack THIRD-PARTY-LICENSES.txt --unpack *.pdb",
     "remove": "rm app.extract/src/strings/en-us.json",
     "copy-jp": "cp ja-jp.json app.extract/src/strings/en-us.json",
+    "copy-jp-win": "copy ja-jp.json app.extract\\src\\strings\\en-us.json",
     "asar-restore-mac": "cp app.asar /Applications/GitKraken.app/Contents/Resources/"
   },
   "repository": {
