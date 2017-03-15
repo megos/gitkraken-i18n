@@ -522,20 +522,20 @@
     "PullRequest-SuccessfullyCreatePullRequest": "Pull requestの作成に成功しました",
     "ViewOnHostingService": "{0}で見る",
 
-    "PullRequestBar-AssignedTo": "Assigned to:",
+    "PullRequestBar-AssignedTo": "担当者:",
     "PullRequestBar-CreatePullRequest": "Pull Requestを作成",
     "PullRequestBar-Menu": "Pull request操作",
-    "PullRequestBar-UnknownPullRequestHead": "Private repository (access denied)",
-    "PullRequestBar-ViewPullRequestInBrowser": "View pull request #{0} on {1}",
+    "PullRequestBar-UnknownPullRequestHead": "プライベートリポジトリ (アクセスできません)",
+    "PullRequestBar-ViewPullRequestInBrowser": "{1} でpull request #{0} を見る",
     "PullRequestBar-AddPullRequestRemote": "Add {0} as a remote",
 
     "PullRequestPanel-Branch": "Branch",
     "PullRequestPanel-EditOnService": "{0}で編集",
-    "PullRequestPanel-FromRepo": "From Repo",
+    "PullRequestPanel-FromRepo": "リポジトリ元",
     "PullRequestPanel-PullRequestTitle": "Pull request タイトル",
     "PullRequestPanel-PullRequestDescription": "Pull request 内容",
-    "PullRequestPanel-Repo": "Repo",
-    "PullRequestPanel-ToRepo": "To Repo",
+    "PullRequestPanel-Repo": "リポジトリ",
+    "PullRequestPanel-ToRepo": "リポジトリ先",
 
     "RemoteBar-Menu": "Remote操作",
 
@@ -960,7 +960,7 @@
     "RemoteForm-RemoteName": "名前",
     "RemoteForm-SearchRemotes": "Remoteを探す",
     "RemoteForm-SearchService": "{0}を探す",
-    "RemoteForm-SelectPlaceholder": "Select...",
+    "RemoteForm-SelectPlaceholder": "選択...",
     "RemoteForm-TooManyServiceRemotesWarning":
       "We are retrieving {0} forks associated with this repo. It may be faster to get the URL from {1}",
     "RemoteForm-Url": "URL",
