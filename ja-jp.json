@@ -673,7 +673,7 @@
     "FileHistory-ContinueLooking": "Go Deeper",
 
     "GeneralPreferences": "一般",
-    "GeneralPreferences-AutoFetchInterval": "Auth-Fetchの間隔",
+    "GeneralPreferences-AutoFetchInterval": "Auto-Fetchの間隔",
     "GeneralPreferences-AutoFetchIntervalHelp": "0から60分の間で設定できます(0にするとAuto-FetchがOffになります)。\nFetchは表示中のremoteに対して行われます。",
     "GeneralPreferences-AutoFetchIntervalWarning": "remoteが多いとパフォーマンスに影響します。",
     "GeneralPreferences-AutoPrune": "Auto-Prune",
