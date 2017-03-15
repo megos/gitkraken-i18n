@@ -934,14 +934,14 @@
 
     "PromptForRemoteDeletionConfirmation": "これは破壊的な操作です。本当に\"{0}\"を削除しますか?",
 
-    "PromptIgnore-Message": "Ignore '{0}'?",
-    "PromptIgnore-Ignore": "Ignore",
-    "PromptIgnore-IgnoreAndUntrack": "Ignore and Stop Tracking",
+    "PromptIgnore-Message": "'{0}'を除外しますか?",
+    "PromptIgnore-Ignore": "除外",
+    "PromptIgnore-IgnoreAndUntrack": "除外してTrackingをやめる",
 
-    "PromptNewBranchAtRemote-BranchNamePlaceholder": "branch name",
-    "PromptNewBranchAtRemote-CreateBranch": "Create Branch Here",
-    "PromptNewBranchAtRemote-Message": "A local '{0}' already exists.",
-    "PromptNewBranchAtRemote-ResetLocal": "Reset Local to Here",
+    "PromptNewBranchAtRemote-BranchNamePlaceholder": "branch名",
+    "PromptNewBranchAtRemote-CreateBranch": "ここからbranchを作成",
+    "PromptNewBranchAtRemote-Message": "Localに '{0}' は存在します。",
+    "PromptNewBranchAtRemote-ResetLocal": "ここでlocalをリセット",
 
     "CommitMessage-RemoteBranchCreated": "Branch: created {0}",
 
