@@ -513,7 +513,7 @@
     "RefBar-AddRemote": "remoteを追加",
     "RefBar-OpenGitFlow": "Git Flowを開く",
     "RefBar-AddBranch": "新しいbranchを作成",
-    "RefBar-AddSubmodule": "新しいsubmoduleを追加",
+    "RefBar-AddSubmodule": "submoduleを追加",
     "RefBar-AddTag": "新しいtagを作成",
     "RefBar-Menu": "Branch操作",
 
