@@ -566,7 +566,7 @@
 
     "CommitDetailPanel-AndTheWIP": "and the WIP",
     "CommitDetailPanel-DiffBetweenACommitAndTheWIP": "commit と the WIP 間のdiffを表示中",
-    "CommitDetailPanel-DiffBetweenCommitsTitle": "Viewing merged diff of {0} commit ",
+    "CommitDetailPanel-DiffBetweenCommitsTitle": "{0} commitsのdiffを表示中 ",
     "CommitDetailPanel-DiffBetweenTwoCommits": "2 commits間のdiffを表示中",
     "CommitDetailPanel-MergeConflictTitle": "Merge Conflicts",
     "CommitDetailPanel-MergeTitle": "Merge",
