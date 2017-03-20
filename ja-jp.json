@@ -973,24 +973,24 @@
     "SetUpstreamPrompt-SelectRemoteBranchMessage": "\"{0}\"のremote branchを設定してください",
 
     "ConfirmationMessage-DeleteConfigLock":
-      "Could not acquire a lock on .git/config because a lock already exists. Another program or action may be modifying the repository. Would you like to delete the config lock on this repo so it can be modified?",
+      ".git/configがすでにロックされているためロックできません。他のプログラムが使用中またはリポジトリが変更中である可能性があります。ロックを解除して変更ができるようにしますか?",
     "ConfirmationMessage-DeleteGitFlowRef": "このbranchはGit Flowに必要です。本当に\"{0}\"を削除しますか?",
     "ConfirmationMessage-DeleteRef": "これは破壊的な操作です。本当に\"{0}\"を削除しますか?",
     "ConfirmationMessage-DeleteAllRefs": "これは破壊的な操作です。本当にこのノードやremoteから\"{0}\"を削除しますか?",
     "ConfirmationMessage-DeleteTagFromRemote": "これは破壊的な操作です。本当に\"{1}\"から\"{0}\"を削除しますか?",
-    "ConfirmationMessage-DeleteTagFromAllRemotes": "Would you also like to delete tags named \"{0}\" from your remote repos?",
-    "ConfirmationMessage-ImmediatelyCommitCherryPick": "Do you want to immediately commit the cherrypicked changes?",
-    "ConfirmationMessage-ImmediatelyCommitRevert": "Do you want to immediately commit the reverted changes?",
+    "ConfirmationMessage-DeleteTagFromAllRemotes": "remoteから tag \"{0}\"を削除しますか?",
+    "ConfirmationMessage-ImmediatelyCommitCherryPick": "cherrypickの変更をすぐにcommitしますか?",
+    "ConfirmationMessage-ImmediatelyCommitRevert": "revertの変更をすぐにcommitしますか?",
     "ConfirmationMessage-InitEmptyRepo":
-      "Repository '{0}' must have an initial commit to be opened. Do you want GitKraken to make a commit for you?",
+      "リポジトリ'{0}'を開くにはinitial commitが必要です。GitKrakenがcommitしてもよろしいですか?",
     "ConfirmationMessage-InitRepo":
-      "Could not find a compatible repository at '{0}'. Do you want to create a new repository there?",
+      "リポジトリ'{0}'に互換性がありません。ここに新しいリポジトリを作成してもよろしいですか?",
     "ConfirmationMessage-MergeConflictStashAndCheckout":
       "Merge conflictsがあります。Mergeを続けるには変更や {0} branchをstashする必要があります。Stashしてもよろしいですか?",
-    "ConfirmationMessage-CreateCommitForMerge": "Do you want to immediately commit the merged changes?",
-    "ConfirmationMessage-OptIntoBugReporting": "GitKraken has recovered from a fatal error. Would you like to start sending crash data to the GitKraken team to improve GitKraken?",
+    "ConfirmationMessage-CreateCommitForMerge": "mergeの変更をすぐにcommitしてもよろしいですか?",
+    "ConfirmationMessage-OptIntoBugReporting": "GitKrakenは重大なエラーから復帰しました。GitKrakenをよりよくするため、GitKrakenチームにクラッシュレポートを送信してもよろしいですか?",
     "ConfirmationMessage-RebaseRequiresStashAndCheckout":
-      "To start the rebase, you must stash any changes and checkout branch \"{0}\". Do you want to do this now?",
+      "rebaseを始めるには変更をstashしてbranch\"{0}\"をcheckoutする必要があります。stashとcheckoutを行ってもよろしいですか?",
     "ConfirmationMessage-ResetAll":
       "すべての変更を取り消すとtrakingされていないファイルも削除されます。本当にすべての変更を取り消しますか?",
     "ConfirmationMessage-ResetFile":
@@ -1104,7 +1104,7 @@
     "Error-RebaseFailed": "Rebaseに失敗しました",
     "Error-RebaseFailedFromFileLock": "ファイルの変更に失敗しました。ファイルのパーミッションまたは他のプロセスが利用している恐れがあります。ファイルのロックを解除するかRebaseを取り消したあとにやり直してください。",
     "Error-RebaseAbortFailed": "Rebaseの取り消しに失敗しました",
-    "Error-RebaseAbortFailedFromFileLock": "Rebaseが取り消せませんでした。ファイルのパーミッションまたは他のプロセスが利用している恐れがあります。",
+    "Error-RebaseAbortFailedFromFileLock": "Rebaseが取り消せませんでした。ファイルのパーミッションまたは他のプロセスが利用しているおそれがあります。",
     "Error-RemoveFailed": "ファイルの削除に失敗しました",
     "Error-ResetFailed": "リセットに失敗しました",
     "Error-RepoAlreadyExists": "リポジトリはすでに存在します",
