@@ -4,10 +4,13 @@
   "description": "Unofficial GitKraken i18n project",
   "main": "index.js",
   "scripts": {
+    "asar-copy-mac": "cp /Applications/GitKraken.app/Contents/Resources/app.asar app.asar.original && cp -r /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked app.asar.original.unpacked",
     "extract": "asar e app.asar.original app.extract",
-    "pack": "asar p app.extract app.asar",
+    "pack": "asar p app.extract app.asar --unpack \"{*.node,THIRD-PARTY-LICENSES.txt,.DS_Store,*.pdb}\"",
     "remove": "rm app.extract/src/strings/en-us.json",
-    "hardlink-jp": "ln ja-jp.json app.extract/src/strings/en-us.json"
+    "copy-jp": "cp ja-jp.json app.extract/src/strings/en-us.json",
+    "copy-jp-win": "copy ja-jp.json app.extract\\src\\strings\\en-us.json",
+    "asar-restore-mac": "cp app.asar /Applications/GitKraken.app/Contents/Resources/"
   },
   "repository": {
     "type": "git",

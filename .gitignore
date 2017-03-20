@@ -1,5 +1,7 @@
 # translate files
 *.asar
+*.original
+*.unpacked
 app.extract
 
 # Mac
