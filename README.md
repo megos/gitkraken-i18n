@@ -29,6 +29,6 @@ Copy `en-us.json` to your locale json file.
 4. Translate json file.
 5. Copy your locale json file to `app.extract/src/string/en-us.json`
 6. Pack `app.asar`
-7. Overwrite created `app.asar` to GitKraken's `app.asar`.
   - `npm run pack`
+7. Overwrite created `app.asar` to GitKraken's `app.asar`.
 8. Restart GitKraken and check translate.
