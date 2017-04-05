@@ -3,9 +3,6 @@
     "label": "English (US)",
     "value": "en-us"
   },
-  "localizationInfo": {
-    "verboseDateTimeFormat": "MMMM Do YYYY, h:mm a"
-  },
   "menuStrings": {
     "ProductName": "<%= productName %>",
     "AboutProduct": "About <%= productName %>",
@@ -101,6 +98,7 @@
     "Registration-CheckStatus": "Check Status",
     "Registration-CommercialUse": "GitKraken Licensing",
     "Registration-CommercialUseText": "GitKraken is free for non-commercial use. For commercial use, GitKraken Pro is required.",
+    "Registration-PrivateRepoDetected": "This appears to be a private repository",
     "Registration-CreateAccount": "Create a GitKraken Account",
     "Registration-CreateAccountRetry": "Retry Creating Account",
     "Registration-CreatingAccount": "Creating Account...",
@@ -224,11 +222,12 @@
     "AllFilesInFolder": "All files in '{0}/'",
     "IgnoreAllFilesInFolder": "Ignore all files in '{0}/'",
 
-    "File-Delete": "Delete file",
-    "File-UnstageAndDelete": "Unstage and delete file",
-    "File-Reset": "Discard changes",
-    "File-Open": "Open file",
     "File-Blame": "File Blame",
+    "File-Delete": "Delete file",
+    "File-Open": "Open file",
+    "File-Reset": "Discard changes",
+    "File-ShowFolderContents": "Open folder",
+    "File-ShowFolderContentsMac": "Open in Finder",
     "File-ShowInFolder": "Show in folder",
     "File-ShowInFolderMac": "Show in Finder",
     "File-StatusAdded": "ADDED",
@@ -236,6 +235,7 @@
     "File-StatusRenamed": "RENAMED",
     "File-StatusRenamedFrom": "from",
     "File-StatusRenamedTo": "to",
+    "File-UnstageAndDelete": "Unstage and delete file",
 
     "Folder-MarkConflictedFilesAsResolved": "Mark all resolved",
     "Folder-Open": "Open folder",
@@ -269,8 +269,15 @@
     "FuzzyFinder-ViewPrefix": "View: ",
     "FuzzyFinder-WorkDirPrefix": "File: ",
 
-    "GitHooks-ExitCode": "Exit Code: ${code}",
-    "GitHooks-HookFailed": "${0} Failed",
+    "GitHook-ExitCode": "Exit Code: {0}",
+    "GitHook-OpenFailureLogModal": "View Hook Output",
+    "GitHook-HookFailed": "{0} Failed",
+    "GitHook-OpenLogExternally": "Open in External Application",
+    "GitHook-PermissionDenied": "{0} isn't executable!",
+    "GitHook-PrePushDidNotRun": "Pre-push hook did not run",
+    "GitHook-PrePushDidNotRunReason": "{0} does not exist on {1}",
+    "GitHook-StandardError": "stderr",
+    "GitHook-StandardOutput": "stdout",
 
     "LeftPanel-CheckedOut": "Checked out",
     "LeftPanel-ClearFilter": "Clear filter",
@@ -313,6 +320,7 @@
 
     "ViewAuthenticationSettings": "View settings",
     "ViewMergeToolSettings": "View merge tool settings",
+    "ViewShPathSettings": "View Settings",
     "ViewTerminalSettings": "View terminal settings",
 
     "DiscardSelectedLines": "Discard selected lines",
@@ -390,6 +398,8 @@
     "RetryWithoutOAuthLabel": "Retry without OAuth",
     "UpgradeToProButtonLabel": "Upgrade to GitKraken Pro",
     "UseFreeButtonLabel": "Continue using GitKraken Free",
+    "StartTrialButtonLabel": "GitKraken Pro Free Trial",
+    "TrialStatus": "{0} of GitKraken Pro remaining - Upgrade now",
 
     "Option-None": "<None>",
 
@@ -528,6 +538,7 @@
     "PullRequestBar-UnknownPullRequestHead": "Private repository (access denied)",
     "PullRequestBar-ViewPullRequestInBrowser": "View pull request #{0} on {1}",
     "PullRequestBar-AddPullRequestRemote": "Add {0} as a remote",
+    "PullRequestBar-AddPullRequestRemoteAndCheckoutPRHead": "Add remote and checkout {0}",
 
     "PullRequestPanel-Branch": "Branch",
     "PullRequestPanel-EditOnService": "Edit on {0}",
@@ -538,6 +549,8 @@
     "PullRequestPanel-ToRepo": "To Repo",
 
     "RemoteBar-Menu": "Remote actions",
+
+    "ShPath-ConfirmPath": "This repo needs sh to run GitHooks. Is {0} the path to your sh?",
 
     "StashBar-NavigateToStash": "Navigate to stash",
     "StashBar-Menu": "Stash actions",
@@ -687,6 +700,8 @@
     "GeneralPreferences-OptIntoAnalytics": "Send usage data about GitKraken to Axosoft",
     "GeneralPreferences-OptIntoBugReporting": "Send crash data about GitKraken to Axosoft",
     "GeneralPreferences-OptIntoAnalyticsHelp": "(Optional) Will send usage statistics and crash reports to Axosoft to improve Gitkraken",
+    "GeneralPreferences-ShPathLocation": "Path to Sh",
+    "GeneralPreferences-ShPathLocationHelp": "Used to run Git hooks",
     "GeneralPreferences-UseCustomTerminalCmd": "Use Custom Terminal Command",
 
     "GitConfig": "Git Config",
@@ -896,6 +911,7 @@
     "SendUsFeedback-Feedback": "Feedback",
     "SendUsFeedback-Subject": "Subject",
     "ProvideFeedback-GetSupport": "Get support",
+    "ProvideFeedback-DefaultText": "Summary:\n\n  [A brief sentence describing the issue]\n\nSteps to Reproduce:\n\n  1. [First Step]\n  2. [Second Step]\n  3. [and so on...]\n\nExpected behavior: [What you expect to happen]\n\nActual behavior: [What actually happens]",
     "GetSupport": "Get support",
     "GetSupport-FreeUserUpSell": "Due to the popularity of GitKraken, we are currently unable to provide support for the free edition of GitKraken.",
     "GetSupport-DefaultSubject": "Support Question for GitKraken ({0})",
@@ -972,6 +988,7 @@
     "SetUpstreamPrompt-MustSelectRemote": "You have to select a remote (e.g. \"origin/<branch>\")",
     "SetUpstreamPrompt-SelectRemoteBranchMessage": "What remote/branch should \"{0}\" push to and pull from?",
 
+    "ConfirmationMessage-ClonePullRequestHead": "Do you want to add \"{0}\" as a remote and checkout \"{1}\"?",
     "ConfirmationMessage-DeleteConfigLock":
       "Could not acquire a lock on .git/config because a lock already exists. Another program or action may be modifying the repository. Would you like to delete the config lock on this repo so it can be modified?",
     "ConfirmationMessage-DeleteGitFlowRef": "This branch is required for Git Flow, are you sure you want to delete \"{0}\"?",
@@ -1004,11 +1021,21 @@
     "UndoRedo-UndoSuccessful": "Undo Successful",
 
     "View-KeyBindings": "Keyboard Shortcuts",
+    "View-GitHookFailureLog": "Hook Log",
     "View-RepositoryManagement": "Repository Management",
     "View-ToggleLeftPanel": "Toggle Left Panel",
     "View-ZoomDown": "Decrease Zoom",
     "View-ZoomReset": "Reset Zoom",
     "View-ZoomUp": "Increase Zoom",
+
+    "NewUserOnboarding-Welcome": "Welcome to GitKraken!",
+    "NewUserOnboarding-Repository": "Open, clone or initialize a repository",
+    "NewUserOnboarding-Preferences": "Set your preferences",
+    "NewUserOnboarding-ReadyToReleaseTheKraken": "Ready to release the kraken?",
+    "NewUserOnboarding-SupportLink": "Watch the 90-second intro video: ",
+    "NewUserOnboarding-SlackLink": "Join the GitKraken Slack community: ",
+    "NewUserOnboarding-Explore": "Explore these helpful resources",
+
 
     "KeyBinding-or": "or",
     "KeyBinding-ToggleCommandPallette": "Toggle Command Palette",
@@ -1052,6 +1079,25 @@
     "NotificationMessage-RevertWasNoop": "However, the current branch already has all changes from the reverted commit.",
     "NotificationMessage-CherrypickWasNoop": "However, the current branch already has all changes from the cherrypicked commit.",
     "NotificationMessage-SSHKeyBeingUsed": "GitKraken will use this key to talk to {0}. The public key has been copied to your clipboard; please make sure it is registered on your {0} account.",
+
+    "Trial-StartTrialModalTitle": "Start a Free GitKraken Pro Trial",
+    "Trial-StartTrialModalContent": "No credit card required! Click the button below to start your trial and get access to GitKraken Pro features free for {0} days.",
+    "Trial-StartTrialModalSubcontent": "Learn more about GitKraken Pro features at {0}",
+    "Trial-StartTrialModalConfirmButton": "Start my GitKraken Pro trial now",
+    "Trial-StartTrialModalNoThanksButton": "Not now, thanks",
+    "Trial-StartTrialModalHideTrialOfferCheckbox": "Hide the \"GitKraken Pro Free Trial\" button",
+    "Trial-TrialStartedModalTitle": "Welcome to Your Pro Trial!",
+    "Trial-TrialStartedModalContent": "For the next 14 days, you have access to GitKraken Pro features, like:",
+    "Trial-TrialStartedModalFeature1": "Multiple profiles for work & personal use",
+    "Trial-TrialStartedModalFeature2": "A powerful merge conflict editor in-app",
+    "Trial-TrialStartedModalFeature3": "GitHub Enterprise integration",
+    "Trial-TrialStartedModalSubcontent": "You can upgrade your account to Pro at any time during the trial to avoid losing access to these features when the trial ends.",
+    "Trial-TrialStartedModalTitle": "Your GitKraken Pro Trial Has Started",
+    "Trial-TrialEndedModalTitle": "Your GitKraken Pro Trial Has Ended",
+    "Trial-TrialEndedModalTitle": "Your GitKraken Pro Trial has Ended",
+    "Trial-TrialEndedModalSubcontent1": "Upgrade to GitKraken Pro now to continue using Pro features, and to get access to priority support.",
+    "Trial-TrialEndedModalSubcontent2": "If you're using GitKraken for commercial projects, GitKraken Pro is required. Purchasing GitKraken for your entire team can reduce the price significantly.",
+    "Trial-TrialEndedModalContinueUsingFree": "No thanks, I'll continue with the free version.",
 
     "Error": "Error",
     "Error-AddExternalSSHKeyToServiceFailed": "Add SSH Key failed",
@@ -1143,7 +1189,9 @@
     "ErrorMessage-RemoteAccessDenied": "Access denied. Make sure you have access to do that action on that remote and try again.",
     "ErrorMessage-RemoteAccessDeniedOrgWarning": "If {0} is an organization on {1}, you may need to **request or grant access** to the organization for GitKraken.",
     "ErrorMessage-RemoteNotFoundWithName": "Could not connect to '{0}'. Double-check your remote url, then make sure you have access to do that action on that remote and try again.",
+    "ErrorMessage-RemoteRefBehindRemote": "Your remote branch is out of date. Please fetch {0} before pushing.",
     "ErrorMessage-ResetFailedWithReason": "Could not reset for the following reason: {0}",
+    "ErrorMessage-ShPathNotFound": "This repo has GitHooks, but we couldn't find your Sh install to run them.",
     "ErrorMessage-StageFilemodeFailedWithReason": "Could not stage filemode for {0} for the following reason: {1}",
     "ErrorMessage-StagePathsFailedWithReason": "Could not stage paths for the following reason: {0}",
     "ErrorMessage-StageSelectionFailedWithReason": "Could not stage selection for {0} for the following reason: {1}",
