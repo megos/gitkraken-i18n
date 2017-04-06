@@ -3,9 +3,6 @@
     "label": "English (US)",
     "value": "en-us"
   },
-  "localizationInfo": {
-    "verboseDateTimeFormat": "MMMM Do YYYY, h:mm a"
-  },
   "menuStrings": {
     "ProductName": "<%= productName %>",
     "AboutProduct": "<%= productName %>について",
@@ -101,6 +98,7 @@
     "Registration-CheckStatus": "ステータスをチェック",
     "Registration-CommercialUse": "GitKrakenライセンス",
     "Registration-CommercialUseText": "GitKrakenは無料で非商用利用できます。商用利用にはGitKraken Proが必要です。",
+    "Registration-PrivateRepoDetected": "This appears to be a private repository",
     "Registration-CreateAccount": "GitKrakenのアカウントを作成する",
     "Registration-CreateAccountRetry": "アカウントの作成をリトライしています",
     "Registration-CreatingAccount": "アカウントを作成しています...",
@@ -224,11 +222,12 @@
     "AllFilesInFolder": "'{0}/' のすべてのファイル",
     "IgnoreAllFilesInFolder": "'{0}/' のすべてのファイルを除外",
 
-    "File-Delete": "ファイルを削除",
-    "File-UnstageAndDelete": "Unstageしてファイルを削除",
-    "File-Reset": "変更を取り消す",
-    "File-Open": "ファイルを開く",
     "File-Blame": "ファイルのBlame",
+    "File-Delete": "ファイルを削除",
+    "File-Open": "ファイルを開く",
+    "File-Reset": "変更を取り消す",
+    "File-ShowFolderContents": "Open folder",
+    "File-ShowFolderContentsMac": "Open in Finder",
     "File-ShowInFolder": "フォルダで開く",
     "File-ShowInFolderMac": "Finderで開く",
     "File-StatusAdded": "ADDED",
@@ -236,6 +235,7 @@
     "File-StatusRenamed": "RENAMED",
     "File-StatusRenamedFrom": "from",
     "File-StatusRenamedTo": "to",
+    "File-UnstageAndDelete": "Unstageしてファイルを削除",
 
     "Folder-MarkConflictedFilesAsResolved": "すべて解決済みにする",
     "Folder-Open": "フォルダを開く",
@@ -270,7 +270,14 @@
     "FuzzyFinder-WorkDirPrefix": "ファイル: ",
 
     "GitHooks-ExitCode": "終了コード: ${code}",
-    "GitHooks-HookFailed": "${0} に失敗",
+    "GitHook-OpenFailureLogModal": "View Hook Output",
+    "GitHooks-HookFailed": "{0} に失敗",
+    "GitHook-OpenLogExternally": "Open in External Application",
+    "GitHook-PermissionDenied": "{0} isn't executable!",
+    "GitHook-PrePushDidNotRun": "Pre-push hook did not run",
+    "GitHook-PrePushDidNotRunReason": "{0} does not exist on {1}",
+    "GitHook-StandardError": "stderr",
+    "GitHook-StandardOutput": "stdout",
 
     "LeftPanel-CheckedOut": "checkoutしています",
     "LeftPanel-ClearFilter": "フィルタをクリア",
@@ -313,6 +320,7 @@
 
     "ViewAuthenticationSettings": "設定を表示",
     "ViewMergeToolSettings": "Mergeツールの設定を表示",
+    "ViewShPathSettings": "View Settings",
     "ViewTerminalSettings": "ターミナルの設定を表示",
 
     "DiscardSelectedLines": "選択中の行の変更を取り消す",
@@ -390,6 +398,8 @@
     "RetryWithoutOAuthLabel": "OAuthなしでリトライ",
     "UpgradeToProButtonLabel": "GitKraken Proにアップグレード",
     "UseFreeButtonLabel": "GitKraken Freeを使い続ける",
+    "StartTrialButtonLabel": "GitKraken Pro Free Trial",
+    "TrialStatus": "{0} of GitKraken Pro remaining - Upgrade now",
 
     "Option-None": "<ありません>",
 
@@ -528,6 +538,7 @@
     "PullRequestBar-UnknownPullRequestHead": "プライベートリポジトリ (アクセスできません)",
     "PullRequestBar-ViewPullRequestInBrowser": "{1} でpull request #{0} を見る",
     "PullRequestBar-AddPullRequestRemote": "{0} をremoteに追加",
+    "PullRequestBar-AddPullRequestRemoteAndCheckoutPRHead": "Add remote and checkout {0}",
 
     "PullRequestPanel-Branch": "Branch",
     "PullRequestPanel-EditOnService": "{0}で編集",
@@ -538,6 +549,8 @@
     "PullRequestPanel-ToRepo": "リポジトリ先",
 
     "RemoteBar-Menu": "Remote操作",
+
+    "ShPath-ConfirmPath": "This repo needs sh to run GitHooks. Is {0} the path to your sh?",
 
     "StashBar-NavigateToStash": "このstashの位置に移動",
     "StashBar-Menu": "Stash操作",
@@ -687,6 +700,8 @@
     "GeneralPreferences-OptIntoAnalytics": "AxosoftにGitKrakenの利用データを送信する",
     "GeneralPreferences-OptIntoBugReporting": "AxosoftにGitKrakenのクラッシュデータを送信する",
     "GeneralPreferences-OptIntoAnalyticsHelp": "(任意) Gitkrakenをよりよくするため、利用情報やクラッシュレポートをAxosoftに送信する",
+    "GeneralPreferences-ShPathLocation": "Path to Sh",
+    "GeneralPreferences-ShPathLocationHelp": "Used to run Git hooks",
     "GeneralPreferences-UseCustomTerminalCmd": "カスタムターミナルコマンドを使う",
 
     "GitConfig": "Gitコンフィグ",
@@ -896,6 +911,7 @@
     "SendUsFeedback-Feedback": "フィードバック",
     "SendUsFeedback-Subject": "題名",
     "ProvideFeedback-GetSupport": "サポートを受ける",
+    "ProvideFeedback-DefaultText": "Summary:\n\n  [A brief sentence describing the issue]\n\nSteps to Reproduce:\n\n  1. [First Step]\n  2. [Second Step]\n  3. [and so on...]\n\nExpected behavior: [What you expect to happen]\n\nActual behavior: [What actually happens]",
     "GetSupport": "サポートを受ける",
     "GetSupport-FreeUserUpSell": "GitKrakenは多くの方に利用されているため、無料版を利用している方はメールによるサポートを受けることができません。",
     "GetSupport-DefaultSubject": "Support Question for GitKraken ({0})",
@@ -972,6 +988,7 @@
     "SetUpstreamPrompt-MustSelectRemote": "Remoteを選択する必要があります (例： \"origin/<branch>\")",
     "SetUpstreamPrompt-SelectRemoteBranchMessage": "\"{0}\"のremote branchを設定してください",
 
+    "ConfirmationMessage-ClonePullRequestHead": "Do you want to add \"{0}\" as a remote and checkout \"{1}\"?",
     "ConfirmationMessage-DeleteConfigLock":
       ".git/configがすでにロックされているためロックできません。他のプログラムが使用中またはリポジトリが変更中である可能性があります。ロックを解除して変更ができるようにしますか?",
     "ConfirmationMessage-DeleteGitFlowRef": "このbranchはGit Flowに必要です。本当に\"{0}\"を削除しますか?",
@@ -1004,11 +1021,21 @@
     "UndoRedo-UndoSuccessful": "やり直しに成功しました",
 
     "View-KeyBindings": "キーボードショートカット",
+    "View-GitHookFailureLog": "Hook Log",
     "View-RepositoryManagement": "リポジトリ管理",
     "View-ToggleLeftPanel": "左のパネルの切り替え",
     "View-ZoomDown": "縮小",
     "View-ZoomReset": "リセット",
     "View-ZoomUp": "拡大",
+
+    "NewUserOnboarding-Welcome": "Welcome to GitKraken!",
+    "NewUserOnboarding-Repository": "Open, clone or initialize a repository",
+    "NewUserOnboarding-Preferences": "Set your preferences",
+    "NewUserOnboarding-ReadyToReleaseTheKraken": "Ready to release the kraken?",
+    "NewUserOnboarding-SupportLink": "Watch the 90-second intro video: ",
+    "NewUserOnboarding-SlackLink": "Join the GitKraken Slack community: ",
+    "NewUserOnboarding-Explore": "Explore these helpful resources",
+
 
     "KeyBinding-or": "or",
     "KeyBinding-ToggleCommandPallette": "コマンドパレットを切り替える",
@@ -1052,6 +1079,25 @@
     "NotificationMessage-RevertWasNoop": "現在のbranchはすでにrevertされたcommitの変更を取り込んでいます。",
     "NotificationMessage-CherrypickWasNoop": "現在のbranchはすでにcherrypickされたcommitの変更を取り込んでいます。",
     "NotificationMessage-SSHKeyBeingUsed": "GitKrakenはSSHキーを使用して {0} と接続します。公開鍵はクリップボードコピーされています。{0} のアカウントに公開鍵を登録してください。",
+
+    "Trial-StartTrialModalTitle": "Start a Free GitKraken Pro Trial",
+    "Trial-StartTrialModalContent": "No credit card required! Click the button below to start your trial and get access to GitKraken Pro features free for {0} days.",
+    "Trial-StartTrialModalSubcontent": "Learn more about GitKraken Pro features at {0}",
+    "Trial-StartTrialModalConfirmButton": "Start my GitKraken Pro trial now",
+    "Trial-StartTrialModalNoThanksButton": "Not now, thanks",
+    "Trial-StartTrialModalHideTrialOfferCheckbox": "Hide the \"GitKraken Pro Free Trial\" button",
+    "Trial-TrialStartedModalTitle": "Welcome to Your Pro Trial!",
+    "Trial-TrialStartedModalContent": "For the next 14 days, you have access to GitKraken Pro features, like:",
+    "Trial-TrialStartedModalFeature1": "Multiple profiles for work & personal use",
+    "Trial-TrialStartedModalFeature2": "A powerful merge conflict editor in-app",
+    "Trial-TrialStartedModalFeature3": "GitHub Enterprise integration",
+    "Trial-TrialStartedModalSubcontent": "You can upgrade your account to Pro at any time during the trial to avoid losing access to these features when the trial ends.",
+    "Trial-TrialStartedModalTitle": "Your GitKraken Pro Trial Has Started",
+    "Trial-TrialEndedModalTitle": "Your GitKraken Pro Trial Has Ended",
+    "Trial-TrialEndedModalTitle": "Your GitKraken Pro Trial has Ended",
+    "Trial-TrialEndedModalSubcontent1": "Upgrade to GitKraken Pro now to continue using Pro features, and to get access to priority support.",
+    "Trial-TrialEndedModalSubcontent2": "If you're using GitKraken for commercial projects, GitKraken Pro is required. Purchasing GitKraken for your entire team can reduce the price significantly.",
+    "Trial-TrialEndedModalContinueUsingFree": "No thanks, I'll continue with the free version.",
 
     "Error": "エラー",
     "Error-AddExternalSSHKeyToServiceFailed": "SSHキーの追加に失敗しました",
@@ -1143,7 +1189,9 @@
     "ErrorMessage-RemoteAccessDenied": "アクセスできません。remoteに接続できることを確認してやり直してください。",
     "ErrorMessage-RemoteAccessDeniedOrgWarning": "{0}が{1}のorganizationである場合は、organizationに**リクエストかアクセス権限**が必要です。",
     "ErrorMessage-RemoteNotFoundWithName": "'{0}'に接続できませんでした。Remote URLが正しいこと、remoteに接続できることを確認してやり直してください。",
+    "ErrorMessage-RemoteRefBehindRemote": "Your remote branch is out of date. Please fetch {0} before pushing.",
     "ErrorMessage-ResetFailedWithReason": "リセットに失敗しました: {0}",
+    "ErrorMessage-ShPathNotFound": "This repo has GitHooks, but we couldn't find your Sh install to run them.",
     "ErrorMessage-StageFilemodeFailedWithReason": "{0} のファイルモード変更のStageに失敗しました: {1}",
     "ErrorMessage-StagePathsFailedWithReason": "パスのStageに失敗しました: {0}",
     "ErrorMessage-StageSelectionFailedWithReason": "{0} の選択箇所のStageに失敗しました: {1}",
