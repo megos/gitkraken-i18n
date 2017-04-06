@@ -1028,13 +1028,13 @@
     "View-ZoomReset": "リセット",
     "View-ZoomUp": "拡大",
 
-    "NewUserOnboarding-Welcome": "Welcome to GitKraken!",
-    "NewUserOnboarding-Repository": "Open, clone or initialize a repository",
-    "NewUserOnboarding-Preferences": "Set your preferences",
+    "NewUserOnboarding-Welcome": "GitKrakenへようこそ!",
+    "NewUserOnboarding-Repository": "リポジトリを開いたり、Cloneや初期化を行う",
+    "NewUserOnboarding-Preferences": "設定を行う",
     "NewUserOnboarding-ReadyToReleaseTheKraken": "Ready to release the kraken?",
-    "NewUserOnboarding-SupportLink": "Watch the 90-second intro video: ",
-    "NewUserOnboarding-SlackLink": "Join the GitKraken Slack community: ",
-    "NewUserOnboarding-Explore": "Explore these helpful resources",
+    "NewUserOnboarding-SupportLink": "90秒のビデオを見る: ",
+    "NewUserOnboarding-SlackLink": "GitKrakenのSlackに参加する: ",
+    "NewUserOnboarding-Explore": "役立つ情報を探す",
 
 
     "KeyBinding-or": "or",
