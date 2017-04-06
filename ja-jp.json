@@ -988,7 +988,7 @@
     "SetUpstreamPrompt-MustSelectRemote": "Remoteを選択する必要があります (例： \"origin/<branch>\")",
     "SetUpstreamPrompt-SelectRemoteBranchMessage": "\"{0}\"のremote branchを設定してください",
 
-    "ConfirmationMessage-ClonePullRequestHead": "Do you want to add \"{0}\" as a remote and checkout \"{1}\"?",
+    "ConfirmationMessage-ClonePullRequestHead": "\"{1}\"のremoteやcheckoutの対象として\"{0}\"を追加しますか?",
     "ConfirmationMessage-DeleteConfigLock":
       ".git/configがすでにロックされているためロックできません。他のプログラムが使用中またはリポジトリが変更中である可能性があります。ロックを解除して変更ができるようにしますか?",
     "ConfirmationMessage-DeleteGitFlowRef": "このbranchはGit Flowに必要です。本当に\"{0}\"を削除しますか?",
