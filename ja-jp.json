@@ -320,7 +320,7 @@
 
     "ViewAuthenticationSettings": "設定を表示",
     "ViewMergeToolSettings": "Mergeツールの設定を表示",
-    "ViewShPathSettings": "View Settings",
+    "ViewShPathSettings": "設定を表示",
     "ViewTerminalSettings": "ターミナルの設定を表示",
 
     "DiscardSelectedLines": "選択中の行の変更を取り消す",
@@ -398,8 +398,8 @@
     "RetryWithoutOAuthLabel": "OAuthなしでリトライ",
     "UpgradeToProButtonLabel": "GitKraken Proにアップグレード",
     "UseFreeButtonLabel": "GitKraken Freeを使い続ける",
-    "StartTrialButtonLabel": "GitKraken Pro Free Trial",
-    "TrialStatus": "{0} of GitKraken Pro remaining - Upgrade now",
+    "StartTrialButtonLabel": "GitKraken Pro フリートライアル",
+    "TrialStatus": "GitKraken Proの試用期間はあと {0} です - 今すぐアップグレードしましょう",
 
     "Option-None": "<ありません>",
 
@@ -538,7 +538,7 @@
     "PullRequestBar-UnknownPullRequestHead": "プライベートリポジトリ (アクセスできません)",
     "PullRequestBar-ViewPullRequestInBrowser": "{1} でpull request #{0} を見る",
     "PullRequestBar-AddPullRequestRemote": "{0} をremoteに追加",
-    "PullRequestBar-AddPullRequestRemoteAndCheckoutPRHead": "Add remote and checkout {0}",
+    "PullRequestBar-AddPullRequestRemoteAndCheckoutPRHead": "{0} をremoteに追加してcheckout",
 
     "PullRequestPanel-Branch": "Branch",
     "PullRequestPanel-EditOnService": "{0}で編集",
@@ -550,7 +550,7 @@
 
     "RemoteBar-Menu": "Remote操作",
 
-    "ShPath-ConfirmPath": "This repo needs sh to run GitHooks. Is {0} the path to your sh?",
+    "ShPath-ConfirmPath": "GitHookを動かすにはShが必要です。Shのパスは {0} でよろしいですか?",
 
     "StashBar-NavigateToStash": "このstashの位置に移動",
     "StashBar-Menu": "Stash操作",
@@ -700,8 +700,8 @@
     "GeneralPreferences-OptIntoAnalytics": "AxosoftにGitKrakenの利用データを送信する",
     "GeneralPreferences-OptIntoBugReporting": "AxosoftにGitKrakenのクラッシュデータを送信する",
     "GeneralPreferences-OptIntoAnalyticsHelp": "(任意) Gitkrakenをよりよくするため、利用情報やクラッシュレポートをAxosoftに送信する",
-    "GeneralPreferences-ShPathLocation": "Path to Sh",
-    "GeneralPreferences-ShPathLocationHelp": "Used to run Git hooks",
+    "GeneralPreferences-ShPathLocation": "Shのパス",
+    "GeneralPreferences-ShPathLocationHelp": "Git hookの動作に利用します",
     "GeneralPreferences-UseCustomTerminalCmd": "カスタムターミナルコマンドを使う",
 
     "GitConfig": "Gitコンフィグ",
