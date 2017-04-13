@@ -425,7 +425,7 @@
     "OrderChipotleButtonTooltip": "Chipotle Thursday",
 
     "ReflogAction": "Action with reflog message \"{0}\"",
-    "ReflogActionCommit": "\"{0}\"をcommit",
+    "ReflogActionCommit": "\"{0}\"のcommit",
     "ReflogActionCommitAmend": "\"{0}\"のcommitをamend",
     "ReflogActionCheckout": "Checkout from \"{0}\" to \"{1}\"",
     "ReflogActionReset": "\"{0}\"をリセット",
