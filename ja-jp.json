@@ -364,7 +364,7 @@
     "ResetFileButtonLabel": "ファイルをリセット",
     "SaveAncesor": "Ancestorを保存",
     "SaveFileButtonLabel": "ファイルを保存",
-    "ShowPricingButtonLabel": "GitKraken Proを価格を表示",
+    "ShowPricingButtonLabel": "GitKraken Proの価格を表示",
     "NonCommercialButtonLabel": "GitKrakenを非商用利用する",
     "CommitAndMergeButtonLabel": "Mergeしてcommit",
     "AbortCherrypickButtonLabel": "Cherrypickをやめる",
@@ -425,7 +425,7 @@
     "OrderChipotleButtonTooltip": "Chipotle Thursday",
 
     "ReflogAction": "Action with reflog message \"{0}\"",
-    "ReflogActionCommit": "\"{0}\"をcommit",
+    "ReflogActionCommit": "\"{0}\"のcommit",
     "ReflogActionCommitAmend": "\"{0}\"のcommitをamend",
     "ReflogActionCheckout": "Checkout from \"{0}\" to \"{1}\"",
     "ReflogActionReset": "\"{0}\"をリセット",
