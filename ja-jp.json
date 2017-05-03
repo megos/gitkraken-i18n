@@ -213,11 +213,11 @@
 
     "Stash-ApplyWithUncommittedChangesPrompt": "Commitしていない変更があります。Stashをapplyして変更を上書きしてよろしいですか?",
 
-    "StashMessage-Checkout": "Auto stash before checking out \"{0}\"",
-    "StashMessage-CherryPick": "Auto stash before cherrypick of \"{0}\"",
-    "StashMessage-Merge": "Auto stash before merge of \"{0}\" and \"{1}\"",
-    "StashMessage-Rebase": "Auto stash before rebase of \"{0}\"",
-    "StashMessage-Revert": "Auto stash before revert of \"{0}\"",
+    "StashMessage-Checkout": "\"{0}\"をcheckoutする前にauto stash",
+    "StashMessage-CherryPick": "\"{0}\"をcherrypickする前にauto stash",
+    "StashMessage-Merge": "\"{0}\"と\"{1}\"をmergeする前にauto stash",
+    "StashMessage-Rebase": "\"{0}\"をrebaseする前にauto stash",
+    "StashMessage-Revert": "\"{0}\"をrevertする前にauto stash",
 
     "Ignore": "除外",
     "IgnoreFile": "'{0}'",
@@ -430,8 +430,8 @@
     "OrderChipotleButtonTooltip": "Chipotle Thursday",
 
     "Rebasing-CommitLabel": "Rebasing commit {0} out of {1}",
-    "Rebasing-AutoStashLabel": "Stashing uncommited changes",
-    "Rebasing-PoppingAutoStashLabel": "Popping auto stashed changes",
+    "Rebasing-AutoStashLabel": "commitしていない変更をstash",
+    "Rebasing-PoppingAutoStashLabel": "Auto stashされた変更をpop",
 
     "ReflogAction": "Action with reflog message \"{0}\"",
     "ReflogActionCommit": "\"{0}\"のcommit",
@@ -1157,7 +1157,7 @@
     "Error-PullRequestFailed": "Pull requestの作成に失敗しました",
     "Error-PushFailedWithName": "Pushに失敗: {0}",
     "Error-RebaseFailed": "Rebaseに失敗しました",
-    "Error-RebaseAutoUnstashFailed": "Popping Auto Stashed Changes Failed",
+    "Error-RebaseAutoUnstashFailed": "Auto stashされた変更のpopに失敗しました",
     "Error-RebaseFailedFromFileLock": "ファイルの変更に失敗しました。ファイルのパーミッションまたは他のプロセスが利用している恐れがあります。ファイルのロックを解除するかRebaseを取り消したあとにやり直してください。",
     "Error-RebaseAbortFailed": "Rebaseの取り消しに失敗しました",
     "Error-RebaseAbortFailedFromFileLock": "Rebaseが取り消せませんでした。ファイルのパーミッションまたは他のプロセスが利用しているおそれがあります。",
