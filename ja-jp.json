@@ -92,6 +92,8 @@
 
     "By": "{0} by ",
 
+    "Repo-Delete": "Delete repository",
+    "Repo-Open": "Open repository",
     "Repo-OpenInFileManager": "ファイラで開く",
     "Repo-OpenInTerminal": "ターミナルで開く",
 
@@ -108,7 +110,9 @@
     "Registration-EmailAddress": "メールアドレス",
     "Registration-EnterEmailAddress": "メールアドレスを入力してください",
     "Registration-EnterName": "名前を入力してください",
+    "Registration-EnterpriseLoginFailedDueToNoLicense": "Your account does not have an active GitKraken Enterprise license.",
     "Registration-ForgotPassword": "パスワードを忘れました",
+    "Registration-GoBackToEnterpriseConfiguration": "Change the URL of the Enterprise server",
     "Registration-GoingUnregistered": "アカウントを作成またはサインインする前にGitKrakenを{0}日間利用できます。",
     "Registration-Name": "名前",
     "Registration-NameAndEmailDefault": "(デフォルトはgit configのuser.emailとuser.nameです)",
@@ -162,6 +166,15 @@
     "Registration-GoToLoginLeadin": "アカウントを持っていますか? ",
     "Registration-GoToLogin": "サインイン",
 
+    "EnterpriseConfiguration-Title": "Configure GitKraken Enterprise",
+    "EnterpriseConfiguration-EnterHostname": "Please paste the URL provided on the GitKraken download page:",
+    "EnterpriseConfiguration-CouldNotConnect": "Could not connect to the server.",
+    "EnterpriseConfiguration-CouldNotParseURL": "Could not parse the given URL.",
+
+    "EnterpriseExpirationWarning-NDays": "License expires in {0} days",
+    "EnterpriseExpirationWarning-Tomorrow": "License expires in 1 day!",
+    "EnterpriseExpirationWarning-Today": "License expires in less than a day!",
+
     "Apply": "適用",
     "Author": "Author",
     "Branch": "Branch",
@@ -210,9 +223,11 @@
 
     "Pro": "PRO",
     "Free": "FREE",
+    "Enterprise": "ENTERPRISE",
 
     "Stash-ApplyWithUncommittedChangesPrompt": "Commitしていない変更があります。Stashをapplyして変更を上書きしてよろしいですか?",
 
+    "StashMessage-Amend": "Auto stash before amend of \"{0}\"",
     "StashMessage-Checkout": "\"{0}\"をcheckoutする前にauto stash",
     "StashMessage-CherryPick": "\"{0}\"をcherrypickする前にauto stash",
     "StashMessage-Merge": "\"{0}\"と\"{1}\"をmergeする前にauto stash",
@@ -262,17 +277,22 @@
     "FuzzyFinder-BlamePlaceholder": "誰が何をしたのか確認したいファイルを検索 (例: its blame)",
     "FuzzyFinder-CheckoutPlaceholder": "checkoutするbranchを検索",
     "FuzzyFinder-CreateBranch": "Create Branch",
+    "FuzzyFinder-CreateTag": "Create Tag",
     "FuzzyFinder-DevPlaceholder": "Order Chipotle",
     "FuzzyFinder-HistoryPlaceholder": "履歴やblameを見たいファイルを検索",
     "FuzzyFinder-OpenRepoPlaceholder": "開くリポジトリを検索",
+    "FuzzyFinder-RenameBranch": "Rename Branch",
     "FuzzyFinder-SearchCommitsPlaceholder": "メッセージ、sha、authorでcommitを検索",
     "FuzzyFinder-SwitchProfilePlaceholder": "プロフィールの切り替え先のユーザを検索",
 
     "FuzzyFinder-BlameFilePrefix": "Blame",
     "FuzzyFinder-CheckoutRefPrefix": "Checkout",
+    "FuzzyFinder-StartPullRequest": "Start Pull Request",
+    "FuzzyFinder-StartPullRequestKeywords": "New Create Pull Request",
     "FuzzyFinder-DevPrefix": "Dev",
     "FuzzyFinder-DiscardAllKeywords": "reset hard all",
     "FuzzyFinder-FilePrefix": "History",
+    "FuzzyFinder-GitFlowPrefix": "Git Flow: ",
     "FuzzyFinder-InitRepoKeywords": "initialize",
     "FuzzyFinder-OpenRepoPrefix": "Open Repo",
     "FuzzyFinder-OpenInFileManagerKeywords": "folder explorer finder",
@@ -484,6 +504,7 @@
     "ContextMenu-PushXToY": "Push ({0} → {0})",
     "ContextMenu-RebaseBranchOntoBranch": "Rebase ({1} <- {0})",
     "ContextMenu-RemoveRemote": "{0} を削除",
+    "ContextMenu-RenameBranch": "Rename {0}",
     "ContextMenu-ResetBranchToThisCommit": "{0} のcommitをReset",
     "ContextMenu-ResetSoftWithHint": "Soft - 変更を残す",
     "ContextMenu-ResetMixedWithHint": "Mixed - indexをリセットしてworking copyを残す",
@@ -499,10 +520,7 @@
     "ContextMenu-SquashXCommits": "{0} commitをSquash",
     "ContextMenu-ViewServiceRemoteInBrowser": "{0} を {1} で表示",
 
-    "ToolBar-CloseSubmodule": "Submoduleを閉じる",
-    "ToolBar-SearchInputPlaceholder": "Commitの検索",
-    "ToolBar-SearchInputLoading": "index{0}を読み込んでいます",
-    "ToolBar-SearchInputIndexing": "indexing commits... ({0}%)",
+    "Toolbar-CloseSubmodule": "Close Submodule",
 
     "Profile-AddAProfile": "プロフィールを追加",
     "Profile-CancelDelete": "いいえ、プロフィールをそのままにします",
@@ -616,6 +634,10 @@
     "CommitDiffSection-NFilesModified": "{0} modified",
     "CommitDiffSection-NFilesRenamed": "{0} renamed",
 
+    "DiffHunkPanel-BinaryDiff": "Cannot show changes in a binary file.",
+    "DiffHunkPanel-EmptyDiff": "File contents are unchanged.",
+    "DiffHunkPanel-UncheckIgnoreWhitespace": "Uncheck \"Ignore white space\" to see potential white space changes.",
+
     "FileNodeListHeader-CollapseAll": "すべてたたむ",
     "FileNodeListHeader-ExpandAll": "すべて広げる",
     "FileNodeListHeader-FullPath": "フルパス",
@@ -723,8 +745,8 @@
     "GeneralPreferences-OptIntoAnalytics": "AxosoftにGitKrakenの利用データを送信する",
     "GeneralPreferences-OptIntoBugReporting": "AxosoftにGitKrakenのクラッシュデータを送信する",
     "GeneralPreferences-OptIntoAnalyticsHelp": "(任意) Gitkrakenをよりよくするため、利用情報やクラッシュレポートをAxosoftに送信する",
-    "GeneralPreferences-ShPathLocation": "Shのパス",
-    "GeneralPreferences-ShPathLocationHelp": "Git hookの動作に利用します",
+    "GeneralPreferences-WindowsShPathLocation": "Path to sh.exe",
+    "GeneralPreferences-WindowsShPathLocationHelp": "Pointing to sh.exe is only required if you're using Git hooks.\nsh.exe can be found wherever you've installed Git for Windows,\nwhich is typically in Program Files\\Git\\bin.\nIf you can't find it, you may need to install Git for Windows.",
     "GeneralPreferences-UseCustomTerminalCmd": "カスタムターミナルコマンドを使う",
 
     "GitConfig": "Gitコンフィグ",
@@ -917,6 +939,8 @@
     "Submodule-Status-Uninitialized": "Submoduleディレクトリは初期化されていません。",
 
     "UIPreferences": "外観",
+    "UIPreferences-TabSize": "Tab Size",
+    "UIPreferences-TabSizeHelp": "The number of spaces to use when rendering tab characters in diffs.",
     "UIPreferences-Theme": "テーマ",
     "UIPreferences-ShowToolbarLabels": "ツールバーアイコンにラベルを表示",
     "Theme-Light": "Light",
@@ -974,6 +998,9 @@
 
     "PromptForRemoteDeletionConfirmation": "これは破壊的な操作です。本当に\"{0}\"を削除しますか?",
 
+    "PromptForDeleteRepo-Delete": "Delete repository",
+    "PromptForDeleteRepo-Message": "Permanently delete repository {0}?",
+
     "PromptIgnore-Message": "'{0}'を除外しますか?",
     "PromptIgnore-Ignore": "除外",
     "PromptIgnore-IgnoreAndUntrack": "除外してTrackingをやめる",
@@ -982,6 +1009,10 @@
     "PromptNewBranchAtRemote-CreateBranch": "ここからbranchを作成",
     "PromptNewBranchAtRemote-Message": "Localに '{0}' は存在します。",
     "PromptNewBranchAtRemote-ResetLocal": "ここでlocalをリセット",
+
+    "PromptForNewBranchName-InvalidBranchName": "The given branch name is not valid",
+    "PromptForNewBranchName-Message": "Rename '{0}' to:",
+    "PromptForNewBranchName-Placeholder": "new branch name",
 
     "CommitMessage-RemoteBranchCreated": "Branch: {0} を作成",
 
@@ -1093,12 +1124,16 @@
     "Notification-PulledSuccessfully": "Pullに成功しました",
     "Notification-PushedSuccessfully": "Pushに成功しました",
     "Notification-RebaseSuccessful": "Rebaseに成功しました",
+    "Notification-RenameSuccessful": "Rename Successful",
+    "Notification-RepoDeleteSuccessful": "Repository Deletion Successful",
     "Notification-RevertSuccessful": "Revertに成功しました",
     "Notification-SubmoduleCreatedSuccessful": "Submoduleを作成しました",
     "Notification-SubmoduleDeletedSuccessful": "Submoduleを削除しました",
     "Notification-SSHKeyBeingUsed": "キーを追加しました",
     "Notification-ManageSSHKeysButton": "{0} のSSHキーを管理",
     "NotificationMessage-AlreadyUpToDate": "Mergeするものがありません。Branch {1} は最新です。",
+    "NotificationMessage-RefToRef": "{0} to {1}",
+    "NotificationMessage-RepoDeleteSuccessful": "Repository {0} successfully deleted!",
     "NotificationMessage-RevertWasNoop": "現在のbranchはすでにrevertされたcommitの変更を取り込んでいます。",
     "NotificationMessage-CherrypickWasNoop": "現在のbranchはすでにcherrypickされたcommitの変更を取り込んでいます。",
     "NotificationMessage-SSHKeyBeingUsed": "GitKrakenはSSHキーを使用して {0} と接続します。公開鍵はクリップボードコピーされています。{0} のアカウントに公開鍵を登録してください。",
@@ -1175,10 +1210,13 @@
     "Error-RebaseFailedFromFileLock": "ファイルの変更に失敗しました。ファイルのパーミッションまたは他のプロセスが利用している恐れがあります。ファイルのロックを解除するかRebaseを取り消したあとにやり直してください。",
     "Error-RebaseAbortFailed": "Rebaseの取り消しに失敗しました",
     "Error-RebaseAbortFailedFromFileLock": "Rebaseが取り消せませんでした。ファイルのパーミッションまたは他のプロセスが利用しているおそれがあります。",
+    "Error-RenameFailed": "Rename Failed",
+    "Error-RenameNeedsLocalBranch": "A local branch must be checked out!",
     "Error-RemoveFailed": "ファイルの削除に失敗しました",
     "Error-ResetFailed": "リセットに失敗しました",
     "Error-RepoAlreadyExists": "リポジトリはすでに存在します",
     "Error-RepoAlreadyExistsOnAccount": "このアカウントにリポジトリはすでに存在します",
+    "Error-RepoDeleteFailed": "Repository Deletion Failed",
     "Error-RevertFailed": "Revertに失敗しました",
     "Error-SendFeedbackFailure": "フィードバックの送信に失敗しました! しばらく立ってからやり直してみてください。",
     "Error-StageFilemodeFailed": "ファイルモード変更のStageに失敗しました",
@@ -1215,8 +1253,11 @@
     "ErrorMessage-RemoteAccessDeniedOrgWarning": "{0}が{1}のorganizationである場合は、organizationに**リクエストかアクセス権限**が必要です。",
     "ErrorMessage-RemoteNotFoundWithName": "'{0}'に接続できませんでした。Remote URLが正しいこと、remoteに接続できることを確認してやり直してください。",
     "ErrorMessage-RemoteRefBehindRemote": "Remote branchが古くなっています。Pushする前に {0} をfetchしてください。",
+    "ErrorMessage-RenameRefToRefFailed": "Could not rename {0} to '{1}'",
+    "ErrorMessage-RenameTargetAlreadyExists": "'{0}' already exists!",
+    "ErrorMessage-RepoDeleteFailed": "Repository {0} could not be deleted for the following reason: {1}",
     "ErrorMessage-ResetFailedWithReason": "リセットに失敗しました: {0}",
-    "ErrorMessage-ShPathNotFound": "このリポジトリにはGitHooksがありますが、Shが無いため実行できませんでした。",
+    "ErrorMessage-WindowsShPathNotFound": "This repo has Git hooks. Using Git hooks on Windows requires sh.exe, but GitKraken couldn't find it.",
     "ErrorMessage-StageFilemodeFailedWithReason": "{0} のファイルモード変更のStageに失敗しました: {1}",
     "ErrorMessage-StagePathsFailedWithReason": "パスのStageに失敗しました: {0}",
     "ErrorMessage-StageSelectionFailedWithReason": "{0} の選択箇所のStageに失敗しました: {1}",
