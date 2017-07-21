@@ -10,7 +10,8 @@
     "remove": "rm app.extract/src/strings/en-us.json",
     "copy-jp": "cp ja-jp.json app.extract/src/strings/en-us.json",
     "copy-jp-win": "copy ja-jp.json app.extract\\src\\strings\\en-us.json",
-    "asar-restore-mac": "cp app.asar /Applications/GitKraken.app/Contents/Resources/"
+    "asar-restore-mac": "cp app.asar /Applications/GitKraken.app/Contents/Resources/",
+    "patch-jp": "git diff HEAD~1 > diff.patch && sed -ie 's/en-us/ja-jp/g' diff.patch && patch -F4 < diff.patch"
   },
   "repository": {
     "type": "git",
