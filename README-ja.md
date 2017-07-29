@@ -10,12 +10,12 @@ GitKraken非公式日本語化プロジェクト
 **パッチを適用したことによるいかなる影響についても責任は負いません。**
 
 1. GitKrakenの`app.asar`を任意の場所にコピー。この`app.asar`は**必ず**バックアップを取っておくこと
-  - Windows: `%LOCALAPPDATA%\gitkraken\app-x.x.x\resources\app.asar` (x.x.xは任意のバージョン)
-  - Mac: `/Applications/GitKraken.app/Contents/Resources/app.asar`
-2. [Releases](https://github.com/megos/gitkraken-i18n/releases)からGitKrakenと同じバージョンのパッチをダウンロードする
-3. `git apply ja-jp.patch`でパッチを適用
-4. パッチを適用した`app.asar`をGitKrakenに戻す（上書き）
-5. GitKrakenを再起動
+   - Windows: `%LOCALAPPDATA%\gitkraken\app-x.x.x\resources\app.asar` (x.x.xは任意のバージョン)
+   - Mac: `/Applications/GitKraken.app/Contents/Resources/app.asar`
+1. [Releases](https://github.com/megos/gitkraken-i18n/releases)からGitKrakenと同じバージョンのパッチをダウンロードする
+1. `git apply ja-jp.patch`でパッチを適用
+1. パッチを適用した`app.asar`をGitKrakenに戻す（上書き）
+1. GitKrakenを再起動
 
 ## Translate
 
@@ -27,14 +27,14 @@ GitKraken非公式日本語化プロジェクト
 ### Setting
 
 1. GitKrakenの`app.asar`をプロジェクト直下に`app.asar.original`としてコピー
-2. GitKrakenの`app.asar.unpacked`をプロジェクト直下に`app.asar.original.unpacked`としてコピー
-  - `npm run asar-copy-mac #1と2をあわせてコピー`
-3. `asar`で`app.asar.original`を`app.extract`として展開
-  - `npm run extract`
-4. プロジェクト直下にある`ja-jp.json`を翻訳する
-5. ja-jp.jsonをen-us.jsonとしてコピー
-  - `npm run copy-jp`
-6. asarで`app.extract`を`app.asar`としてパッケージ
-  - `npm run pack`
-7. GitKrakenの`app.asar`に先ほど作成した`app.asar`を上書き
-8. GitKrakenを起動して翻訳を確認
+1. GitKrakenの`app.asar.unpacked`をプロジェクト直下に`app.asar.original.unpacked`としてコピー
+   - `npm run asar-copy-mac #1と2をあわせてコピー`
+1. `asar`で`app.asar.original`を`app.extract`として展開
+   - `npm run extract`
+1. プロジェクト直下にある`ja-jp.json`を翻訳する
+1. ja-jp.jsonをen-us.jsonとしてコピー
+   - `npm run copy-jp`
+1. asarで`app.extract`を`app.asar`としてパッケージ
+   - `npm run pack`
+1. GitKrakenの`app.asar`に先ほど作成した`app.asar`を上書き
+1. GitKrakenを起動して翻訳を確認
