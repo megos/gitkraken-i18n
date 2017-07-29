@@ -939,8 +939,8 @@
     "Submodule-Status-Uninitialized": "Submoduleディレクトリは初期化されていません。",
 
     "UIPreferences": "外観",
-    "UIPreferences-TabSize": "Tab Size",
-    "UIPreferences-TabSizeHelp": "The number of spaces to use when rendering tab characters in diffs.",
+    "UIPreferences-TabSize": "タブサイズ",
+    "UIPreferences-TabSizeHelp": "タブを表示する際のスペースの文字数です",
     "UIPreferences-Theme": "テーマ",
     "UIPreferences-ShowToolbarLabels": "ツールバーアイコンにラベルを表示",
     "Theme-Light": "Light",
