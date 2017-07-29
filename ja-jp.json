@@ -166,14 +166,14 @@
     "Registration-GoToLoginLeadin": "アカウントを持っていますか? ",
     "Registration-GoToLogin": "サインイン",
 
-    "EnterpriseConfiguration-Title": "Configure GitKraken Enterprise",
-    "EnterpriseConfiguration-EnterHostname": "Please paste the URL provided on the GitKraken download page:",
-    "EnterpriseConfiguration-CouldNotConnect": "Could not connect to the server.",
-    "EnterpriseConfiguration-CouldNotParseURL": "Could not parse the given URL.",
+    "EnterpriseConfiguration-Title": "GitKraken Enterpriseの設定",
+    "EnterpriseConfiguration-EnterHostname": "GitKrakenのダウンロードページにあるURLを貼りつけてください:",
+    "EnterpriseConfiguration-CouldNotConnect": "サーバに接続できません。",
+    "EnterpriseConfiguration-CouldNotParseURL": "URLが正しくありません。",
 
-    "EnterpriseExpirationWarning-NDays": "License expires in {0} days",
-    "EnterpriseExpirationWarning-Tomorrow": "License expires in 1 day!",
-    "EnterpriseExpirationWarning-Today": "License expires in less than a day!",
+    "EnterpriseExpirationWarning-NDays": "ライセンスがあと{0}日で切れます",
+    "EnterpriseExpirationWarning-Tomorrow": "ライセンスがあと1日で切れます!",
+    "EnterpriseExpirationWarning-Today": "ライセンスが今日で切れます!",
 
     "Apply": "適用",
     "Author": "Author",
