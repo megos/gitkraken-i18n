@@ -92,8 +92,8 @@
 
     "By": "{0} by ",
 
-    "Repo-Delete": "Delete repository",
-    "Repo-Open": "Open repository",
+    "Repo-Delete": "リポジトリを削除",
+    "Repo-Open": "リポジトリを開く",
     "Repo-OpenInFileManager": "ファイラで開く",
     "Repo-OpenInTerminal": "ターミナルで開く",
 
