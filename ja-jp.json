@@ -1010,9 +1010,9 @@
     "PromptNewBranchAtRemote-Message": "Localに '{0}' は存在します。",
     "PromptNewBranchAtRemote-ResetLocal": "ここでlocalをリセット",
 
-    "PromptForNewBranchName-InvalidBranchName": "The given branch name is not valid",
-    "PromptForNewBranchName-Message": "Rename '{0}' to:",
-    "PromptForNewBranchName-Placeholder": "new branch name",
+    "PromptForNewBranchName-InvalidBranchName": "このブランチ名は利用できません",
+    "PromptForNewBranchName-Message": "'{0}'をリネーム:",
+    "PromptForNewBranchName-Placeholder": "新しいbranch名",
 
     "CommitMessage-RemoteBranchCreated": "Branch: {0} を作成",
 
