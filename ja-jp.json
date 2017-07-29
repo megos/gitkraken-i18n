@@ -227,7 +227,7 @@
 
     "Stash-ApplyWithUncommittedChangesPrompt": "Commitしていない変更があります。Stashをapplyして変更を上書きしてよろしいですか?",
 
-    "StashMessage-Amend": "Auto stash before amend of \"{0}\"",
+    "StashMessage-Amend": "\"{0}\"をamendする前にauto stash",
     "StashMessage-Checkout": "\"{0}\"をcheckoutする前にauto stash",
     "StashMessage-CherryPick": "\"{0}\"をcherrypickする前にauto stash",
     "StashMessage-Merge": "\"{0}\"と\"{1}\"をmergeする前にauto stash",
