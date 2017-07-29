@@ -998,8 +998,8 @@
 
     "PromptForRemoteDeletionConfirmation": "これは破壊的な操作です。本当に\"{0}\"を削除しますか?",
 
-    "PromptForDeleteRepo-Delete": "Delete repository",
-    "PromptForDeleteRepo-Message": "Permanently delete repository {0}?",
+    "PromptForDeleteRepo-Delete": "リポジトリを削除",
+    "PromptForDeleteRepo-Message": "リポジトリ {0} をファイルから削除しますか?",
 
     "PromptIgnore-Message": "'{0}'を除外しますか?",
     "PromptIgnore-Ignore": "除外",
