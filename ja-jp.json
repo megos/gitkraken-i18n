@@ -634,9 +634,9 @@
     "CommitDiffSection-NFilesModified": "{0} modified",
     "CommitDiffSection-NFilesRenamed": "{0} renamed",
 
-    "DiffHunkPanel-BinaryDiff": "Cannot show changes in a binary file.",
-    "DiffHunkPanel-EmptyDiff": "File contents are unchanged.",
-    "DiffHunkPanel-UncheckIgnoreWhitespace": "Uncheck \"Ignore white space\" to see potential white space changes.",
+    "DiffHunkPanel-BinaryDiff": "バイナリファイルの変更は表示できません。",
+    "DiffHunkPanel-EmptyDiff": "ファイルの変更はありません。",
+    "DiffHunkPanel-UncheckIgnoreWhitespace": "空白の変更を表示するには\"空白を除く\"のチェックを外してください。",
 
     "FileNodeListHeader-CollapseAll": "すべてたたむ",
     "FileNodeListHeader-ExpandAll": "すべて広げる",
