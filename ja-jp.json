@@ -504,7 +504,7 @@
     "ContextMenu-PushXToY": "Push ({0} → {0})",
     "ContextMenu-RebaseBranchOntoBranch": "Rebase ({1} <- {0})",
     "ContextMenu-RemoveRemote": "{0} を削除",
-    "ContextMenu-RenameBranch": "Rename {0}",
+    "ContextMenu-RenameBranch": "{0} をリネーム",
     "ContextMenu-ResetBranchToThisCommit": "{0} のcommitをReset",
     "ContextMenu-ResetSoftWithHint": "Soft - 変更を残す",
     "ContextMenu-ResetMixedWithHint": "Mixed - indexをリセットしてworking copyを残す",
@@ -520,7 +520,7 @@
     "ContextMenu-SquashXCommits": "{0} commitをSquash",
     "ContextMenu-ViewServiceRemoteInBrowser": "{0} を {1} で表示",
 
-    "Toolbar-CloseSubmodule": "Close Submodule",
+    "Toolbar-CloseSubmodule": "Submoduleを閉じる",
 
     "Profile-AddAProfile": "プロフィールを追加",
     "Profile-CancelDelete": "いいえ、プロフィールをそのままにします",
