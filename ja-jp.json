@@ -1038,7 +1038,7 @@
     "PromptDeletedFileConflict-RemoveFile": "ファイルを削除",
 
     "PromptForCreds-EnterCredentialsForProxy": "{0}の認証情報を入力してください: ",
-    "PromptForCreds-InvalidCredentialsForProxy": "Invalid credentials for {0}. Please try again: ",
+    "PromptForCreds-InvalidCredentialsForProxy": "{0}の認証情報が異なります。再度入力してください: ",
     "PromptForCreds-EnterSSHPassphrase": "SSHキーのパスフレーズを入力して下さい:",
     "PromptForCreds-EnterServiceSSHPassphrase": "{0}のSSHキーのパスフレーズを入力してください:",
     "PromptForCreds-IncorrectSSHPassphrase": "SSHキーのパスフレーズが異なります。再度入力してください:",
@@ -1067,7 +1067,7 @@
     "PromptForDeleteRepo-Message": "リポジトリ {0} をファイルから削除しますか?",
 
     "PromptIgnore-Message": "'{0}'を除外しますか?",
-    "PromptIgnoreMultiple-Message": "Ignore {0} files?",
+    "PromptIgnoreMultiple-Message": "{0}ファイルを除外しますか?",
     "PromptIgnore-Ignore": "除外",
     "PromptIgnore-IgnoreAndUntrack": "除外してTrackingをやめる",
 
@@ -1261,7 +1261,7 @@
     "Error-GitHubNoMorePrivateRepos": "このGitHubアカウントにプライベートリポジトリは存在しません",
     "Error-InotifyLimitReached": "通知の上限エラーです",
     "Error-KeyAlreadyExistsOnAccount": "このアカウントにキーはすでに存在します",
-    "Error-LoginRedirect": "Encountered a redirect when attempting to retrieve user data - please add ${0} to your network's whitelist",
+    "Error-LoginRedirect": "ユーザデータを取得する際にリダイレクトが発生しました - ${0} をホワイトリストに登録してください",
     "Error-MergeAbortFailed": "Mergeの取り消しに失敗しました",
     "Error-MergeFailed": "Mergeに失敗しました",
     "Error-NeedUpgradedPermissions": "{0} 以上のパーミッションが必要です",
@@ -1322,7 +1322,7 @@
     "ErrorMessage-RemoteRefBehindRemote": "Remote branchが古くなっています。Pushする前に {0} をfetchしてください。",
     "ErrorMessage-RenameRefToRefFailed": "{0} を'{1}'にリネームできませんでした",
     "ErrorMessage-RenameTargetAlreadyExists": "'{0}'はすでに存在します!",
-    "ErrorMessage-RepoDeleteFailed": "Repository {0} could not be deleted!",
+    "ErrorMessage-RepoDeleteFailed": "リポジトリ {0} は削除できませんでした!",
     "ErrorMessage-ResetFailedWithReason": "リセットに失敗しました: {0}",
     "ErrorMessage-WindowsShPathNotFound": "このリポジトリにはGit hooksがあります。Git hooksをWindowsで利用するためにはsh.exeが必要ですが見つかりませんでした。",
     "ErrorMessage-StageFilemodeFailedWithReason": "{0} のファイルモード変更のStageに失敗しました: {1}",
