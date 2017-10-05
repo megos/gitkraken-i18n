@@ -321,7 +321,7 @@
     "GitHook-Output": "output",
     "GitHook-NeedsCredentials": "Git Hookは認証情報を必要としています",
 
-    "System-OperationCancelled": "Operation was cancelled by the user",
+    "System-OperationCancelled": "操作はキャンセルされました",
 
     "LeftPanel-CheckedOut": "checkoutしています",
     "LeftPanel-ClearFilter": "フィルタをクリア",
@@ -355,9 +355,9 @@
     "MergeConflictMessageSingular": "{0}にmerge中に1つのファイルでconflictが発生しました",
     "MergeConflictMessagePlural": "{1}にmerge中に{0}つのファイルでconflictが発生しました",
     "MergingIntoNamed": "{0}にmerge中",
-    "ExternalDiffTool": "external diff tool",
+    "ExternalDiffTool": "外部diffツール",
     "ExternalMergeTool": "外部Mergeツール",
-    "OpenInDiffTool": "Open in diff tool",
+    "OpenInDiffTool": "Diffツールで開く",
     "OpenInMergeTool": "Mergeツールで開く",
     "OpenIn": "{0}で開く",
     "MarkAllResolved": "すべて解決済みにする",
@@ -368,7 +368,7 @@
     "UnsupportedRebaseMessage": "このリポジトリは他のアプリケーションでrebaseを実行中です",
 
     "ViewAuthenticationSettings": "設定を表示",
-    "ViewDiffToolSettings": "View diff tool settings",
+    "ViewDiffToolSettings": "Diffツールの設定を表示",
     "ViewMergeToolSettings": "Mergeツールの設定を表示",
     "ViewShPathSettings": "設定を表示",
     "ViewTerminalSettings": "ターミナルの設定を表示",
@@ -455,7 +455,7 @@
     "RemoveButtonLabel": "削除",
 
     "Option-None": "<ありません>",
-    "Option-UseMergeTool": "<Use Merge Tool>",
+    "Option-UseMergeTool": "<Mergeツールを使う>",
 
     "GitFlowButtonTooltip": "Git Flow",
     "UndoValidButtonTooltip": "{0} を取り消し",
@@ -499,8 +499,8 @@
     "ContextMenu-AnnotateTag": "{0} にannotateを追加",
     "ContextMenu-CheckoutBranch": "{0} をcheckout",
     "ContextMenu-CherrypickCommit": "Commitをcherrypick",
-    "ContextMenu-CopyBranchName": "Copy branch name to clipboard",
-    "ContextMenu-CopyTagName": "Copy tag name to clipboard",
+    "ContextMenu-CopyBranchName": "クリップボードにbranch名をコピー",
+    "ContextMenu-CopyTagName": "クリップボードにtag名をコピー",
     "ContextMenu-CreateBranchHere": "ここからbranchを作成",
     "ContextMenu-CreateTagHere": "ここでtagを作成",
     "ContextMenu-DeleteAll": "すべて削除",
