@@ -1341,7 +1341,7 @@
     "ErrorMessage-DiscardSelectionFailedWithReason": "Could not discard selection for {0} for the following reason: {1}",
     "ErrorMessage-InotifyLimitReached": "File watching is disabled for this repository. Please increase your inotify limit and reopen this repository.",
     "ErrorMessage-InvalidSshKey": "Configured SSH key is invalid. Please confirm that it is properly associated with your Git provider.",
-    "ErrorMessage-SshKeyNotFound": "SSH Key not found. Please configure one first in Settings -> Authentication",
+    "ErrorMessage-SshKeyNotFound": "SSH Key not found. Please configure one first in Preferences -> Authentication",
     "ErrorMessage-SshKeyNotSupported": "Configured SSH key is in an invalid format. Please ensure that your key is valid and is an RSA-type key.",
     "ErrorMessage-MergeConflicts": "There are merge conflicts that need to be resolved",
     "ErrorMessage-DiffToolNotFound": "The configured diff tool was not found",
