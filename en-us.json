@@ -292,6 +292,7 @@
     "FuzzyFinder-BlameFilePrefix": "Blame",
     "FuzzyFinder-CheckoutRefPrefix": "Checkout",
     "FuzzyFinder-ConfigureGitFlow": "Configure Git Flow",
+    "FuzzyFinder-ConfigureLfs": "Configure LFS",
     "FuzzyFinder-StartPullRequest": "Start Pull Request",
     "FuzzyFinder-StartPullRequestKeywords": "New Create Pull Request",
     "FuzzyFinder-DevPrefix": "Dev",
@@ -434,8 +435,8 @@
     "ProvideFeedbackButtonLabel": "Feedback",
     "LinuxUpdateAvailableStatus": "Update available ({0})",
     "LinuxUpdateDownloadingStatus": "Update downloading...",
-    "LinuxDownloadDebUpdateButtonLabel": "Download .deb",
-    "LinuxDownloadTarGzUpdateButtonLabel": "Download .tar.gz",
+    "LinuxDownloadDebUpdateButtonLabel": ".deb",
+    "LinuxDownloadTarGzUpdateButtonLabel": ".tar.gz",
     "RestartGitKrakenAndInstallUpdateButtonLabel": "Update Ready (Restart GitKraken)",
     "LinuxShowDownloadedUpdateButtonLabel": "Update Downloaded (Show File)",
     "AmendPreviousCommitButtonLabel": "Amend Previous Commit",
@@ -1247,7 +1248,7 @@
     "Trial-StartTrialModalNoThanksButton": "Not now, thanks",
     "Trial-StartTrialModalHideTrialOfferCheckbox": "Hide the \"GitKraken Pro Free Trial\" button",
     "Trial-TrialStartedModalTitle": "Welcome to Your Pro Trial!",
-    "Trial-TrialStartedModalContent": "For the next 14 days, you have access to GitKraken Pro features, like:",
+    "Trial-TrialStartedModalContent": "For the next {0} days, you have access to GitKraken Pro features, like:",
     "Trial-TrialStartedModalFeature1": "Multiple profiles for work & personal use",
     "Trial-TrialStartedModalFeature2": "A powerful merge conflict editor in-app",
     "Trial-TrialStartedModalFeature3": "GitHub Enterprise integration",
@@ -1376,6 +1377,8 @@
     "ErrorMessage-UnstageSelectionFailedWithReason": "Could not unstage selection for {0} for the following reason: {1}",
     "ErrorMessage-UpdateDiffFailedWithReason": "Could not update diffs for the following reason: {0}",
     "ErrorMessage-UpdateHunkFailedWithReason": "Could not update hunk for {0} for the following reason: {1}",
-    "ErrorMessage-UpstreamNotInFetchData": "{0} does not exist on {1}"
+    "ErrorMessage-UpstreamNotInFetchData": "{0} does not exist on {1}",
+
+    "Plugin-FullviewLoadFailed": "Plugin failed to open"
   }
 }
