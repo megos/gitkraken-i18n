@@ -292,6 +292,7 @@
     "FuzzyFinder-BlameFilePrefix": "Blame",
     "FuzzyFinder-CheckoutRefPrefix": "Checkout",
     "FuzzyFinder-ConfigureGitFlow": "Configure Git Flow",
+    "FuzzyFinder-ConfigureLfs": "Configure LFS",
     "FuzzyFinder-StartPullRequest": "Start Pull Request",
     "FuzzyFinder-StartPullRequestKeywords": "New Create Pull Request",
     "FuzzyFinder-DevPrefix": "Dev",
@@ -1376,6 +1377,8 @@
     "ErrorMessage-UnstageSelectionFailedWithReason": "{0} の選択箇所のUnstageに失敗しました: {1}",
     "ErrorMessage-UpdateDiffFailedWithReason": "Diffの更新に失敗しました: {0}",
     "ErrorMessage-UpdateHunkFailedWithReason": "{0} のHunkの更新に失敗しました: {1}",
-    "ErrorMessage-UpstreamNotInFetchData": "{1} に {0} は存在しません"
+    "ErrorMessage-UpstreamNotInFetchData": "{1} に {0} は存在しません",
+
+    "Plugin-FullviewLoadFailed": "Plugin failed to open"
   }
 }
