@@ -292,6 +292,7 @@
     "FuzzyFinder-BlameFilePrefix": "Blame",
     "FuzzyFinder-CheckoutRefPrefix": "Checkout",
     "FuzzyFinder-ConfigureGitFlow": "Configure Git Flow",
+    "FuzzyFinder-ConfigureLfs": "Configure LFS",
     "FuzzyFinder-StartPullRequest": "Start Pull Request",
     "FuzzyFinder-StartPullRequestKeywords": "New Create Pull Request",
     "FuzzyFinder-DevPrefix": "Dev",
@@ -434,8 +435,8 @@
     "ProvideFeedbackButtonLabel": "フィードバック",
     "LinuxUpdateAvailableStatus": "アップデートがあります ({0})",
     "LinuxUpdateDownloadingStatus": "アップデートをダウンロードしています...",
-    "LinuxDownloadDebUpdateButtonLabel": ".debをダウンロード",
-    "LinuxDownloadTarGzUpdateButtonLabel": ".tar.gzをダウンロード",
+    "LinuxDownloadDebUpdateButtonLabel": ".deb",
+    "LinuxDownloadTarGzUpdateButtonLabel": ".tar.gz",
     "RestartGitKrakenAndInstallUpdateButtonLabel": "アップデートの準備ができました (GitKrakenを再起動)",
     "LinuxShowDownloadedUpdateButtonLabel": "アップデートのダウンロードをしました (ファイルを見る)",
     "AmendPreviousCommitButtonLabel": "前のCommitをAmend",
@@ -1247,7 +1248,7 @@
     "Trial-StartTrialModalNoThanksButton": "いいえ、結構です",
     "Trial-StartTrialModalHideTrialOfferCheckbox": "\"GitKraken Pro フリートライアル\"のボタンを隠す",
     "Trial-TrialStartedModalTitle": "Proのフリートライアルへようこそ!",
-    "Trial-TrialStartedModalContent": "14日間GitKraken Proの機能を利用することができます。 例えば:",
+    "Trial-TrialStartedModalContent": "{0}日間GitKraken Proの機能を利用することができます。 例えば:",
     "Trial-TrialStartedModalFeature1": "仕事、個人用などの複数のプロフィールの切り替え",
     "Trial-TrialStartedModalFeature2": "アプリケーション内での強力なmerge conflictエディタ",
     "Trial-TrialStartedModalFeature3": "GitHub Enterpriseの利用",
@@ -1376,6 +1377,8 @@
     "ErrorMessage-UnstageSelectionFailedWithReason": "{0} の選択箇所のUnstageに失敗しました: {1}",
     "ErrorMessage-UpdateDiffFailedWithReason": "Diffの更新に失敗しました: {0}",
     "ErrorMessage-UpdateHunkFailedWithReason": "{0} のHunkの更新に失敗しました: {1}",
-    "ErrorMessage-UpstreamNotInFetchData": "{1} に {0} は存在しません"
+    "ErrorMessage-UpstreamNotInFetchData": "{1} に {0} は存在しません",
+
+    "Plugin-FullviewLoadFailed": "プラグインが開けませんでした"
   }
 }
