@@ -604,7 +604,7 @@
     "PullRequestBar-CreatePullRequest": "Create Pull Request",
     "PullRequestBar-Menu": "Pull request actions",
     "PullRequestBar-UnknownPullRequestHead": "Private repository (access denied)",
-    "PullRequestBar-ViewPullRequestInBrowser": "View pull request #{0} on {1}",
+    "PullRequestBar-ViewPullRequestInBrowser": "View pull request {0}{1} on {2}",
     "PullRequestBar-AddPullRequestRemote": "Add {0} as a remote",
     "PullRequestBar-AddPullRequestRemoteAndCheckoutPRHead": "Add remote and checkout {0}",
 
@@ -1260,7 +1260,7 @@
     "NotificationMessage-SSHKeyBeingUsed": "GitKraken will use this key to talk to {0}. The public key has been copied to your clipboard; please make sure it is registered on your {0} account.",
 
     "Trial-StartTrialModalTitle": "Start a Free GitKraken Pro Trial",
-    "Trial-StartTrialModalContent": "No credit card required! Click the button below to start your trial and get access to GitKraken Pro features free for {0} days.",
+    "Trial-StartTrialModalContent": "Start your {0}-Day GitKraken Pro trial now to get access to the in-app merge conflict output editor, multiple profiles, GitHub Enterprise integration and more. No credit card required.",
     "Trial-StartTrialModalSubcontent": "Learn more about GitKraken Pro features at {0}",
     "Trial-StartTrialModalConfirmButton": "Start my GitKraken Pro trial now",
     "Trial-StartTrialModalNoThanksButton": "Not now, thanks",
@@ -1326,6 +1326,8 @@
     "Error-PersistMergeToDisk": "Failed to persist merge to disk",
     "Error-PullFailed": "Pull Failed",
     "Error-PushFailed": "Push Failed",
+    "Error-PushUpdatereferenceFailed": "Push failed on {0}: {1}",
+    "Error-RemoteRefusedToDelete": "Push failed on {0}: remote branch cannot be deleted",
     "Error-PullRequestFailed": "Failed to create pull request",
     "Error-PushFailedWithName": "Push Failed: {0}",
     "Error-RebaseFailed": "Rebase Failed",
