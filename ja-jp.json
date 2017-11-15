@@ -604,7 +604,7 @@
     "PullRequestBar-CreatePullRequest": "Pull Requestを作成",
     "PullRequestBar-Menu": "Pull request操作",
     "PullRequestBar-UnknownPullRequestHead": "プライベートリポジトリ (アクセスできません)",
-    "PullRequestBar-ViewPullRequestInBrowser": "{1} でpull request #{0} を見る",
+    "PullRequestBar-ViewPullRequestInBrowser": "{2} でpull request {0}{1} を見る",
     "PullRequestBar-AddPullRequestRemote": "{0} をremoteに追加",
     "PullRequestBar-AddPullRequestRemoteAndCheckoutPRHead": "{0} をremoteに追加してcheckout",
 
@@ -1260,7 +1260,7 @@
     "NotificationMessage-SSHKeyBeingUsed": "GitKrakenはSSHキーを使用して {0} と接続します。公開鍵はクリップボードコピーされています。{0} のアカウントに公開鍵を登録してください。",
 
     "Trial-StartTrialModalTitle": "GitKraken Proのフリートライアルを始める",
-    "Trial-StartTrialModalContent": "クレジットカードは必要ありません。下のボタンから{0}日間フリートライアルを始めてGitKraken Proの機能を利用できます。",
+    "Trial-StartTrialModalContent": "{0}日間のGitKraken Proフリートライアルで、アプリ内でのmerge conflict、複数プロファイル、GitHub Enterpriseの機能などを利用できます。クレジットカードは必要ありません。",
     "Trial-StartTrialModalSubcontent": "{0} でGitKraken Proの機能を見る",
     "Trial-StartTrialModalConfirmButton": "GitKraken Proのフリートライアルを始める",
     "Trial-StartTrialModalNoThanksButton": "いいえ、結構です",
