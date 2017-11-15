@@ -1326,6 +1326,8 @@
     "Error-PersistMergeToDisk": "Failed to persist merge to disk",
     "Error-PullFailed": "Pullに失敗しました",
     "Error-PushFailed": "Pushに失敗しました",
+    "Error-PushUpdatereferenceFailed": "Push failed on {0}: {1}",
+    "Error-RemoteRefusedToDelete": "Push failed on {0}: remote branch cannot be deleted",
     "Error-PullRequestFailed": "Pull requestの作成に失敗しました",
     "Error-PushFailedWithName": "Pushに失敗: {0}",
     "Error-RebaseFailed": "Rebaseに失敗しました",
