@@ -313,6 +313,8 @@
     "FuzzyFinder-SettingsKeywords": "preferences options",
     "FuzzyFinder-StashPrefix": "Stash: ",
     "FuzzyFinder-SwitchProfile": "Switch to Profile",
+    "FuzzyFinder-ViewWorkingDirectoryChanges": "View Working Directory Changes",
+    "FuzzyFinder-ViewWorkingDirectoryChangesKeywords": "changes wip workdir working",
 
     "GitHook-ExitCode": "Exit Code: {0}",
     "GitHook-OpenFailureLogModal": "View Hook Output",
@@ -716,7 +718,7 @@
     "Merge-NoImage": "No image",
     "Merge-Reset": "Clear Selections",
     "Merge-ResetMerge": "Reset",
-    "Merge-SaveWithAncestor": "Use ancestor",
+    "Merge-SaveOutput": "Save Output",
     "Merge-SaveWithConflicts": "Create conflict chunks",
     "Merge-TakeAll": "Take all",
     "Merge-UntakeAll": "Untake all",
@@ -1110,7 +1112,7 @@
     "PromptForCreds-RememberMe": "Remember me",
 
     "PromptForMerge-SaveAncestor": "You did not pick A or B. Would you like to save your ancestor?",
-    "PromptForMerge-SaveMergeWithUnresolvedConflicts": "You have unresolved conflicts. What saving behavior should be used for unresolved conflicts?",
+    "PromptForMerge-SaveMergeWithUnresolvedConflicts": "You have unresolved conflicts. How would you like to proceed?",
 
     "PromptForPush-LocalIsBehindRemote": "'{0}' is behind '{1}'. Update your branch by doing a Pull.",
     "PromptForPush-ConfirmForcePush": "Force push is a destructive action and cannot be undone. Are you sure?",
@@ -1321,6 +1323,7 @@
     "Error-GitFlowStartHotfixFailed": "Failed to start hotfix '{0}'",
     "Error-GitFlowStartReleaseFailed": "Failed to start release '{0}'",
     "Error-GitHubNoMorePrivateRepos": "No private repositories available for this GitHub account",
+    "Error-GitLabMergeRequestsDisabled": "Merge requests are disabled for this repository",
     "Error-InotifyLimitReached": "Inotify Limit Error",
     "Error-KeyAlreadyExistsOnAccount": "Key already exists on this account",
     "Error-LoginRedirect": "Encountered a redirect when attempting to retrieve user data - please add ${0} to your network's whitelist",
