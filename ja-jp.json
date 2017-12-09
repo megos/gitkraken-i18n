@@ -718,7 +718,7 @@
     "Merge-NoImage": "画像がありません",
     "Merge-Reset": "選択をクリア",
     "Merge-ResetMerge": "Reset",
-    "Merge-SaveOutput": "Save Output",
+    "Merge-SaveOutput": "保存",
     "Merge-SaveWithConflicts": "conflict chunksを作成",
     "Merge-TakeAll": "すべて使う",
     "Merge-UntakeAll": "すべて取り消し",
@@ -1112,7 +1112,7 @@
     "PromptForCreds-RememberMe": "認証情報を保存",
 
     "PromptForMerge-SaveAncestor": "AまたはBを選択していません。Ancestorを保存してよろしいですか?",
-    "PromptForMerge-SaveMergeWithUnresolvedConflicts": "未解決のconflictがあります。未解決のconflictをどのように保存しますか?",
+    "PromptForMerge-SaveMergeWithUnresolvedConflicts": "未解決のconflictがあります。どうしますか?",
 
     "PromptForPush-LocalIsBehindRemote": "'{0}'は'{1}'よりも古くなっています（behind）。Pullしてあなたのbranchを更新して下さい。",
     "PromptForPush-ConfirmForcePush": "Force pushは破壊的な操作でやり直しができません。本当によろしいですか?",
@@ -1323,7 +1323,7 @@
     "Error-GitFlowStartHotfixFailed": "Hotfix '{0}'の開始に失敗しました",
     "Error-GitFlowStartReleaseFailed": "Release '{0}'の開始に失敗しました",
     "Error-GitHubNoMorePrivateRepos": "このGitHubアカウントにプライベートリポジトリは存在しません",
-    "Error-GitLabMergeRequestsDisabled": "Merge requests are disabled for this repository",
+    "Error-GitLabMergeRequestsDisabled": "このリポジトリではMerge requestsが利用できません",
     "Error-InotifyLimitReached": "通知の上限エラーです",
     "Error-KeyAlreadyExistsOnAccount": "このアカウントにキーはすでに存在します",
     "Error-LoginRedirect": "ユーザデータを取得する際にリダイレクトが発生しました - ${0} をホワイトリストに登録してください",
