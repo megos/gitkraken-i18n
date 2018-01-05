@@ -13,7 +13,8 @@ GitKraken非公式日本語化プロジェクト
    - Windows: `%LOCALAPPDATA%\gitkraken\app-x.x.x\resources\app.asar` (x.x.xは任意のバージョン)
    - Mac: `/Applications/GitKraken.app/Contents/Resources/app.asar`
 1. [Releases](https://github.com/megos/gitkraken-i18n/releases)からGitKrakenと同じバージョンのパッチをダウンロードする
-1. `git apply ja-jp.patch`でパッチを適用
+1. ダウンロードしたパッチと`app.asar`を同じディレクトリに置く
+1. `git apply ダウンロードしたパッチのファイル名`でパッチを適用
 1. パッチを適用した`app.asar`をGitKrakenに戻す（上書き）
 1. GitKrakenを再起動
 
