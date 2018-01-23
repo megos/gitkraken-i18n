@@ -524,7 +524,7 @@
     "ContextMenu-FetchRemote": "{0} をfetch",
     "ContextMenu-MergeBranchIntoBranch": "Merge ({1} <- {0})",
     "ContextMenu-EditProjectGroup": "ラベルを編集",
-    "ContextMenu-FastForward": "Fast-forward ({1} <- {0})",
+    "ContextMenu-FastForward": "Fast-forward ({0} <- {1})",
     "ContextMenu-PushAndStartPullRequestToRef": "{0} をpushして {1} にpull requestを作成",
     "ContextMenu-PushAndStartPullRequest": "{0} をpushしてpull requestを作成",
     "ContextMenu-PushTagToRemote": "Tagをremoteにpush",
