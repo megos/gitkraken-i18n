@@ -418,7 +418,7 @@
     "InitializeButtonLabel": "初期化",
     "DeleteButtonLabel": "削除",
     "DeleteAndCommitLabel": "削除してコミット",
-    "DiscardUnstagedChangesButtonLabel": "Discard Unstaged Changes",
+    "DiscardUnstagedChangesButtonLabel": "Unstageの変更を取り消し",
     "ResetAllButtonLabel": "すべて取り消す",
     "ResetFileButtonLabel": "ファイルをリセット",
     "ResetFilesButtonLabel": "ファイルをリセット",
@@ -572,7 +572,7 @@
     "Profile-Unlock": "Proにアップグレードしてプロフィールの切り替えを利用する",
     "Profile-SaveChanges": "変更を保存",
     "Profile-SelectIcon": "アイコンを選択してください",
-    "Profile-StartAFreeProTrial": "Start a free Pro trial",
+    "Profile-StartAFreeProTrial": "フリーのProトライアルを始める",
     "Profile-SyncChanges": "プロフィール情報を更新したらgit configの情報も更新する",
     "Profile-SyncChangesSub": "チェックをつけると、GitKrakenは現在のプロフィールの名前とメールアドレスをグローバルのgit configに設定します",
     "Profile-Unregistered": "未登録",
@@ -1064,7 +1064,7 @@
     "Submodule-InitializeSpecific": "{0} を初期化",
     "Submodule-DirInIndex": "'{0}'はディレクトリとして既に存在します。",
 
-    "ModifySubmodule-Submit": "Edit submodule",
+    "ModifySubmodule-Submit": "Submoduleを編集",
 
     "UIPreferences": "外観",
     "UIPreferences-TabSize": "タブサイズ",
@@ -1182,8 +1182,8 @@
     "ConfirmationMessage-DeleteAllRefs": "これは破壊的な操作です。本当にこのノードやremoteから\"{0}\"を削除しますか?",
     "ConfirmationMessage-DeleteTagFromRemote": "これは破壊的な操作です。本当に\"{1}\"から\"{0}\"を削除しますか?",
     "ConfirmationMessage-DeleteTagFromAllRemotes": "remoteから tag \"{0}\"を削除しますか?",
-    "ConfirmationMessage-DiscardUnstagedChangesToFile": "This will discard unstaged changes to the file. Are you sure you want to continue?",
-    "ConfirmationMessage-DiscardUnstagedChangesToFiles": "This will discard unstaged changes to the selected files. Are you sure you want to continue?",
+    "ConfirmationMessage-DiscardUnstagedChangesToFile": "Unstageファイルの変更が取り消されます。処理を続けますか?",
+    "ConfirmationMessage-DiscardUnstagedChangesToFiles": "Unstageファイルの変更が取り消されます。処理を続けますか?",
     "ConfirmationMessage-ImmediatelyCommitCherryPick": "cherrypickの変更をすぐにcommitしますか?",
     "ConfirmationMessage-ImmediatelyCommitRevert": "revertの変更をすぐにcommitしますか?",
     "ConfirmationMessage-InitEmptyRepo":
