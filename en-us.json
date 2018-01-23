@@ -418,6 +418,7 @@
     "InitializeButtonLabel": "Initialize",
     "DeleteButtonLabel": "Delete",
     "DeleteAndCommitLabel": "Delete & Commit",
+    "DiscardUnstagedChangesButtonLabel": "Discard Unstaged Changes",
     "ResetAllButtonLabel": "Reset All",
     "ResetFileButtonLabel": "Reset File",
     "ResetFilesButtonLabel": "Reset Files",
@@ -571,6 +572,7 @@
     "Profile-Unlock": "Unlock profile switching by upgrading to Pro",
     "Profile-SaveChanges": "Save changes",
     "Profile-SelectIcon": "Select an icon",
+    "Profile-StartAFreeProTrial": "Start a free Pro trial",
     "Profile-SyncChanges": "Keep my git config updated with my profile info",
     "Profile-SyncChangesSub": "When checked, GitKraken will update your global git config with the name and email in your current profile.",
     "Profile-Unregistered": "Unregistered",
@@ -1052,8 +1054,8 @@
     "Submodule-Status-AddedUninitialized": "Your submodule has been added but needs to be initialized.",
     "Submodule-Status-AddedInitialized": "Your submodule has been added and initialized but not committed.",
     "Submodule-Status-Deleted": "You have removed this submodule and need to commit the change.",
-    "Submodule-Status-Dirty": "There are uncomitted changes in this submodule.",
-    "Submodule-Status-DirtyAndOutOfSync": "This submodule has uncomitted changes and is out-of-sync with {0}.",
+    "Submodule-Status-Dirty": "There are uncommitted changes in this submodule.",
+    "Submodule-Status-DirtyAndOutOfSync": "This submodule has uncommitted changes and is out-of-sync with {0}.",
     "Submodule-Status-InSync": "Your submodule is in-sync with your repository ({0}).",
     "Submodule-Status-OutOfSync": "This submodule is out-of-sync with {0}.",
     "Submodule-Status-Uninitialized": "Your submodule directory has not been initialized.",
@@ -1061,6 +1063,8 @@
     "Submodule-Update": "Update {0}",
     "Submodule-InitializeSpecific": "Initialize {0}",
     "Submodule-DirInIndex": "Path '{0}' already exists in the index as a directory.",
+
+    "ModifySubmodule-Submit": "Edit submodule",
 
     "UIPreferences": "UI Preferences",
     "UIPreferences-TabSize": "Tab Size",
@@ -1093,7 +1097,7 @@
     "PromptDeletedFileConflict-KeepAncestor": "Keep Base Version",
     "PromptDeletedFileConflict-KeepModified": "Keep Modified Version",
     "PromptDeletedFileConflict-KeepNew": "Keep New Version",
-    "PromptDeletedFileConflict-Message": "{0} has been modified on one branch, but deleted on the other.",
+    "PromptDeletedFileConflict-Message": "{0} has been modified on {1}, but deleted on {2}.",
     "PromptDeletedFileConflict-NoBaseNoPairMessage": "GitKraken was unable to determine whether to keep {0}, would you like to keep it?",
     "PromptDeletedFileConflict-RemoveFile": "Delete The File",
 
@@ -1178,6 +1182,8 @@
     "ConfirmationMessage-DeleteAllRefs": "This is a destructive operation, are you sure you want to delete \"{0}\" at this node, including remotes?",
     "ConfirmationMessage-DeleteTagFromRemote": "This is a destructive operation, are you sure you want to delete \"{0}\" from \"{1}\"?",
     "ConfirmationMessage-DeleteTagFromAllRemotes": "Would you also like to delete tags named \"{0}\" from your remote repos?",
+    "ConfirmationMessage-DiscardUnstagedChangesToFile": "This will discard unstaged changes to the file. Are you sure you want to continue?",
+    "ConfirmationMessage-DiscardUnstagedChangesToFiles": "This will discard unstaged changes to the selected files. Are you sure you want to continue?",
     "ConfirmationMessage-ImmediatelyCommitCherryPick": "Do you want to immediately commit the cherrypicked changes?",
     "ConfirmationMessage-ImmediatelyCommitRevert": "Do you want to immediately commit the reverted changes?",
     "ConfirmationMessage-InitEmptyRepo":
