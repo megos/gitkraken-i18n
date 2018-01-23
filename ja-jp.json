@@ -530,7 +530,7 @@
     "ContextMenu-PushTagToRemote": "Tagをremoteにpush",
     "ContextMenu-PushXToEllipses": "{0} をpushするremoteを選択",
     "ContextMenu-PushXToAllRemotes": "{0} をすべてのremoteにpush",
-    "ContextMenu-PushXToY": "Push ({0} → {0})",
+    "ContextMenu-PushXToY": "Push ({0} -> {0})",
     "ContextMenu-RebaseBranchOntoBranch": "Rebase ({1} <- {0})",
     "ContextMenu-RemoveRemote": "{0} を削除",
     "ContextMenu-RenameBranch": "{0} をリネーム",
