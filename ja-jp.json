@@ -115,6 +115,7 @@
     "Registration-ForgotPassword": "パスワードを忘れました",
     "Registration-GoBackToEnterpriseConfiguration": "Enterprise serverのURLを変更する",
     "Registration-GoingUnregistered": "アカウントを作成またはサインインする前にGitKrakenを{0}日間利用できます。",
+    "Registration-LdapUsername": "ユーザ名",
     "Registration-Name": "名前",
     "Registration-NameAndEmailDefault": "(デフォルトはgit configのuser.emailとuser.nameです)",
     "Registration-ServerConnectionError": "サーバに接続できません。",
@@ -580,7 +581,6 @@
     "Profile-UpgradeToPro": "GitKraken Proにアップグレードする",
     "Profiles": "プロフィール",
 
-    "RefBar-BranchCheckedOut": "Checked out",
     "RefBar-NavigateToBranch": "このbranchの位置に移動",
     "RefBar-GroupGitFlow": "GIT FLOW",
     "RefBar-GroupLocal": "LOCAL",
@@ -621,6 +621,7 @@
     "PullRequestPanel-PullRequestDescription": "Pull request 内容",
     "PullRequestPanel-Repo": "リポジトリ",
     "PullRequestPanel-ToRepo": "リポジトリ先",
+    "PullRequestPanel-VSTSEditPullRequestWarning": "Visual Studio Team Servicesで編集するを選択した場合、pull requestのタイトル、概要は送信されません",
 
     "RemoteBar-Menu": "Remote操作",
 
@@ -787,6 +788,7 @@
     "InitRepo-InitARepo": "リポジトリを作成",
     "InitRepo-License": "ライセンス (任意)",
     "InitRepo-HostingServiceAccountLabel": "アカウント",
+    "InitRepo-HostingServiceProjectLabel": "プロジェクト",
     "InitRepo-HostingServiceRepoNameLabel": "名前",
     "InitRepo-HostingServiceRepoDescriptionLabel": "内容",
     "InitRepo-HostingServiceAccessLabel": "アクセス",
@@ -872,6 +874,7 @@
     "Services-GenerateAndCopySSHKey": "SSHキーを作成してクリップボードにコピー",
     "Services-HostDomain": "Host Domain",
     "Services-HostDomainHint": "例：{0}.mycompany.com",
+    "Services-HostDomainHintVSTS": "例：mycompany.visualstudio.com",
     "Services-Info": "SSHキーを設定することでログイン状態を保持できます。GitKrakenはサービスごとにSSHキーを設定できます。",
     "Services-KeyPrivate": "Private: {0}",
     "Services-KeyPublic": "Public: {0}",
@@ -906,6 +909,7 @@
     "Services-UsingQuestion": "{0}を使っていますか?",
     "Services-GitHubEnterpriseUpgradeToPro": "GitKraken ProにアップグレードしてGitHub.comと同じようにGitHub Enterpriseで開発しましょう",
     "Services-GitLabSelfHostedUpgradeToPro": "GitKraken ProにアップグレードしてGitLab.comと同じようにGitLabで開発しましょう",
+    "Services-VisualStudioTeamServicesUpgradeToPro": "GitKraken ProにアップグレードしてVisual Studio Team Servicesの統合機能を利用しましょう",
     "Services-Error-HostDomainUnreachable": "指定されたホストに到達できませんでした",
     "Services-Error-PersonalAccessTokenInvalid": "指定されたアクセストークンは利用できませんでした",
     "Services-Error-SavePersonalAccessTokenFailed": "アクセストークンを利用して接続できませんでした",
@@ -1164,9 +1168,12 @@
     "RemoteForm-SearchRemotes": "Remoteを探す",
     "RemoteForm-SearchService": "{0}を探す",
     "RemoteForm-SelectPlaceholder": "選択...",
-    "RemoteForm-TooManyServiceRemotesWarning":
+    "RemoteForm-TooManyServiceRemotesWarningNForks":
       "このリポジトリに関連している{0}つのforkを取得しています。これは {1} から取得したほうが早いかもしれません。",
+    "RemoteForm-TooManyServiceRemotesWarningManyForks":
+      "このリポジトリに関連している多くのforkを取得しています。これは {0} から取得したほうが早いかもしれません。",
     "RemoteForm-Url": "URL",
+    "RemoteForm-VisualStudioTeamServices": "VSTS",
 
     "MergeConflictsPanel-1ConflictMustBeResolved": "続ける前に1つのconflictを解決してください",
     "MergeConflictsPanel-NConflictsMustBeResolved": "続ける前に{0}つのconflictを解決してください",
@@ -1290,6 +1297,7 @@
     "Trial-TrialStartedModalFeature1": "仕事、個人用などの複数のプロフィールの切り替え",
     "Trial-TrialStartedModalFeature2": "アプリケーション内での強力なmerge conflictエディタ",
     "Trial-TrialStartedModalFeature3": "GitHub Enterpriseの利用",
+    "Trial-TrialStartedModalFeature4": "GitLab CE, EEの統合機能",
     "Trial-TrialStartedModalSubcontent": "試用期間中いつでもProにアップグレードして、これらの機能を使い続けることができます。",
     "Trial-TrialStartedModalTitle": "GitKraken Proのフリートライアルが始まっています",
     "Trial-TrialEndedModalTitle": "GitKraken Proのフリートライアルが終了しています",
@@ -1348,6 +1356,10 @@
     "Error-PullFailed": "Pullに失敗しました",
     "Error-PushFailed": "Pushに失敗しました",
     "Error-PushUpdatereferenceFailed": "{0} へのpushに失敗しました: {1}",
+    "Error-MissingVSTSContributePermission": "'Contribute'の権限がありません",
+    "Error-MissingVSTSCreateBranchPermission": "'CreateBranch'の権限がありません",
+    "Error-VSTS404GetRepository": "リポジトリが見つかりません {0}/{1}",
+    "Error-VSTS404GetProjects": "プロジェクトが見つかりません",
     "Error-RemoteRefusedToDelete": "{0} へのpushに失敗しました: remote branchは削除できませんでした",
     "Error-PullRequestFailed": "Pull requestの作成に失敗しました",
     "Error-PushFailedWithName": "Pushに失敗: {0}",
