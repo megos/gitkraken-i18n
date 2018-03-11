@@ -621,7 +621,7 @@
     "PullRequestPanel-PullRequestDescription": "Pull request 内容",
     "PullRequestPanel-Repo": "リポジトリ",
     "PullRequestPanel-ToRepo": "リポジトリ先",
-    "PullRequestPanel-VSTSEditPullRequestWarning": "Your pull request title and/or description will not be transferred to VSTS if you choose to Edit on Visual Studio Team Services",
+    "PullRequestPanel-VSTSEditPullRequestWarning": "Visual Studio Team Servicesで編集するを選択した場合、pull requestのタイトル、概要は送信されません",
 
     "RemoteBar-Menu": "Remote操作",
 
