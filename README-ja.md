@@ -29,7 +29,6 @@ GitKraken非公式日本語化プロジェクト
 
 1. GitKrakenの`app.asar`をプロジェクト直下に`app.asar.original`としてコピー
 1. GitKrakenの`app.asar.unpacked`をプロジェクト直下に`app.asar.original.unpacked`としてコピー
-   - `npm run asar-copy-mac #1と2をあわせてコピー`
 1. `asar`で`app.asar.original`を`app.extract`として展開
    - `npm run extract`
 1. プロジェクト直下にある`ja-jp.json`を翻訳する

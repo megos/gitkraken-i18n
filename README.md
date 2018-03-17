@@ -22,7 +22,6 @@ Unofficial GitKraken i18n project
 
 1. Copy GitKraken's `app.asar` to project dir and rename to `app.asar.original`.
 1. Copy GitKraken's `app.asar.unpacked` to project dir and rename to `app.asar.original.unpacked`.
-   - `npm run asar-copy-mac # 1 and 2`
 1. Extract `app.asar` to `app.extract`.
 Copy `en-us.json` to your locale json file.
    - `npm run extract`
