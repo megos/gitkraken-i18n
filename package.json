@@ -7,7 +7,7 @@
     "asar-copy-mac": "cp /Applications/GitKraken.app/Contents/Resources/app.asar app.asar.original && cp -r /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked app.asar.original.unpacked",
     "extract": "asar e app.asar.original app.extract",
     "pack": "asar p app.extract app.asar --unpack \"{*.node,*.pdb,*.exe,*.dll,THIRD-PARTY-LICENSES.txt,.DS_Store}\"",
-    "remove": "rm app.extract/src/strings/en-us.json",
+    "update": "cp app.extract/src/strings/en-us.json en-us.json",
     "copy-jp": "cp ja-jp.json app.extract/src/strings/en-us.json",
     "copy-jp-win": "copy ja-jp.json app.extract\\src\\strings\\en-us.json",
     "asar-restore-mac": "cp app.asar /Applications/GitKraken.app/Contents/Resources/",
