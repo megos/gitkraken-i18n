@@ -1130,6 +1130,7 @@
     "UIPreferences-TabSizeHelp": "The number of spaces to use when rendering tab characters in diffs.",
     "UIPreferences-Theme": "Theme",
     "UIPreferences-ShowToolbarLabels": "Show toolbar icon labels",
+    "UIPreferences-Spellcheck": "Enable spell checking",
     "Theme-Light": "Light",
     "Theme-Dark": "Dark",
     "UIPreferences-Language": "Language",
