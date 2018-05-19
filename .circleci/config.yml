@@ -8,9 +8,6 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:7.10
-
-    environment:
-      - VERSION: $(node -pe 'require("./package.json").version')
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -47,8 +44,8 @@ jobs:
       - run: yarn extract
       - run: yarn localize:jp
       - run: yarn run pack
-      - run: ./createPatch.sh ${VERSION} linux
+      - run: ./createPatch.sh $(node -pe 'require("./package.json").version') linux
 
 general:
   artifacts:
-    - ~/repo/ja-jp-v${VERSION}-linux.patch
+    - ~/repo/*.patch
