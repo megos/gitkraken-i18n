@@ -46,6 +46,5 @@ jobs:
       - run: yarn run pack
       - run: ./createPatch.sh $(node -pe 'require("./package.json").version') linux
 
-general:
-  artifacts:
-    - ~/repo/*.patch
+      - store_artifacts:
+        path: ~/repo/*.patch
