@@ -2,6 +2,8 @@
 *.asar
 *.original
 *.unpacked
+*.packed
+patches/*.patch
 app.extract
 
 # Mac
