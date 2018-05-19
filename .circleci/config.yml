@@ -8,11 +8,18 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:7.10
+
+    environment:
+      - VERSION: $(node -pe 'require("./package.json").version')
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
+
+    branches:
+      only:
+        - master
 
     working_directory: ~/repo
 
@@ -34,4 +41,14 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: yarn test
+      - run: wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz
+      - run: tar zxf gitkraken-amd64.tar.gz
+      - run: cp gitkraken/resources/app.asar app.asar.original && cp -r gitkraken/resources/app.asar.unpacked app.asar.original.unpacked
+      - run: yarn extract
+      - run: yarn localize:jp
+      - run: yarn run pack
+      - run: ./createPatch.sh ${VERSION} linux
+
+general:
+  artifacts:
+    - ~/repo/ja-jp-v${VERSION}-linux.patch
