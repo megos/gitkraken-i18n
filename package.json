@@ -9,7 +9,7 @@
     "pack": "asar p app.extract app.asar --unpack \"{*.node,*.pdb,*.exe,*.dll,THIRD-PARTY-LICENSES.txt,.DS_Store}\"",
     "update": "cp app.extract/src/strings/en-us.json en-us.json",
     "localize:jp": "cp ja-jp.json app.extract/src/strings/en-us.json",
-    "locallize:win:jp": "copy ja-jp.json app.extract\\src\\strings\\en-us.json",
+    "localize:win:jp": "copy ja-jp.json app.extract\\src\\strings\\en-us.json",
     "push:mac": "cp app.asar /Applications/GitKraken.app/Contents/Resources/",
     "patch:jp": "git diff HEAD~1 > diff.patch && sed -ie 's/en-us/ja-jp/g' diff.patch && patch -F4 < diff.patch"
   },
