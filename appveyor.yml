@@ -27,8 +27,7 @@ install:
 # Post-install test scripts.
 test_script:
   - ps: $localappdata = [Environment]::ExpandEnvironmentVariables("%LOCALAPPDATA%")
-  - ps: $krakenVersion = (Get-Content package.json) -join "`n" | ConvertFrom-Json | Select -ExpandProper
-ty "version"
+  - ps: $krakenVersion = (Get-Content package.json) -join "`n" | ConvertFrom-Json | Select -ExpandProperty "version"
   - copy ${localappdata}\gitkraken\app-${krakenVerison}\resources\app.asar app.asar.original
   - ps: Copy-Item -Path ${localappdata}\gitkraken\app-${krakenVerison}\resources\app.asar.unpacked\ -Destination app.asar.original.unpacked -Recurse
   # Output useful info for debugging.
