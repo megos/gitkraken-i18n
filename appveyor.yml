@@ -1,0 +1,44 @@
+branches:
+  only:
+    - master
+
+platform:
+  - x64
+
+# Test against the latest version of this Node.js version
+environment:
+  nodejs_version: "8"
+
+cache:
+  - node_modules
+  - '%APPDATA%\npm-cache'
+  - '%USERPROFILE%\.electron'
+  - '%USERPROFILE%\AppData\Local\Yarn\cache'
+
+# Install scripts. (runs after repo cloning)
+install:
+  - ps: Start-FileDownload 'https://release.gitkraken.com/win64/GitKrakenSetup.exe'
+  - GitKrakenSetup.exe /verysilent /nolaunch
+  # Get the latest stable version of Node.js or io.js
+  - ps: Install-Product node $env:nodejs_version
+  # install modules
+  - npm install
+
+# Post-install test scripts.
+test_script:
+  - ps: $localappdata = [Environment]::ExpandEnvironmentVariables("%LOCALAPPDATA%")
+  - ps: $krakenVersion = (Get-Content package.json) -join "`n" | ConvertFrom-Json | Select -ExpandProper
+ty "version"
+  - copy ${localappdata}\gitkraken\app-${krakenVerison}\resources\app.asar app.asar.original
+  - ps: Copy-Item -Path ${localappdata}\gitkraken\app-${krakenVerison}\resources\app.asar.unpacked\ -Destination app.asar.original.unpacked -Recurse
+  # Output useful info for debugging.
+  - node --version
+  - npm --version
+  # run tests
+  - npm run extract
+  - npm run localize:win:jp
+  - npm run pack
+  - ps: createPatch.ps1 ${krakenVersion} 'win64'
+
+# Don't actually build.
+build: off
