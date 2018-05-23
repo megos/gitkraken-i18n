@@ -37,7 +37,7 @@ test_script:
   - npm run extract
   - npm run localize:win:jp
   - npm run pack
-  - ps: createPatch.ps1 $env:kraken_version 'win64'
+  - ps: .\createPatch.ps1 $env:kraken_version 'win64'
 
 # Don't actually build.
 build: off
