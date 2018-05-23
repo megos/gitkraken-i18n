@@ -1,6 +1,6 @@
 Param($1, $2)
 
-$patch=patches\ja-jp-v${1}-${2}.patch
+$patch = "patches\ja-jp-v${1}-${2}.patch"
 mv .git .git.bk
 git diff --binary app.asar.original app.asar > $patch
 perl -i -pe 's/\.original//' $patch
