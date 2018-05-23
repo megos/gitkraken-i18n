@@ -29,7 +29,7 @@ install:
 # Post-install test scripts.
 test_script:
   - ps: copy $env:local_app_data\gitkraken\app-$env:kraken_version\resources\app.asar app.asar.original
-  - ps: Copy-Item -Path ${localappdata}\gitkraken\app-$env:kraken_version\resources\app.asar.unpacked\ -Destination app.asar.original.unpacked -Recurse
+  - ps: Copy-Item -Path $env:local_app_data\gitkraken\app-$env:kraken_version\resources\app.asar.unpacked\ -Destination app.asar.original.unpacked -Recurse
   # Output useful info for debugging.
   - node --version
   - npm --version
