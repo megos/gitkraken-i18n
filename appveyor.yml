@@ -39,4 +39,4 @@ test: off
 
 artifacts:
   - path: 'patches\*.patch'
-  - name: patch
+    name: patch
