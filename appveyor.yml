@@ -20,7 +20,7 @@ cache:
 
 # Install scripts. (runs after repo cloning)
 install:
-  - ps: Start-FileDownload 'https://release.gitkraken.com/$env:kraken_platform/GitKrakenSetup.exe'
+  - ps: Start-FileDownload https://release.gitkraken.com/$env:kraken_platform/GitKrakenSetup.exe
   - GitKrakenSetup.exe /verysilent /nolaunch
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
