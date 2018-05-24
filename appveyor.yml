@@ -27,8 +27,7 @@ install:
   # install modules
   - npm install
 
-# Post-install test scripts.
-test_script:
+build_script:
   - ps: copy $env:local_app_data\gitkraken\app-$env:kraken_version\resources\app.asar app.asar.original
   - ps: Copy-Item -Path $env:local_app_data\gitkraken\app-$env:kraken_version\resources\app.asar.unpacked\ -Destination app.asar.original.unpacked -Recurse
   - npm run extract
