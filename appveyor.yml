@@ -36,3 +36,7 @@ build_script:
   - ps: .\createPatch.ps1 $env:kraken_version $env:kraken_platform
 
 test: off
+
+artifacts:
+  - path: 'patches\*.patch'
+  - name: patch
