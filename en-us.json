@@ -970,6 +970,7 @@
     "CommitTemplates-Instructions": "Create and apply a default initial message for commits to maintain consistency in commit summaries and descriptions. For more information see the ",
     "CommitTemplates-CommitTemplateDocumentation": "Git commit template documentation",
     "CommitTemplates-UseTemplateForCommitMessages": "Apply this template to commit messages",
+    "CommitTemplates-RemoveCommentsFromCommitMessages": "Remove comments from commit messages",
 
     "GitFlow": "Git Flow",
     "GitFlow-Branches": "Branches",
