@@ -970,6 +970,7 @@
     "CommitTemplates-Instructions": "Commitのタイトルや概要を統一するため、デフォルトのメッセージを登録することができます。詳細は以下をご覧ください ",
     "CommitTemplates-CommitTemplateDocumentation": "Git commitテンプレートドキュメント",
     "CommitTemplates-UseTemplateForCommitMessages": "このテンプレートをcommitメッセージに適用",
+    "CommitTemplates-RemoveCommentsFromCommitMessages": "Remove comments from commit messages",
 
     "GitFlow": "Git Flow",
     "GitFlow-Branches": "Branches",
