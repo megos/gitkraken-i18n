@@ -79,6 +79,7 @@
     "&Help": "ヘルプ(&H)",
     "SendUsFeedback": "フィードバックを送る",
     "GetSupport": "サポートを受ける",
+    "KeyboardShortcuts": "Keyboard Shortcuts",
     "FollowUsOnTwitter": "Twitterをフォローする"
   },
   "strings": {
@@ -852,7 +853,7 @@
     "GeneralPreferences-DefaultTerminal": "デフォルトターミナル",
     "GeneralPreferences-DeleteOrigAfterMerge": "Merge後に \".orig\" ファイルを削除",
     "GeneralPreferences-DiffTool": "Diff Tool",
-    "GeneralPreferences-UseSameDiffTool": "Use Merge Tool as Diff Tool",
+    "GeneralPreferences-UseSameDiffTool": "Use Merge Tool as Diff Tool",
     "GeneralPreferences-UseSameDiffToolHelp": "Use the configured merge tool for displaying diffs",
     "GeneralPreferences-MergeTool": "Mergeツール",
     "GeneralPreferences-MergeToolHelp": "(任意) Mergeツールを設定する",
