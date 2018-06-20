@@ -79,6 +79,7 @@
     "&Help": "&Help",
     "SendUsFeedback": "Send us feedback",
     "GetSupport": "Get Support",
+    "KeyboardShortcuts": "Keyboard Shortcuts",
     "FollowUsOnTwitter": "Follow us on Twitter"
   },
   "strings": {
@@ -852,7 +853,7 @@
     "GeneralPreferences-DefaultTerminal": "Default Terminal",
     "GeneralPreferences-DeleteOrigAfterMerge": "Delete \".orig\" files after merging",
     "GeneralPreferences-DiffTool": "Diff Tool",
-    "GeneralPreferences-UseSameDiffTool": "Use Merge Tool as Diff Tool",
+    "GeneralPreferences-UseSameDiffTool": "Use Merge Tool as Diff Tool",
     "GeneralPreferences-UseSameDiffToolHelp": "Use the configured merge tool for displaying diffs",
     "GeneralPreferences-MergeTool": "Merge Tool",
     "GeneralPreferences-MergeToolHelp": "(Optional) Set the application to use for solving merge conflict",
