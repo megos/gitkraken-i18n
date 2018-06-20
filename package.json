@@ -1,6 +1,6 @@
 {
   "name": "gitkraken-i18n",
-  "version": "3.6.3",
+  "version": "3.6.4",
   "description": "Unofficial GitKraken i18n project",
   "main": "index.js",
   "scripts": {

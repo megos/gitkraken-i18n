@@ -79,6 +79,7 @@
     "&Help": "ヘルプ(&H)",
     "SendUsFeedback": "フィードバックを送る",
     "GetSupport": "サポートを受ける",
+    "KeyboardShortcuts": "キーボードショートカット",
     "FollowUsOnTwitter": "Twitterをフォローする"
   },
   "strings": {
@@ -851,9 +852,9 @@
     "GeneralPreferences-CustomTerminalCmdHelp": "コマンドは新しいターミナルが開いたときに実行されます。\n%d を使うとリポジトリのパスで置換されます。",
     "GeneralPreferences-DefaultTerminal": "デフォルトターミナル",
     "GeneralPreferences-DeleteOrigAfterMerge": "Merge後に \".orig\" ファイルを削除",
-    "GeneralPreferences-DiffTool": "Diff Tool",
-    "GeneralPreferences-UseSameDiffTool": "Use Merge Tool as Diff Tool",
-    "GeneralPreferences-UseSameDiffToolHelp": "Use the configured merge tool for displaying diffs",
+    "GeneralPreferences-DiffTool": "Diffツール",
+    "GeneralPreferences-UseSameDiffTool": "MergeツールをDiffツールとして使う",
+    "GeneralPreferences-UseSameDiffToolHelp": "Diffの表示に設定されたMergeツールを使う",
     "GeneralPreferences-MergeTool": "Mergeツール",
     "GeneralPreferences-MergeToolHelp": "(任意) Mergeツールを設定する",
     "GeneralPreferences-GitConfigDefault": "Gitコンフィグのデフォルト",

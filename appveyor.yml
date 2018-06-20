@@ -5,7 +5,7 @@ branches:
 # Test against the latest version of this Node.js version
 environment:
   nodejs_version: "8"
-  kraken_version: "3.6.3"
+  kraken_version: "3.6.4"
   local_app_data: '%LOCALAPPDATA%'
   matrix:
     - kraken_platform: win64
