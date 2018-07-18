@@ -20,7 +20,11 @@ script:
 branches:
   only:
   - master
-addons:
-  artifacts:
-    paths:
-      - ./patches/*.patch
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key: $GH_TOKEN
+  file_glob: true
+  file: ./patches/*.patch
+  on:
+    tags: true
