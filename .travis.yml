@@ -8,7 +8,19 @@ cache:
   - node_modules
   - "$HOME/.cache"
 script:
-- yarn run build
+- wget https://release.gitkraken.com/darwin/installGitKraken.dmg
+- hdiutil mount installGitKraken.dmg
+- cp /Volumes/Install\ GitKraken/GitKraken.app/GitKraken.app/Contents/Resources/app.asar app.asar.original
+- cp -r /Volumes/Install\ GitKraken/GitKraken.app/Contents/Resources/app.asar.unpacked app.asar.original.unpacked
+- yarn
+- yarn extract
+- yarn localize:jp
+- yarn run pack
+- ./createPatch.sh $(node -pe 'require("./package.json").version') mac
 branches:
   only:
   - master
+addons:
+  artifacts:
+    paths:
+      - ./patches/*.patch
