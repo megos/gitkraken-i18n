@@ -1,5 +1,4 @@
-# Commented sections below can be used to run tests on the CI server
-# https://simulatedgreg.gitbooks.io/electron-vue/content/en/testing.html#on-the-subject-of-ci-testing
+os: osx
 osx_image: xcode8.3
 cache:
   directories:
