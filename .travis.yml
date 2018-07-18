@@ -10,7 +10,7 @@ cache:
 script:
 - wget https://release.gitkraken.com/darwin/installGitKraken.dmg
 - hdiutil mount installGitKraken.dmg
-- cp /Volumes/Install\ GitKraken/GitKraken.app/GitKraken.app/Contents/Resources/app.asar app.asar.original
+- cp /Volumes/Install\ GitKraken/GitKraken.app/Contents/Resources/app.asar app.asar.original
 - cp -r /Volumes/Install\ GitKraken/GitKraken.app/Contents/Resources/app.asar.unpacked app.asar.original.unpacked
 - yarn
 - yarn extract
