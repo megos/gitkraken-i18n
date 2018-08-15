@@ -77,11 +77,11 @@
 
     "Help": "ヘルプ",
     "&Help": "ヘルプ(&H)",
-    "ViewSupportDocs": "View Support Documentation",
+    "ViewSupportDocs": "サポートドキュメントを表示",
     "SendUsFeedback": "フィードバックを送る",
     "GetSupport": "サポートを受ける",
     "KeyboardShortcuts": "キーボードショートカット",
-    "OpenFuzzyFinder": "Open Fuzzy Finder",
+    "OpenFuzzyFinder": "Fuzzy Finderを開く",
     "FollowUsOnTwitter": "Twitterをフォローする"
   },
   "strings": {
@@ -98,7 +98,7 @@
 
     "Repo-Delete": "リポジトリを削除",
     "Repo-ClearFromRecentRepositories": "最近開いたリポジトリから {0} をクリア",
-    "Repo-Close": "Close Repository",
+    "Repo-Close": "リポジトリを閉じる",
     "Repo-Open": "リポジトリを開く",
     "Repo-OpenInFileManager": "ファイラで開く",
     "Repo-OpenInTerminal": "ターミナルで開く",
