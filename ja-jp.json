@@ -107,7 +107,7 @@
     "Registration-CheckStatus": "ステータスをチェック",
     "Registration-CommercialUse": "GitKrakenライセンス",
     "Registration-CommercialUseText": "GitKrakenは無料で非商用利用できます。商用利用にはGitKraken Proが必要です。",
-    "Registration-PrivateRepoDetected": "This appears to be a private repository",
+    "Registration-PrivateRepoDetected": "これはプライベートリポジトリのようです",
     "Registration-CreateAccount": "GitKrakenのアカウントを作成する",
     "Registration-CreateAccountRetry": "アカウントの作成をリトライしています",
     "Registration-CreatingAccount": "アカウントを作成しています...",
