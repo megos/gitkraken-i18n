@@ -299,6 +299,7 @@
     "FileHistory-End": "End of History",
     "FileHistory-FileView": "File View",
     "FileHistory-LinkToGraph": "View {0} on graph",
+    "FileHistory-BlameButtonLabel": "Blame",
     "FileHistory-ShowBlame": "Show blame details",
     "FileHistory-UnknownAuthorName": "Unknown",
 
@@ -410,6 +411,7 @@
 
     "DiscardSelectedLines": "Discard selected lines",
     "DiscardThisHunk": "Discard Hunk",
+    "DiscardThisLine": "Discard this line",
     "DiscardNChanges": "Discard {0} files",
     "RefCreatedMessage": "{0}: {1} created @ {2}",
     "StageAllChanges": "Stage all changes",
