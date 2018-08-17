@@ -507,7 +507,7 @@
     "SetAsDefaultOptionTooltip": "デフォルトにする",
     "DefaultOptionTooltip": "デフォルト",
     "PushButtonTooltip": "Push",
-    "PullOptionsMessage": "クリックしたときのデフォルトの動きをpull/fetchから選択",
+    "PullOptionsMessage": "クリックしたときのデフォルトの動きを選択してください",
     "PullOptions-FetchAll": "すべてFetch",
     "PullOptions-Merge": "Pull (fast-forwardできる場合)",
     "PullOptions-FastForwardOnly": "Pull (fast-forwardのみ)",
@@ -1188,7 +1188,7 @@
     "ToolbarLabels-Fetch": "Fetch",
     "ToolbarButton-DropdownMessage": "このリポジトリでGloボタンをクリックしたときに開くboardを選択してください",
     "ToolbarButton-DropdownFilterPlaceholder": "boardを絞り込む",
-    "ToolbarButton-DropdownFilterNoResults": "",
+    "ToolbarButton-DropdownFilterNoResults": "見つかりません",
 
     "ProvideFeedback-SendUsFeedback": "フィードバックを送る",
     "SendUsFeedback": "フィードバックを送る",
