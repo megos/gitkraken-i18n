@@ -778,12 +778,12 @@
     "FileContentsPanel-Binary": "Binary file",
     "FileContentsPanel-Deleted": "ファイルは削除されました",
     "FileContentsPanel-Tree": "Directory",
-    "FileContentsPanel-EmptyDiff": "File contents are unchanged.",
+    "FileContentsPanel-EmptyDiff": "ファイルは変更されていません。",
 
     "DiffPanel-EmptyFile": "空のファイルです",
 
     "FileNodeListControls-FullPath": "パス",
-    "FileNodeListControls-SortByNameLabel": "Sort by filename",
+    "FileNodeListControls-SortByNameLabel": "ファイル名でソート",
     "FileNodeListControls-TreeView": "ツリー",
 
     "FileNodeListHeader-CollapseAll": "すべてたたむ",
@@ -835,7 +835,7 @@
     "ChangeRepo-InitRepo": "作成",
     "ChangeRepo-OpenRepo": "開く",
 
-    "CloseRepo-CloseFailed": "Close Failed",
+    "CloseRepo-CloseFailed": "閉じれませんでした",
 
     "OpenRepo-AddProjectFolder": "プロジェクトフォルダを追加",
     "OpenRepo-AddProjectFolderTooltip": "リポジトリがあるフォルダを追加することで素早く開くことができます",
@@ -846,7 +846,7 @@
     "OpenRepo-IsOpenIndicator": "(現在開いています)",
     "OpenRepo-NoReposFavorited": "お気に入りに登録しているリポジトリはありません。",
     "OpenRepo-NoReposFound": "リポジトリを見つけられませんでした。",
-    "OpenRepo-OpenFailed": "Open Failed",
+    "OpenRepo-OpenFailed": "開けませんでした",
     "OpenRepo-OpeningRepo": "リポジトリを開いています",
     "OpenRepo-ProjectFoldersSection": "プロジェクトグループ",
     "OpenRepo-RecentlyOpened": "最近開いたリポジトリ",
@@ -865,7 +865,7 @@
 
     "InitRepo-CreateRepoButtonLabel": "リポジトリを作成",
     "InitRepo-CreateRepoAndCloneButtonLabel": "リポジトリを作成してClone",
-    "InitRepo-CreateRepoTarget": "Initialize in",
+    "InitRepo-CreateRepoTarget": "パス",
     "InitRepo-GitIgnoreTemplate": ".gitignoreのテンプレート (任意)",
     "InitRepo-GitIgnoreTypeaheadPlaceholder": "入力してテンプレートを検索",
     "InitRepo-InitLocally": "Localのみ",
