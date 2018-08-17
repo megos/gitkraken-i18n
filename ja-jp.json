@@ -762,8 +762,8 @@
     "CommitDiffSection-NFilesRenamed": "{0} renamed",
 
     "FileViewPanel-DiffView": "Diff View",
-    "FileViewPanel-EditInWorkDir": "Edit in working directory",
-    "FileViewPanel-EditThisFile": "Edit this file",
+    "FileViewPanel-EditInWorkDir": "Working directoryで編集",
+    "FileViewPanel-EditThisFile": "このファイルを編集",
     "FileViewPanel-Editable": "editable",
     "FileViewPanel-FileView": "File View",
     "FileViewPanel-DiffFileMode": "File Mode Changes from {0} to {1}",
@@ -773,10 +773,10 @@
     "FileViewPanel-PreviousDiff": "Previous Change",
     "FileViewPanel-SplitView": "Split View",
     "FileViewPanel-ToggleSplitView": "Toggle Split View",
-    "FileViewPanel-IgnoreWhiteSpace": "Ignore white space",
+    "FileViewPanel-IgnoreWhiteSpace": "空白を除外",
 
     "FileContentsPanel-Binary": "Binary file",
-    "FileContentsPanel-Deleted": "File was deleted",
+    "FileContentsPanel-Deleted": "ファイルは削除されました",
     "FileContentsPanel-Tree": "Directory",
     "FileContentsPanel-EmptyDiff": "File contents are unchanged.",
 
