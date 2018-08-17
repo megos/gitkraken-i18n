@@ -299,6 +299,7 @@
     "FileHistory-End": "履歴はここまでです",
     "FileHistory-FileView": "ファイルビュー",
     "FileHistory-LinkToGraph": "{0} をグラフで見る",
+    "FileHistory-BlameButtonLabel": "Blame",
     "FileHistory-ShowBlame": "blameの詳細を表示",
     "FileHistory-UnknownAuthorName": "Unknown",
 
@@ -410,6 +411,7 @@
 
     "DiscardSelectedLines": "選択中の行の変更を取り消す",
     "DiscardThisHunk": "Hunkを取り消す",
+    "DiscardThisLine": "Discard this line",
     "DiscardNChanges": "{0}つのファイルの変更を取り消す",
     "RefCreatedMessage": "{0}: {1} created @ {2}",
     "StageAllChanges": "すべての変更をStage",
