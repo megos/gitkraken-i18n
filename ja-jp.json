@@ -411,7 +411,7 @@
 
     "DiscardSelectedLines": "選択中の行の変更を取り消す",
     "DiscardThisHunk": "Hunkを取り消す",
-    "DiscardThisLine": "Discard this line",
+    "DiscardThisLine": "この行の変更を取り消す",
     "DiscardNChanges": "{0}つのファイルの変更を取り消す",
     "RefCreatedMessage": "{0}: {1} created @ {2}",
     "StageAllChanges": "すべての変更をStage",
