@@ -299,6 +299,7 @@
     "FileHistory-End": "履歴はここまでです",
     "FileHistory-FileView": "ファイルビュー",
     "FileHistory-LinkToGraph": "{0} をグラフで見る",
+    "FileHistory-BlameButtonLabel": "Blame",
     "FileHistory-ShowBlame": "blameの詳細を表示",
     "FileHistory-UnknownAuthorName": "Unknown",
 
@@ -410,6 +411,7 @@
 
     "DiscardSelectedLines": "選択中の行の変更を取り消す",
     "DiscardThisHunk": "Hunkを取り消す",
+    "DiscardThisLine": "この行の変更を取り消す",
     "DiscardNChanges": "{0}つのファイルの変更を取り消す",
     "RefCreatedMessage": "{0}: {1} created @ {2}",
     "StageAllChanges": "すべての変更をStage",
@@ -1565,9 +1567,9 @@
     "TryRedoError-CloseDetailPanel": "取り消す場合は、変更を保存してからやり直してください。",
     "Error-CloseDetailPanel": "変更を保存してからやり直してください。",
 
-    "Editor-OverwriteContentsOnDiskQuestion": "ファイルがGitKraken以外で変更されています。変更を破棄するか、変更を書き込みますか?",
+    "Editor-OverwriteContentsOnDiskQuestion": "ファイルがGitKraken以外で変更されています。変更を取り消すか、変更を書き込みますか?",
     "Editor-OverwriteContentsOnDisk": "Overwrite",
-    "Editor-DiscardChanges": "これらの変更を破棄",
+    "Editor-DiscardChanges": "これらの変更を取り消す",
 
     "SaveAndStageEditorChanges-Message": "Stagingに上げる前に変更を保存するか、保存済みの箇所のみをstagingに上げますか?",
     "SaveAndStageEditorChanges-SaveAndStage": "保存してstage",
