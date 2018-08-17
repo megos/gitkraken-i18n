@@ -1186,8 +1186,8 @@
 
     "ToolbarLabels-Chipotle": "Chipotle",
     "ToolbarLabels-Fetch": "Fetch",
-    "ToolbarButton-DropdownMessage": "Select a default board to open when clicking the Glo button on this repo",
-    "ToolbarButton-DropdownFilterPlaceholder": "Filter boards",
+    "ToolbarButton-DropdownMessage": "このリポジトリでGloボタンをクリックしたときに開くboardを選択してください",
+    "ToolbarButton-DropdownFilterPlaceholder": "boardを絞り込む",
     "ToolbarButton-DropdownFilterNoResults": "No results",
 
     "ProvideFeedback-SendUsFeedback": "フィードバックを送る",
