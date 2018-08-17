@@ -1176,13 +1176,13 @@
     "Theme-Dark": "Dark",
     "UIPreferences-Language": "言語",
 
-    "EditorPreferences": "Editor Preferences",
-    "EditorPreferences-EOLCharacter": "End of Line Character",
+    "EditorPreferences": "エディタ",
+    "EditorPreferences-EOLCharacter": "改行コード",
     "EditorPreferences-EOLCharacterLF": "LF",
     "EditorPreferences-EOLCharacterCRLF": "CRLF",
-    "EditorPreferences-ShowLineNumbers": "Show Line Numbers",
-    "EditorPreferences-WordWrap": "Word Wrap",
-    "EditorPreferences-TabSize": "Tab Size",
+    "EditorPreferences-ShowLineNumbers": "行番号を表示",
+    "EditorPreferences-WordWrap": "文字を折り返す",
+    "EditorPreferences-TabSize": "タブサイズ",
 
     "ToolbarLabels-Chipotle": "Chipotle",
     "ToolbarLabels-Fetch": "Fetch",
