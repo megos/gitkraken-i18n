@@ -333,6 +333,8 @@
     "FuzzyFinder-FilePrefix": "History",
     "FuzzyFinder-GitFlowPrefix": "Git Flow: ",
     "FuzzyFinder-InitRepoKeywords": "initialize",
+    "FuzzyFinder-JoinTheLightOrDarkSide": "Join the {0} side",
+    "FuzzyFinder-JoinTheLightSlashDarkSide": "Join the Dark/Light side",
     "FuzzyFinder-OpenGitFlowPanel": "Git Flow",
     "FuzzyFinder-OpenFileInExternalCompareTool": "Open in External Diff/Merge Tool",
     "FuzzyFinder-OpenRepoPrefix": "Open Repo",
@@ -345,6 +347,8 @@
     "FuzzyFinder-SettingsKeywords": "preferences options",
     "FuzzyFinder-StashPrefix": "Stash: ",
     "FuzzyFinder-SwitchProfile": "Switch to Profile",
+    "FuzzyFinder-ToggleSyntaxHighlighting": "Toggle Syntax Highlighting",
+    "FuzzyFinder-ToggleTheme": "Toggle Theme",
     "FuzzyFinder-ViewWorkingDirectoryChanges": "View Working Directory Changes",
     "FuzzyFinder-ViewWorkingDirectoryChangesKeywords": "changes wip workdir working",
 
@@ -551,6 +555,8 @@
     "ContextMenu-DeleteLocalAndRemoteBranches": "Delete {0} and {1}",
     "ContextMenu-DeleteAll": "Delete all \"{0}\" branches (local && remote)",
     "ContextMenu-DeleteBranch": "Delete {0}",
+    "ContextMenu-Delete1BranchInFolder": "Delete 1 branch in folder \"{0}\"",
+    "ContextMenu-DeleteNBranchesInFolder": "Delete {0} branches in folder \"{1}\"",
     "ContextMenu-DeleteProjectGroup": "Remove from list",
     "ContextMenu-DeleteTagXLocally": "Delete {0} locally",
     "ContextMenu-DeleteTagFromRemote": "Delete tag from remote",
@@ -614,7 +620,7 @@
     "Profile-Unlock": "Unlock profile switching by upgrading to Pro",
     "Profile-SaveChanges": "Save changes",
     "Profile-SelectIcon": "Select an icon",
-    "Profile-SetupYourProfile": "Setup Your Profile",
+    "Profile-SetUpYourProfile": "Set Up Your Profile",
     "Profile-StartAFreeProTrial": "Start a free Pro trial",
     "Profile-SyncChanges": "Keep my .gitconfig updated with my profile info",
     "Profile-SyncChangesSub": "When checked, GitKraken will update your global git config with the name and email in your current profile.",
@@ -902,6 +908,7 @@
     "GeneralPreferences-MergeTool": "Merge Tool",
     "GeneralPreferences-MergeToolHelp": "(Optional) Set the application to use for solving merge conflict",
     "GeneralPreferences-GitConfigDefault": "Git Config Default",
+    "GeneralPreferences-RememberLastOpenedRepository": "Remember last opened repository on startup",
     "GeneralPreferences-OptIntoAnalytics": "Send usage data about GitKraken to Axosoft",
     "GeneralPreferences-OptIntoBugReporting": "Send crash data about GitKraken to Axosoft",
     "GeneralPreferences-OptIntoAnalyticsHelp": "(Optional) Will send usage statistics and crash reports to Axosoft to improve Gitkraken",
@@ -1179,10 +1186,15 @@
     "UIPreferences-Language": "Language",
 
     "EditorPreferences": "Editor Preferences",
+    "EditorPreferences-DefaultFont": "{0} (Default)",
     "EditorPreferences-EOLCharacter": "End of Line Character",
     "EditorPreferences-EOLCharacterLF": "LF",
     "EditorPreferences-EOLCharacterCRLF": "CRLF",
+    "EditorPreferences-Font": "Font",
+    "EditorPreferences-FontSize": "Font Size",
+    "EditorPreferences-NoFontsFound": "No fonts found",
     "EditorPreferences-ShowLineNumbers": "Show Line Numbers",
+    "EditorPreferences-SyntaxHighlighting": "Syntax Highlighting",
     "EditorPreferences-WordWrap": "Word Wrap",
     "EditorPreferences-TabSize": "Tab Size",
 
@@ -1298,6 +1310,8 @@
     "ConfirmationMessage-DeleteFiles": "This will delete the selected files. Are you sure you want to continue?",
     "ConfirmationMessage-DeleteGitFlowRef": "This branch is required for Git Flow, are you sure you want to delete \"{0}\"?",
     "ConfirmationMessage-DeleteRef": "This is a destructive operation, are you sure you want to delete \"{0}\"?",
+    "ConfirmationMessage-Delete1LocalBranchInFolder": "This is a destructive operation, are you sure you want to delete 1 local branch in \"{0}\"?",
+    "ConfirmationMessage-DeleteNLocalBranchesInFolder": "This is a destructive operation, are you sure you want to delete {0} local branches in \"{1}\"?",
     "ConfirmationMessage-DeleteAllRefs": "This is a destructive operation, are you sure you want to delete \"{0}\" at this node, including remotes?",
     "ConfirmationMessage-DeleteStash": "This is a destructive operation, are you sure you want to delete stash with message \"{0}\"?",
     "ConfirmationMessage-DeleteTagFromRemote": "This is a destructive operation, are you sure you want to delete \"{0}\" from \"{1}\"?",
@@ -1348,7 +1362,7 @@
     "WelcomeView-StartHostedProject": "Start a hosted project:",
 
     "KeyBinding-or": "or",
-    "Keybinding-CloseRepo": "Close Repo",
+    "Keybinding-CloseFileOrRepo": "Close File/Repo",
     "KeyBinding-Commit": "Commit (when in message input)",
     "KeyBinding-CommitWithStage": "Stage All + Commit (when in message input)",
     "KeyBinding-SearchCommits": "Search commits",
@@ -1550,7 +1564,7 @@
 
     "Plugin-FullviewLoadFailed": "Plugin failed to open",
 
-    "FileSavePrompt-Detail": "Your changes will be lost if you don't save them.",
+    "FileSavePrompt-Detail": "Any unsaved changes will be discarded.",
     "FileSavePrompt-Message": "Do you want to save the changes you made to {0}?",
 
     "CheckoutError-CloseDetailPanel": "To checkout, please save your changes and try again.",
@@ -1567,8 +1581,9 @@
     "TryRedoError-CloseDetailPanel": "To try to undo, please save your changes and try again.",
     "Error-CloseDetailPanel": "Please save your changes and try again.",
 
-    "Editor-OverwriteContentsOnDiskQuestion": "The file has been modified outside of GitKraken. Do you want to discard your changes, or write them to the disk?",
-    "Editor-OverwriteContentsOnDisk": "Overwrite",
+    "Editor-OverwriteContentsOnDiskQuestion": "The file has been modified outside of GitKraken. Do you want to overwrite the file?",
+    "Editor-OverwriteContentsOnDiskOrDiscardQuestion": "The file has been modified outside of GitKraken. Do you want to discard your changes, or overwrite the file?",
+    "Editor-OverwriteContentsOnDisk": "Save and overwrite",
     "Editor-DiscardChanges": "Discard these changes",
 
     "SaveAndStageEditorChanges-Message": "Do you want to save your changes before staging, or only stage what's already saved to the disk?",
