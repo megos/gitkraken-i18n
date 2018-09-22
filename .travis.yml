@@ -26,3 +26,5 @@ deploy:
   api_key: $GH_TOKEN
   file_glob: true
   file: ./patches/*.patch
+  on:
+    tags: true
