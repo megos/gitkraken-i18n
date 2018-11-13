@@ -13,9 +13,10 @@ ajv@^4.9.1:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
 
-asar@^0.14.3:
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/asar/-/asar-0.14.3.tgz#c72a81542a48e3bca459fb1b07ee2b6adfae265d"
+asar@^0.14.5:
+  version "0.14.5"
+  resolved "https://registry.yarnpkg.com/asar/-/asar-0.14.5.tgz#a2fd9e01ec7e0df75940125f2d1df338abfc8aec"
+  integrity sha512-2Di/TnY1sridHFKMFgxBh0Wk0gVxSZN4qQhRhjJn3UywZAvP5MHI0RNVSkpzmJ+n6t0BC8w/+1257wtSgQ3Kdg==
   dependencies:
     chromium-pickle-js "^0.2.0"
     commander "^2.9.0"
