@@ -14,10 +14,6 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    branches:
-      only:
-        - master
-
     working_directory: ~/repo
 
     steps:
@@ -48,3 +44,14 @@ jobs:
 
       - store_artifacts:
           path: ~/repo/patches
+
+workflows:
+  version: 2
+  release-build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v.*/
