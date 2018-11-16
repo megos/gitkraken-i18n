@@ -19,7 +19,6 @@ script:
 - ./createPatch.sh $(node -pe 'require("./package.json").version') mac
 branches:
   only:
-  - master
   - /^v.*/
 deploy:
   provider: releases
