@@ -1,7 +1,7 @@
 # gitkraken-i18n
 Unofficial GitKraken i18n project
 
-[![Build status](https://ci.appveyor.com/api/projects/status/1xs1l6w9qjxfjmrf?svg=true)](https://ci.appveyor.com/project/megos/gitkraken-i18n) [![CircleCI](https://circleci.com/gh/megos/gitkraken-i18n.svg?style=svg)](https://circleci.com/gh/megos/gitkraken-i18n)
+[![Build status](https://ci.appveyor.com/api/projects/status/1xs1l6w9qjxfjmrf?svg=true)](https://ci.appveyor.com/project/megos/gitkraken-i18n) [![CircleCI](https://circleci.com/gh/megos/gitkraken-i18n.svg?style=svg)](https://circleci.com/gh/megos/gitkraken-i18n) [![TravisCI](https://api.travis-ci.org/megos/gitkraken-i18n.svg)](https://travis-ci.org/megos/gitkraken-i18n)
 
 ## Contents
 - [Japanese](README-ja.md)
