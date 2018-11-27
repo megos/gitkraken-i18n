@@ -4,25 +4,44 @@
   "description": "Unofficial GitKraken i18n project",
   "main": "index.js",
   "scripts": {
-    "pull:mac": "cp /Applications/GitKraken.app/Contents/Resources/app.asar app.asar.original && cp -r /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked app.asar.original.unpacked",
-    "extract": "asar e app.asar.original app.extract",
-    "pack": "asar p app.extract app.asar --unpack \"{*.node,*.pdb,*.exe,*.dll,THIRD-PARTY-LICENSES.txt,.DS_Store}\"",
-    "update": "cp app.extract/src/strings/en-us.json en-us.json",
-    "localize:jp": "cp ja-jp.json app.extract/src/strings/en-us.json",
-    "localize:win:jp": "copy ja-jp.json app.extract\\src\\strings\\en-us.json",
-    "push:mac": "cp app.asar /Applications/GitKraken.app/Contents/Resources/",
-    "patch:jp": "git diff HEAD~1 > diff.patch && sed -ie 's/en-us/ja-jp/g' diff.patch && patch -F4 < diff.patch"
+    "build": "rm -rf lib *.tgz && babel src --out-dir lib && cp -r src/strings lib",
+    "start": "eclint fix src/**/* && node src/createPatch.js --no-pack --no-patch && electron app",
+    "create-patch": "rm -rf ./app ./app.asar* ./patches/*.patch && node src/createPatch.js",
+    "lint:eclint": "eclint check $(git ls-files | grep -v \"\\.patch$\" | tee /tmp/git-files)",
+    "lint:eslint": "eslint $(grep \"\\.js$\" /tmp/git-files)",
+    "test": "npm run lint:eclint && npm run lint:eslint",
+    "install": "node lib/install.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/megos/gitkraken-i18n.git"
+    "url": "git+https://github.com/gucong3000/gitkraken-i18n.git"
   },
-  "author": "megos",
+  "author": "gucong3000",
+  "bin": "./lib/install.js",
   "bugs": {
-    "url": "https://github.com/megos/gitkraken-i18n/issues"
+    "url": "https://github.com/gucong3000/gitkraken-i18n/issues"
   },
-  "homepage": "https://github.com/megos/gitkraken-i18n#readme",
+  "homepage": "https://github.com/gucong3000/gitkraken-i18n#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.2.0",
+    "asar": "^0.14.6",
+    "exec-extra": "^2.8.0",
+    "fs-extra": "^7.0.1",
+    "semver": "^5.6.0"
+  },
   "devDependencies": {
-    "asar": "^0.14.5"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "eclint": "^2.8.1",
+    "electron": "^2.0.16",
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "opencc": "github:BYVoid/OpenCC"
   }
 }

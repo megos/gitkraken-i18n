@@ -1,5 +1,5 @@
 # GitKraken-i18n
-Gitkraken unofficial i18n project
+Gitkraken非官方国际化项目
 
 [![Travis](https://img.shields.io/travis/gucong3000/gitkraken-i18n.svg?label=macOS)](https://travis-ci.org/gucong3000/gitkraken-i18n)
 [![AppVeyor](https://img.shields.io/appveyor/ci/gucong3000/gitkraken-i18n.svg?label=Windows)](https://ci.appveyor.com/project/gucong3000/gitkraken-i18n)
@@ -16,7 +16,7 @@ https://www.transifex.com/jumei/gitkraken-i18n/
 
 ## Requirement
 - [Git](https://git-scm.com/downloads)
-- [Node.js](https://nodejs.org/en/download/)
+- [Node.js](https://nodejs.org/zh-cn/download/)
 
 ## Install
 ```bash

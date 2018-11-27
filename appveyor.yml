@@ -1,16 +1,15 @@
-branches:
-  only:
-    - /v.*/
+version: "{build}"
+skip_branch_with_pr: true
+build: off
 
 # Test against the latest version of this Node.js version
 environment:
-  nodejs_version: "8"
-  local_app_data: '%LOCALAPPDATA%'
+  nodejs_version: "stable"
   matrix:
-    - kraken_platform: win64
-      PLATFORM: x64
-    - kraken_platform: win32
-      PLATFORM: x86
+    - gitkraken_platform: win64
+      platform: x64
+    - gitkraken_platform: win32
+      platform: x86
 
 cache:
   - node_modules
@@ -19,23 +18,22 @@ cache:
 
 # Install scripts. (runs after repo cloning)
 install:
-  - ps: Start-FileDownload https://release.gitkraken.com/$env:kraken_platform/GitKrakenSetup.exe
-  - GitKrakenSetup.exe /verysilent /nolaunch
   # Get the latest stable version of Node.js or io.js
-  - ps: Install-Product node $env:nodejs_version
+  - ps: Install-Product node $env:nodejs_version $env:platform
   # install modules
-  - npm install
+  - npm install --ignore-scripts
 
 build_script:
-  - ps: copy $env:local_app_data\gitkraken\app-$(node -pe "require('./package.json').version")\resources\app.asar app.asar.original
-  - ps: Copy-Item -Path $env:local_app_data\gitkraken\app-$(node -pe "require('./package.json').version")\resources\app.asar.unpacked\ -Destination app.asar.original.unpacked -Recurse
-  - npm run extract
-  - npm run localize:win:jp
-  - npm run pack
-  - ps: .\createPatch.ps1 $(node -pe "require('./package.json').version") $env:kraken_platform
-
-test: off
+  - npm run create-patch
 
 artifacts:
   - path: 'patches\*.patch'
     name: patch
+
+deploy:
+  provider: GitHub
+  auth_token:
+    secure: 8hqStAGHShwpTpTvpJqw01bteLm0Z1Ob9MdFMevTlCJWb5iVXcr7dpOMGIaOdfSz
+  artifact: /.*\.patch/            # upload all git patch to release assets
+  on:
+    appveyor_repo_tag: true        # deploy on tag push only

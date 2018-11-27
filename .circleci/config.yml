@@ -7,14 +7,12 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:7.10
-      
+      - image: circleci/node:8
+
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
-
-    working_directory: ~/repo
 
     steps:
       - checkout
@@ -23,35 +21,25 @@ jobs:
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
 
-      - run: yarn install
+      - run: npm install || echo fallback
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-        
+
       # run tests!
-      - run: wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz
-      - run: tar zxf gitkraken-amd64.tar.gz
-      - run: cp gitkraken/resources/app.asar app.asar.original && cp -r gitkraken/resources/app.asar.unpacked app.asar.original.unpacked
-      - run: yarn extract
-      - run: yarn localize:jp
-      - run: yarn run pack
-      - run: ./createPatch.sh $(node -pe 'require("./package.json").version') linux
+      - run: npm run create-patch
+      - run: npm run test
+      - run: npm run build
+      - run: npm run install
 
       - store_artifacts:
-          path: ~/repo/patches
+          path: patches
 
-workflows:
-  version: 2
-  release-build:
-    jobs:
-      - build:
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /^v.*/
+      - store_artifacts:
+          path: src/strings
+
+      - store_artifacts:
+          path: app/src/strings

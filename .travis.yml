@@ -1,29 +1,32 @@
-os: osx
-osx_image: xcode8.3
+os:
+  - linux
+  - osx
+sudo: required
+
 language: node_js
 node_js:
-  - "8"
+  - stable
+
 cache:
   directories:
-  - node_modules
-  - "$HOME/.cache"
+    - node_modules
+    - "$HOME/.cache"
+
+install:
+  - npm install --ignore-scripts
+
 script:
-- wget https://release.gitkraken.com/darwin/installGitKraken.dmg
-- hdiutil mount installGitKraken.dmg
-- cp /Volumes/Install\ GitKraken/GitKraken.app/Contents/Resources/app.asar app.asar.original
-- cp -r /Volumes/Install\ GitKraken/GitKraken.app/Contents/Resources/app.asar.unpacked app.asar.original.unpacked
-- yarn
-- yarn extract
-- yarn localize:jp
-- yarn run pack
-- ./createPatch.sh $(node -pe 'require("./package.json").version') mac
-branches:
-  only:
-  - /^v.*/
+  - npm run create-patch
+  - npm run test
+  - npm run build
+  - npm run install
+  - ls patches && cat patches/*
+
 deploy:
   provider: releases
   skip_cleanup: true
-  api_key: $GH_TOKEN
+  api_key:
+    secure: Q52hIujo9j+sh7IjsICa29YNoasrnBwmBSmLOl+BWrl8Y2D333GQ71R7Gj8x5/KsClx/AzEPQM9f6yfUKdjaav1GGcidMIfHi746K6BQUPw2cGTj9zNwKJp8SEYLtwGSkxjQvrTTrdoIhKKQSSUbRk75QR5RwmfymLv6RxciUZsjcLSejJRd8EsJHWonbp4eGVpVbQhaCxmaVjmug89YpK0wcSjRZOkM4GehhpXNMQ815Ppi74r69HSw83RI2g3N40c75m+V4yKx7nNdiEVGrkNA/2n0ay/Oge4MQ0bRQukYDhHoNXiNilltE5r5S00Yoxn4Kw55/czhWgA7P4kqQ6Jf7/BpOB3FhcFDrWBVJELA/AdVdNUpw0EjA0if+k2FBBbHOPeoadCue30baQ0AIFFQncKs7q5l4CHFNsv3rYA4quuheKG6HZm2lJkH0fNdl052/pY+P0fMBLFbEc7CixDwQyEWsixqIM8OIz+NtYQHUTq1Hb5uEyuEdPRuSJqRiim/4A1cUx5QpyHE7Y1uICmDmtSlHwVsSzRV82w7Qs3FWuwWqLr1AoTHayqq80Rt4L68G2xotCn30RQZebzs9mU/ieyxTLruy+6VTQcxj1QQWAlbvghafbBfuvW1hPZokCKHuiPi8atTyfnViXFNe5RhFhFNHDWmXahu58ioob4=
   file_glob: true
   file: ./patches/*.patch
   on:

@@ -1,7 +1,7 @@
 {
   "languageOption": {
-    "label": "English (US)",
-    "value": "en-us"
+    "label": "日本語",
+    "value": "ja"
   },
   "menuStrings": {
     "ProductName": "<%= productName %>",
@@ -18,7 +18,7 @@
     "UpdateDownloadedShowFile": "アップデートをダウンロードしました (ファイルを見る)",
     "UpdateErroredAtTime": "アップデートエラー <%= updateErrorTime %>",
     "DownloadingUpdate": "アップデートをダウンロードしています...",
-    "DownloadUpdate" : "アップデートをダウンロードしました",
+    "DownloadUpdate": "アップデートをダウンロードしました",
 
     "Preferences": "設定...",
     "&Preferences": "設定(&P)...",
@@ -475,8 +475,8 @@
     "UnstageThisLine": "この行をUnstage",
     "StageFilemodeChange": "ファイルモードの変更をStage",
     "UnstageFilemodeChange": "ファイルモードの変更をUnstage",
-    "WindowsFilemodeChangeWarning" : "ファイルモードを変更するとGitKrakenの管理外になります。",
-    "WindowsFilemodeChangeWarningConfigEnabled" : "git configでファイルモードの変更を有効にしました! Windowsではworking directoryのファイルはx(実行権)を持つため、ファイルモードの変更が表示されます。",
+    "WindowsFilemodeChangeWarning": "ファイルモードを変更するとGitKrakenの管理外になります。",
+    "WindowsFilemodeChangeWarningConfigEnabled": "git configでファイルモードの変更を有効にしました! Windowsではworking directoryのファイルはx(実行権)を持つため、ファイルモードの変更が表示されます。",
     "OKButtonLabel": "OK",
     "CancelButtonLabel": "キャンセル",
     "YesButtonLabel": "はい",
@@ -640,7 +640,7 @@
 
     "Toolbar-CloseSubmodule": "Submoduleを閉じる",
     "Toolbar-CloseRepository": "リポジトリを閉じる",
-    
+
     "BreadCrumbs-FavoritesHeader": "お気に入り",
     "BreadCrumbs-RecentsHeader": "最近開いたリポジトリ",
 
@@ -1571,7 +1571,7 @@
     "Error-StagePathsFailed": "パスのstageに失敗しました",
     "Error-StageSelectionFailed": "選択箇所のStageに失敗しました",
     "Error-UnableToMergeInApp": "ファイルを外部mergeツールで解決する必要があります",
-    "Error-UnstageFilemodeFailed" : "ファイルモード変更のUnstageに失敗しました",
+    "Error-UnstageFilemodeFailed": "ファイルモード変更のUnstageに失敗しました",
     "Error-UnstagePathsFailed": "パスのUnstageに失敗しました",
     "Error-UnstageSelectionFailed": "選択箇所のUnstageに失敗しました",
     "Error-UpdateContentFailed": "ファイルの更新に失敗しました",
