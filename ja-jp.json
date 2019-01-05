@@ -78,7 +78,7 @@
     "Help": "ヘルプ",
     "&Help": "ヘルプ(&H)",
     "ViewSupportDocs": "サポートドキュメントを表示",
-    "ViewErrorLogs": "View Error Logs",
+    "ViewErrorLogs": "エラーログを表示",
     "SendUsFeedback": "フィードバックを送る",
     "GetSupport": "サポートを受ける",
     "KeyboardShortcuts": "キーボードショートカット",
@@ -97,7 +97,7 @@
 
     "By": "{0} by ",
 
-    "QuitGitKraken": "Quit GitKraken",
+    "QuitGitKraken": "GitKrakenを終了",
 
     "Repo-Delete": "リポジトリを削除",
     "Repo-ClearFromRecentRepositories": "最近開いたリポジトリから {0} をクリア",
@@ -158,7 +158,7 @@
     "Registration-PasswordTooShort": "パスワードは少なくとも{0}文字以上である必要があります。",
     "Registration-ProLicenseExpiredTitle": "ライセンスの期限切れ",
     "Registration-ProLicenseExpiredBody1": "GitKrakenのライセンスの期限が切れました。商用利用を続けるには、サブスクリプションの更新が必要です。",
-    "Registration-ProLicenseExpiredBody2-1": "現在、非商用向けのフリー版を利用しています。merge conflictエディタ, プロフィールの切り替え, GitLab Self-hosted、GitHub Enterprise、VSTS統合機能が利用できません。",
+    "Registration-ProLicenseExpiredBody2-1": "現在、非商用向けのフリー版を利用しています。merge conflictエディタ、プロフィールの切り替え、GitHub Enterprise、GitLab Self-hosted、Bitbucket ServerやAzure DevOpsの統合機能が利用できません。",
     "Registration-ProLicenseExpiredBody2-2": "サブスクリプションの更新は、メインメニューまたは {0} から行うことができます。",
     "Registration-ProLicenseExpiredCancel": "非商用利用に切りかえる",
     "Registration-ProLicenseExpiredGoToShop": "サブスクリプションを更新",
