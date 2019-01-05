@@ -7,7 +7,7 @@
     "ProductName": "<%= productName %>",
     "AboutProduct": "<%= productName %>について",
     "VersionNumber": "バージョン <%= version %> (<%= bitness %>-bit)",
-    "ViewReleaseNotes": "リリースノートを見る",
+    "ViewReleaseNotes": "リリースノートを表示",
 
     "CheckingForUpdates": "アップデートをチェックしています...",
     "RestartAndInstallUpdate": "アップデートをインストールして再起動",
@@ -260,7 +260,7 @@
     "Unstaged": "Unstaged",
     "UpstreamBranch": "Upstream branch",
     "ViewAllRepositories": "すべてのリポジトリを表示",
-    "ViewReleaseNotes": "View Release Notes",
+    "ViewReleaseNotes": "リリースノートを表示",
     "WorkInProgressAbbr": "WIP",
     "WorkInProgressOnBranchAbbr": "WIP on {0}",
     "Zoom": "拡大／縮小",
