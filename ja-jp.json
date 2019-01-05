@@ -1557,7 +1557,7 @@
     "Error-RebaseAutoUnstashFailed": "Auto stashされた変更のpopに失敗しました",
     "Error-RebaseFailedFromFileLock": "ファイルの変更に失敗しました。ファイルのパーミッションまたは他のプロセスが利用している恐れがあります。ファイルのロックを解除するかRebaseを取り消したあとにやり直してください。",
     "Error-RebaseAbortFailed": "Rebaseの取り消しに失敗しました",
-    "Error-RebaseAbortFailedFromFileLock": "Rebaseが取り消せませんでした。ファイルのパーミッションまたは他のプロセスが利用しているおそれがあります。",
+    "Error-RebaseAbortFailedFromFileLock": "Rebaseが取り消せませんでした。ファイルのパーミッションまたは他のプロセスが利用している恐れがあります。",
     "Error-RenameFailed": "リネームに失敗しました",
     "Error-RenameNeedsLocalBranch": "local branchはcheckoutしている必要があります!",
     "Error-RemoveFailed": "ファイルの削除に失敗しました",
