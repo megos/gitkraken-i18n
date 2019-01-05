@@ -1,6 +1,6 @@
 branches:
   only:
-    - /^v.*/
+    - /v.*/
 
 # Test against the latest version of this Node.js version
 environment:
