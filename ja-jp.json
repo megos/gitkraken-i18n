@@ -1444,7 +1444,7 @@
     "Notification-AlreadyUpToDate": "既に最新です",
     "Notification-AnnotatedSuccessfully": "Annotateに成功しました",
     "Notification-BranchToBranch": "{1} <- {0}",
-    "Notification-RefToRemote": "{0} → {1}",
+    "Notification-RefToRemote": "{0} -> {1}",
     "Notification-CloningToPath": "{0} にclone",
     "Notification-CheckoutSuccessful": "Checkoutに成功しました",
     "Notification-CherrypickSuccessful": "Cherrypickに成功しました",
