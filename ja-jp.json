@@ -689,7 +689,7 @@
     "RefBar-AddSubmodule": "submoduleを追加",
     "RefBar-AddTag": "新しいtagを作成",
     "RefBar-BranchActions": "Branch操作",
-    "RefBar-TagActions": "Tag actions",
+    "RefBar-TagActions": "Tag操作",
 
     "Repo-SuccessfullyCreatedRepo": "リポジトリの作成に成功しました",
 
@@ -739,7 +739,7 @@
     "PullRequestPanel-Template": "テンプレート",
     "PullRequestPanel-Title": "タイトル",
     "PullRequestPanel-ToRepo": "リポジトリ先",
-    "PullRequestPanel-AzureDevopsEditPullRequestWarning": "VSTSで編集するを選択した場合、pull requestのタイトル、概要は送信されません",
+    "PullRequestPanel-AzureDevopsEditPullRequestWarning": "AzureDevopsで編集するを選択した場合、pull requestのタイトル、概要は送信されません",
     "PullRequestPanel-GitHubEditPullRequestWarning": "GitHubで編集するを選択した場合、pull requestのレビュアーは送信されません",
 
     "PullRequestTooltip-WantsToMerge": "wants to merge",
