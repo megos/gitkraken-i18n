@@ -78,6 +78,7 @@
     "Help": "ヘルプ",
     "&Help": "ヘルプ(&H)",
     "ViewSupportDocs": "サポートドキュメントを表示",
+    "ViewErrorLogs": "View Error Logs",
     "SendUsFeedback": "フィードバックを送る",
     "GetSupport": "サポートを受ける",
     "KeyboardShortcuts": "キーボードショートカット",
@@ -95,6 +96,8 @@
     "Bytes": "bytes",
 
     "By": "{0} by ",
+
+    "QuitGitKraken": "Quit GitKraken",
 
     "Repo-Delete": "リポジトリを削除",
     "Repo-ClearFromRecentRepositories": "最近開いたリポジトリから {0} をクリア",
@@ -188,6 +191,31 @@
     "EnterpriseExpirationWarning-Tomorrow": "ライセンスがあと1日で切れます!",
     "EnterpriseExpirationWarning-Today": "ライセンスが今日で切れます!",
 
+    "Standalone-LicenseConfigurationTitle": "Enterprise License",
+    "Standalone-LicenseInfoForActive": "Licensed to {0} for {1} users",
+    "Standalone-LicenseInfoForActiveExpiresSoon": "Licensed to {0} for {1} users. Expires in {2} days",
+    "Standalone-LicenseInfoExpiresTomorrow": "Licensed to {0} for {1} users. Expires in {2} day",
+    "Standalone-LicenseInfoExpiresToday": "Licensed to {0} for {1} users. Expires today",
+    "Standalone-LicenseInfoExpired": "Licensed to {0} for {1} users. Expired",
+    "Standalone-Unlicensed": "Unlicensed",
+    "Standalone-LicensedTo": "Licensed To",
+    "Standalone-NumberOfUsers": "# of Users",
+    "Standalone-Expires": "Expires",
+    "Standalone-DateExpired": "Expired {0}",
+    "Standalone-GitKrakenIsUnlicensed": "This copy of GitKraken is unlicensed.",
+    "Standalone-SavedLicenseIsInvalid": "The license on disk is invalid.",
+    "Standalone-AddAValidLicense": "Add a valid license file to continue.",
+    "Standalone-AddALicense": "Add a license file to continue.",
+    "Standalone-UpdateLicense": "Update License",
+    "Standalone-AddLicense": "Add License",
+    "Standalone-UpdatedLicenseWasExpired": "The license file you selected is expired.",
+    "Standalone-UpdatedLicenseFailedToUpdate": "Something went wrong when we tried to use the selected license.",
+    "Standalone-UpdatedLicenseWasInvalid": "The license file you selected was invalid.",
+    "Standalone-UpdatedLicenseWasNotFound": "The license file you chose was not found.",
+    "Standalone-BrowserForLicense": "Browse for GitKraken License",
+    "Standalone-BadSelectedLicense": "Update License Failed",
+    "Standalone-LicenseSuccessfullyUpdated": "License Successfully Updated",
+
     "Apply": "適用",
     "Author": "Author",
     "Branch": "Branch",
@@ -232,6 +260,7 @@
     "Unstaged": "Unstaged",
     "UpstreamBranch": "Upstream branch",
     "ViewAllRepositories": "すべてのリポジトリを表示",
+    "ViewReleaseNotes": "View Release Notes",
     "WorkInProgressAbbr": "WIP",
     "WorkInProgressOnBranchAbbr": "WIP on {0}",
     "Zoom": "拡大／縮小",
@@ -239,6 +268,7 @@
     "Pro": "PRO",
     "Free": "FREE",
     "Enterprise": "ENTERPRISE",
+    "Standalone": "STANDALONE",
 
     "Stash-ApplyWithUncommittedChangesPrompt": "Commitしていない変更があります。Stashをapplyして変更を上書きしてよろしいですか?",
 
@@ -338,7 +368,7 @@
     "FuzzyFinder-StartPullRequestKeywords": "New Create Pull Request",
     "FuzzyFinder-DevPrefix": "Dev",
     "FuzzyFinder-DiscardAllKeywords": "reset hard all",
-    "FuzzyFinder-FilePrefix": "History",
+    "FuzzyFinder-FileHistoryPrefix": "History",
     "FuzzyFinder-GitFlowPrefix": "Git Flow: ",
     "FuzzyFinder-InitRepoKeywords": "initialize",
     "FuzzyFinder-JoinTheLightOrDarkSide": "Join the {0} side",
@@ -359,6 +389,7 @@
     "FuzzyFinder-ToggleSyntaxHighlighting": "Toggle Syntax Highlighting",
     "FuzzyFinder-ToggleTheme": "Toggle Theme",
     "FuzzyFinder-ViewFile": "View File",
+    "FuzzyFinder-ViewErrorLogs": "View Error Logs",
     "FuzzyFinder-ViewWorkingDirectoryChanges": "View Working Directory Changes",
     "FuzzyFinder-ViewWorkingDirectoryChangesKeywords": "changes wip workdir working",
 
@@ -742,6 +773,7 @@
     "Timeline-NYearsAgo": "{0}年前",
     "Timeline-ArbitrarilyLongAgo": "Stop scrolling please",
 
+    "RightPanel-FilterFiles": "Filter files",
     "RightPanel-MergeConflictsDetected": "Merge conflictsが見つかりました",
     "RightPanel-1ChangeOn": "1つのファイルに変更があります",
     "RightPanel-NChangesOn": "{0}つのファイルに変更があります",
@@ -798,6 +830,8 @@
     "FileViewPanel-SplitView": "Split View",
     "FileViewPanel-ToggleSplitView": "Toggle Split View",
     "FileViewPanel-IgnoreWhiteSpace": "空白を除外",
+    "FileViewPanel-History": "History",
+    "FileViewPanel-Blame": "Blame",
 
     "FileContentsPanel-Binary": "Binary file",
     "FileContentsPanel-Deleted": "ファイルは削除されました",
@@ -1292,6 +1326,7 @@
     "RemoteForm-AddRemote": "Remoteを追加",
     "RemoteForm-AddRemoteButtonLabel": "Remoteを追加",
     "RemoteForm-Bitbucket": "Bitbucket.org",
+    "RemoteForm-BitbucketServer": "Bitbucket Server",
     "RemoteForm-ConnectToService": "{0}と連携する",
     "RemoteForm-EditManually": "Remoteを編集",
     "RemoteForm-EditRemote": "Remoteを編集",
@@ -1311,7 +1346,7 @@
     "RemoteForm-TooManyServiceRemotesWarningManyForks":
       "このリポジトリに関連している多くのforkを取得しています。これは {0} から取得したほうが早いかもしれません。",
     "RemoteForm-Url": "URL",
-    "RemoteForm-VisualStudioTeamServices": "VSTS",
+    "RemoteForm-AzureDevops": "Azure DevOps",
 
     "MergeConflictsPanel-1ConflictMustBeResolved": "続ける前に1つのconflictを解決してください",
     "MergeConflictsPanel-NConflictsMustBeResolved": "続ける前に{0}つのconflictを解決してください",
