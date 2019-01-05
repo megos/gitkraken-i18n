@@ -1472,7 +1472,7 @@
     "NotificationMessage-SSHKeyBeingUsed": "GitKrakenはSSHキーを使用して {0} と接続します。公開鍵はクリップボードコピーされています。{0} のアカウントに公開鍵を登録してください。",
 
     "Trial-StartTrialModalTitle": "GitKraken Proのフリートライアルを始める",
-    "Trial-StartTrialModalContent": "Start your {0}-Day GitKraken Pro trial now to get access to Pro features such as the merge conflict editor, multiple profiles, GitHub Enterprise, GitLab Self-hosted, Bitbucket Server, and Azure DevOps. No credit card required.",
+    "Trial-StartTrialModalContent": "{0}日間のGitKraken Proフリートライアルで、merge conflictエディタ、複数プロファイル、GitHub Enterprise、GitLab（自ホスト）、BitbucketサーバやAzure DevOpsなどのProの機能を利用できます。クレジットカードは必要ありません。",
     "Trial-StartTrialModalSubcontent": "GitKraken Proの機能を見る",
     "Trial-StartTrialModalConfirmButton": "GitKraken Proのフリートライアルを始める",
     "Trial-StartTrialModalNoThanksButton": "いいえ、結構です",
