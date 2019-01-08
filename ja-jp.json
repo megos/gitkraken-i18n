@@ -393,9 +393,9 @@
     "FuzzyFinder-ViewWorkingDirectoryChanges": "View Working Directory Changes",
     "FuzzyFinder-ViewWorkingDirectoryChangesKeywords": "changes wip workdir working",
 
-    "GitHooks-ExitCode": "終了コード: ${code}",
+    "GitHook-ExitCode": "終了コード: ${code}",
     "GitHook-OpenFailureLogModal": "Hookの出力を表示",
-    "GitHooks-HookFailed": "{0} に失敗",
+    "GitHook-HookFailed": "{0} に失敗",
     "GitHook-OpenLogExternally": "外部アプリケーションで開く",
     "GitHook-PermissionDenied": "{0} は実行権限がありません!",
     "GitHook-PrePushDidNotRun": "Pre-push hook は実行できませんでした",
