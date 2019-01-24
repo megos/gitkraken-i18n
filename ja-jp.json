@@ -14,6 +14,7 @@
     "CheckForUpdateWithLastCheckedTime": "アップデートをチェック <%= updateLastCheckedTime %>",
     "UpdateAvailableWithVersion": "アップデートがあります (<%= updateAvailableVersion %>)",
     "UpdateAvailableDownloadDeb": ".debファイルをダウンロード",
+    "UpdateAvailableDownloadRpm": "Download .rpm file",
     "UpdateAvailableDownloadTargz": ".tar.gzファイルをダウンロード",
     "UpdateDownloadedShowFile": "アップデートをダウンロードしました (ファイルを見る)",
     "UpdateErroredAtTime": "アップデートエラー <%= updateErrorTime %>",
@@ -268,7 +269,7 @@
     "Pro": "PRO",
     "Free": "FREE",
     "Enterprise": "ENTERPRISE",
-    "Standalone": "STANDALONE",
+    "Standalone": "ENTERPRISE",
 
     "Stash-ApplyWithUncommittedChangesPrompt": "Commitしていない変更があります。Stashをapplyして変更を上書きしてよろしいですか?",
 
@@ -520,6 +521,7 @@
     "ProvideFeedbackButtonLabel": "フィードバック",
     "LinuxUpdate-AvailableStatus": "アップデートがあります ({0})",
     "LinuxUpdate-DownloadDebUpdateButtonLabel": ".deb",
+    "LinuxUpdate-DownloadRpmUpdateButtonLabel": ".rpm",
     "LinuxUpdate-DownloadTarGzUpdateButtonLabel": ".tar.gz",
     "LinuxUpdate-Downloaded": "{0}のダウンロードが完了しました",
     "LinuxUpdate-Downloading": "{0}をダウンロードしています...",
@@ -1583,6 +1585,7 @@
     "ErrorFallback-ReportError": "エラーレポート",
     "ErrorFallback-RestartLabel": "再起動",
     "ErrorFallback-QuitLabel": "終了",
+    "ErrorMessage-BranchNameConflictsWithDirectory": "Could not create ref \"{0}\" because its name conflicts with an existing ref",
     "ErrorMessage-CannotApplyStashWhenFilesAreStaged": "Stage中のファイルにstashはapplyできません。まずはStash, commit, unstageをなどを行ってください。",
     "ErrorMessage-CannotDeleteCheckedOutBranch": "Checkout中のbranchは削除できません。まずはbranchを切り替えてください。",
     "ErrorMessage-1ConflictPreventsCheckout": "Checkoutすると1つのconflictが発生します。\nまずはCommit, stash, 変更の取り消しなどを行ってください。",
