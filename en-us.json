@@ -14,6 +14,7 @@
     "CheckForUpdateWithLastCheckedTime": "Check for Update <%= updateLastCheckedTime %>",
     "UpdateAvailableWithVersion": "Update available (<%= updateAvailableVersion %>)",
     "UpdateAvailableDownloadDeb": "Download .deb file",
+    "UpdateAvailableDownloadRpm": "Download .rpm file",
     "UpdateAvailableDownloadTargz": "Download .tar.gz file",
     "UpdateDownloadedShowFile": "Update downloaded (show file)",
     "UpdateErroredAtTime": "Update Errored <%= updateErrorTime %>",
@@ -268,7 +269,7 @@
     "Pro": "PRO",
     "Free": "FREE",
     "Enterprise": "ENTERPRISE",
-    "Standalone": "STANDALONE",
+    "Standalone": "ENTERPRISE",
 
     "Stash-ApplyWithUncommittedChangesPrompt": "You have uncommitted changes. Are you sure you want to apply the stash on top of your changes?",
 
@@ -520,6 +521,7 @@
     "ProvideFeedbackButtonLabel": "Feedback",
     "LinuxUpdate-AvailableStatus": "Update available ({0})",
     "LinuxUpdate-DownloadDebUpdateButtonLabel": ".deb",
+    "LinuxUpdate-DownloadRpmUpdateButtonLabel": ".rpm",
     "LinuxUpdate-DownloadTarGzUpdateButtonLabel": ".tar.gz",
     "LinuxUpdate-Downloaded": "Completed downloading {0}",
     "LinuxUpdate-Downloading": "Downloading {0}...",
@@ -1583,6 +1585,7 @@
     "ErrorFallback-ReportError": "Report Error",
     "ErrorFallback-RestartLabel": "Restart",
     "ErrorFallback-QuitLabel": "Quit",
+    "ErrorMessage-BranchNameConflictsWithDirectory": "Could not create ref \"{0}\" because its name conflicts with an existing ref",
     "ErrorMessage-CannotApplyStashWhenFilesAreStaged": "Cannot apply stash while anything is staged. Stash, commit, or unstage first.",
     "ErrorMessage-CannotDeleteCheckedOutBranch": "Cannot delete currently checked out branch. Switch branches first.",
     "ErrorMessage-1ConflictPreventsCheckout": "1 conflict prevents checkout.\nCommit, stash, or discard your changes first.",
