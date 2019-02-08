@@ -267,9 +267,11 @@
     "Zoom": "Zoom",
 
     "Pro": "PRO",
-    "Free": "FREE",
+    "NonCommercial": "NON-COMMERCIAL",
     "Enterprise": "ENTERPRISE",
     "Standalone": "ENTERPRISE",
+
+    "NonCommercialBadgeTooltip": "Licensed for use on educational, personal, open source, and startup projects. Upgrade to Pro for commercial use.",
 
     "Stash-ApplyWithUncommittedChangesPrompt": "You have uncommitted changes. Are you sure you want to apply the stash on top of your changes?",
 
@@ -508,7 +510,7 @@
     "CommitAndMergeButtonLabel": "Commit and Merge",
     "AbortCherrypickButtonLabel": "Abort Cherrypick",
     "AbortMergeButtonLabel": "Abort Merge",
-    "StartRebaseButtonLabel": "Start Rebase",
+    "StartRebaseButtonLabel": "Yes, Start Rebase",
     "ContinueRebaseButtonLabel": "Continue Rebase",
     "AbortRebaseButtonLabel": "Abort Rebase",
     "CommitRevertLabel": "Commit Revert",
@@ -670,6 +672,7 @@
     "Profile-SyncChangesSub": "When checked, GitKraken will update your global git config with the name and email in your current profile.",
     "Profile-Unregistered": "Unregistered",
     "Profile-UpgradeToPro": "Upgrade to GitKraken Pro",
+
     "Profiles": "Profiles",
 
     "RefBar-NavigateToBranch": "Navigate to branch",
@@ -1383,6 +1386,8 @@
     "ConfirmationMessage-CreateCommitForMerge": "Do you want to immediately commit the merged changes?",
     "ConfirmationMessage-RebaseRequiresStashAndCheckout":
       "To start the rebase, you must stash any changes and checkout branch \"{0}\". Do you want to do this now?",
+    "ConfirmationMessage-RebaseRequiresCheckout":
+      "To start the rebase, you must checkout branch \"{0}\". Do you want to do this now?",
     "ConfirmationMessage-ResetAll":
       "This will discard all staged and unstaged changes, including new untracked files. Are you sure you want to discard all changes?",
     "ConfirmationMessage-ResetFile":
@@ -1542,6 +1547,7 @@
     "Error-PersistMergeToDisk": "Failed to persist merge to disk",
     "Error-PullFailed": "Pull Failed",
     "Error-PushFailed": "Push Failed",
+    "Error-PushFailedWithName": "Push Failed: {0}",
     "Error-PushUpdateReferenceFailed": "Push failed on {0}: {1}",
     "Error-MissingAzureDevopsContributePermission": "Missing 'Contribute' permission for this remote",
     "Error-MissingAzureDevopsCreateBranchPermission": "Missing 'CreateBranch' permission for this remote",
@@ -1554,7 +1560,6 @@
     "Error-BitbucketServerGeneric": "Bitbucket Server: {0}",
     "Error-RemoteRefusedToDelete": "Push failed on {0}: remote branch cannot be deleted",
     "Error-PullRequestFailed": "Failed to create pull request",
-    "Error-PushFailedWithName": "Push Failed: {0}",
     "Error-RebaseFailed": "Rebase Failed",
     "Error-RebaseAutoUnstashFailed": "Popping Auto Stashed Changes Failed",
     "Error-RebaseFailedFromFileLock": "Cannot modify one or more files. May be due to file permissions or the file(s) being used by another process. Unlock the file(s), abort rebase, then try again.",
@@ -1613,7 +1618,8 @@
     "ErrorMessage-PushRefToRefFailed": "Failed pushing {0} to {1}",
     "ErrorMessage-RebaseConflicts": "There are rebase conflicts that need to be resolved",
     "ErrorMessage-RemoteAccessDenied": "Access denied. Make sure you have access to do that action on that remote and try again.",
-    "ErrorMessage-RemoteAccessDeniedOrgWarning": "If {0} is an organization on {1}, you may need to **request or grant access** to the organization for GitKraken.",
+    "ErrorMessage-RemoteAccessDeniedOrgWarning": "If {0} is an organization on {1}, you may need to request (or grant) GitKraken access to the organization.",
+    "ErrorMessage-RemoteAccessDeniedButton": "Go to {0}",
     "ErrorMessage-RemoteNotFoundWithName": "Could not connect to '{0}'. Double-check your remote url, then make sure you have access to do that action on that remote and try again.",
     "ErrorMessage-RemoteRefBehindRemote": "Your remote branch is out of date. Please fetch {0} before pushing.",
     "ErrorMessage-RenameRefToRefFailed": "Could not rename {0} to '{1}'",
