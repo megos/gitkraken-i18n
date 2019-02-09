@@ -271,7 +271,7 @@
     "Enterprise": "ENTERPRISE",
     "Standalone": "ENTERPRISE",
 
-    "NonCommercialBadgeTooltip": "Licensed for use on educational, personal, open source, and startup projects. Upgrade to Pro for commercial use.",
+    "NonCommercialBadgeTooltip": "このライセンスは教育、個人、OSSやスタートアップ向けです。商用利用のためにはProへのアップグレードが必要です。",
 
     "Stash-ApplyWithUncommittedChangesPrompt": "Commitしていない変更があります。Stashをapplyして変更を上書きしてよろしいですか?",
 
@@ -1387,7 +1387,7 @@
     "ConfirmationMessage-RebaseRequiresStashAndCheckout":
       "rebaseを始めるには変更をstashしてbranch\"{0}\"をcheckoutする必要があります。stashとcheckoutを行ってもよろしいですか?",
     "ConfirmationMessage-RebaseRequiresCheckout":
-      "To start the rebase, you must checkout branch \"{0}\". Do you want to do this now?",
+    "rebaseを始めるにはbranch\"{0}\"をcheckoutする必要があります。checkoutを行ってもよろしいですか?",
     "ConfirmationMessage-ResetAll":
       "すべての変更を取り消すとtrakingされていないファイルも削除されます。本当にすべての変更を取り消しますか?",
     "ConfirmationMessage-ResetFile":
