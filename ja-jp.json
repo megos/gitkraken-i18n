@@ -267,9 +267,11 @@
     "Zoom": "拡大／縮小",
 
     "Pro": "PRO",
-    "Free": "FREE",
+    "NonCommercial": "NON-COMMERCIAL",
     "Enterprise": "ENTERPRISE",
     "Standalone": "ENTERPRISE",
+
+    "NonCommercialBadgeTooltip": "このライセンスは教育、個人、OSSやスタートアップ向けです。商用利用のためにはProへのアップグレードが必要です。",
 
     "Stash-ApplyWithUncommittedChangesPrompt": "Commitしていない変更があります。Stashをapplyして変更を上書きしてよろしいですか?",
 
@@ -508,7 +510,7 @@
     "CommitAndMergeButtonLabel": "Mergeしてcommit",
     "AbortCherrypickButtonLabel": "Cherrypickをやめる",
     "AbortMergeButtonLabel": "Mergeをやめる",
-    "StartRebaseButtonLabel": "Rebaseする",
+    "StartRebaseButtonLabel": "はい、Rebaseします",
     "ContinueRebaseButtonLabel": "Rebaseを続ける",
     "AbortRebaseButtonLabel": "Rebaseをやめる",
     "CommitRevertLabel": "RevertをCommit",
@@ -670,6 +672,7 @@
     "Profile-SyncChangesSub": "チェックをつけると、GitKrakenは現在のプロフィールの名前とメールアドレスをグローバルのgit configに設定します",
     "Profile-Unregistered": "未登録",
     "Profile-UpgradeToPro": "GitKraken Proにアップグレードする",
+
     "Profiles": "プロフィール",
 
     "RefBar-NavigateToBranch": "このbranchの位置に移動",
@@ -1383,6 +1386,8 @@
     "ConfirmationMessage-CreateCommitForMerge": "mergeの変更をすぐにcommitしてもよろしいですか?",
     "ConfirmationMessage-RebaseRequiresStashAndCheckout":
       "rebaseを始めるには変更をstashしてbranch\"{0}\"をcheckoutする必要があります。stashとcheckoutを行ってもよろしいですか?",
+    "ConfirmationMessage-RebaseRequiresCheckout":
+    "rebaseを始めるにはbranch\"{0}\"をcheckoutする必要があります。checkoutを行ってもよろしいですか?",
     "ConfirmationMessage-ResetAll":
       "すべての変更を取り消すとtrakingされていないファイルも削除されます。本当にすべての変更を取り消しますか?",
     "ConfirmationMessage-ResetFile":
@@ -1542,6 +1547,7 @@
     "Error-PersistMergeToDisk": "Failed to persist merge to disk",
     "Error-PullFailed": "Pullに失敗しました",
     "Error-PushFailed": "Pushに失敗しました",
+    "Error-PushFailedWithName": "Pushに失敗: {0}",
     "Error-PushUpdatereferenceFailed": "{0} へのpushに失敗しました: {1}",
     "Error-MissingAzureDevopsContributePermission": "リモートに'Contribute'の権限がありません",
     "Error-MissingAzureDevopsCreateBranchPermission": "リモートに'CreateBranch'の権限がありません",
@@ -1554,7 +1560,6 @@
     "Error-BitbucketServerGeneric": "Bitbucket Server: {0}",
     "Error-RemoteRefusedToDelete": "{0} へのpushに失敗しました: remote branchは削除できませんでした",
     "Error-PullRequestFailed": "Pull requestの作成に失敗しました",
-    "Error-PushFailedWithName": "Pushに失敗: {0}",
     "Error-RebaseFailed": "Rebaseに失敗しました",
     "Error-RebaseAutoUnstashFailed": "Auto stashされた変更のpopに失敗しました",
     "Error-RebaseFailedFromFileLock": "ファイルの変更に失敗しました。ファイルのパーミッションまたは他のプロセスが利用している恐れがあります。ファイルのロックを解除するかRebaseを取り消したあとにやり直してください。",
@@ -1613,7 +1618,8 @@
     "ErrorMessage-PushRefToRefFailed": "{0} を {1} にpushできませんでした",
     "ErrorMessage-RebaseConflicts": "解決が必要なconflictがrebaseにあります",
     "ErrorMessage-RemoteAccessDenied": "アクセスできません。remoteに接続できることを確認してやり直してください。",
-    "ErrorMessage-RemoteAccessDeniedOrgWarning": "{0}が{1}のorganizationである場合は、organizationに**リクエストかアクセス権限**が必要です。",
+    "ErrorMessage-RemoteAccessDeniedOrgWarning": "{0}が{1}のorganizationである場合は、organizationにリクエスト（またはアクセス権限）が必要です。",
+    "ErrorMessage-RemoteAccessDeniedButton": "{0}に移動",
     "ErrorMessage-RemoteNotFoundWithName": "'{0}'に接続できませんでした。Remote URLが正しいこと、remoteに接続できることを確認してやり直してください。",
     "ErrorMessage-RemoteRefBehindRemote": "Remote branchが古くなっています。Pushする前に {0} をfetchしてください。",
     "ErrorMessage-RenameRefToRefFailed": "{0} を'{1}'にリネームできませんでした",
