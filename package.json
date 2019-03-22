@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/megos/gitkraken-i18n#readme",
   "devDependencies": {
-    "asar": "^0.14.6"
+    "asar": "^1.0.0"
   }
 }
