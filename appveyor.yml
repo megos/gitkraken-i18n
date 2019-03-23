@@ -1,6 +1,3 @@
-on:
-  APPVEYOR_REPO_TAG: true
-
 # Test against the latest version of this Node.js version
 environment:
   nodejs_version: "8"
@@ -10,6 +7,8 @@ environment:
       PLATFORM: x64
     - kraken_platform: win32
       PLATFORM: x86
+  on:
+    APPVEYOR_REPO_TAG: true
 
 cache:
   - node_modules
