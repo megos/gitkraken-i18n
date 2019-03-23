@@ -1,5 +1,5 @@
 deploy:
-  - provider: GitHub
+  - provider: Environment
     draft: false
     prerelease: false
     on:
