@@ -1,7 +1,7 @@
-- provider: Environment
-  name: production
-  on:
-    APPVEYOR_REPO_TAG: true
+provider: Environment
+name: production
+on:
+  APPVEYOR_REPO_TAG: true
 
 # Test against the latest version of this Node.js version
 environment:
