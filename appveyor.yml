@@ -1,4 +1,4 @@
-deploy:
+build:
   - provider: Environment
     draft: false
     prerelease: false
