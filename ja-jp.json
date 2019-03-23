@@ -692,8 +692,8 @@
     "Profile-SelectIcon": "アイコンを選択してください",
     "Profile-SetUpYourProfile": "あなたのプロフィールを設定",
     "Profile-StartAFreeProTrial": "フリーのProトライアルを始める",
-    "Profile-SyncChanges": "Keep my .gitconfig updated with my GitKraken Profile preferences",
-    "Profile-SyncChangesSub": "When checked, GitKraken will update your global .gitconfig to match GitKraken Preferences, including commit author name and email, and any GPG settings.",
+    "Profile-SyncChanges": "GitKrakenのプロフィール情報を更新したら.gitconfigの情報も更新する",
+    "Profile-SyncChangesSub": "チェックをつけると、GitKrakenは現在のプロフィールの名前、メールアドレスとすべてのGPG設定をグローバルのgit configに設定します",
     "Profile-Unregistered": "未登録",
     "Profile-UpgradeToPro": "GitKraken Proにアップグレードする",
 
