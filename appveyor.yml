@@ -1,7 +1,9 @@
-provider: Environment
-name: production
-on:
-  APPVEYOR_REPO_TAG: true
+deploy:
+  - provider: GitHub
+    draft: false
+    prerelease: false
+    on:
+      APPVEYOR_REPO_TAG: true       # deploy on tag push only
 
 # Test against the latest version of this Node.js version
 environment:
