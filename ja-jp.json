@@ -1338,8 +1338,8 @@
 
     "PromptForCreds-EnterCredentialsForProxy": "{0}の認証情報を入力してください: ",
     "PromptForCreds-InvalidCredentialsForProxy": "{0}の認証情報が異なります。再度入力してください: ",
-    "PromptForCreds-GpgPassphrase": "Enter your GPG passphrase",
-    "PromptForCreds-EnterSSHPassphrase": "SSHキーのパスフレーズを入力して下さい:",
+    "PromptForCreds-GpgPassphrase": "GPGのパスフレーズを入力してください",
+    "PromptForCreds-EnterSSHPassphrase": "SSHキーのパスフレーズを入力してください:",
     "PromptForCreds-EnterServiceSSHPassphrase": "{0}のSSHキーのパスフレーズを入力してください:",
     "PromptForCreds-IncorrectSSHPassphrase": "SSHキーのパスフレーズが異なります。再度入力してください:",
     "PromptForCreds-IncorrectServiceSSHPassphrase": "{0}のSSHキーのパスフレーズが異なります。再度入力してください:",
@@ -1354,8 +1354,8 @@
     "PromptForMerge-SaveAncestor": "AまたはBを選択していません。Ancestorを保存してよろしいですか?",
     "PromptForMerge-SaveMergeWithUnresolvedConflicts": "未解決のconflictがあります。どうしますか?",
 
-    "PromptForRebase-ConfirmDropXCommits": "Are you sure you want to drop {0} commits?",
-    "PromptForRebase-ConfirmDropCommit": "Are you sure you want to drop 1 commit?",
+    "PromptForRebase-ConfirmDropXCommits": "本当に{0}つのコミットを消してもよろしいですか?",
+    "PromptForRebase-ConfirmDropCommit": "本当にコミットを消してもよろしいですか?",
 
     "PromptForPush-LocalIsBehindRemote": "'{0}'は'{1}'よりも古くなっています（behind）。Pullしてあなたのbranchを更新して下さい。",
     "PromptForPush-ConfirmForcePush": "Force pushは破壊的な操作でやり直しができません。本当によろしいですか?",
@@ -1363,7 +1363,7 @@
 
     "PromptForTagAnnotation-Message": "メッセージ:",
     "PromptForTagAnnotation-Placeholder": "Annotationメッセージ",
-    "PromptForTagAnnotation-Sign": "Sign",
+    "PromptForTagAnnotation-Sign": "サイン",
 
     "PromptForRemoteDeletionConfirmation": "これは破壊的な操作です。本当に\"{0}\"を削除しますか?",
 
@@ -1519,9 +1519,9 @@
     "Notification-CreatedSuccessfully": "作成しました",
     "Notification-DeletedBranch": "{0} を削除",
     "Notification-FeedbackSent": "フィードバックを送信しました",
-    "Notification-GpgCopyPublicKeySuccessfully": "Public GPG key copied successfully",
+    "Notification-GpgCopyPublicKeySuccessfully": "公開GPGキーのコピーに成功しました",
     "Notification-SupportSent": "サポートを送信しました",
-    "Notification-GpgKeyGenSuccess": "GPG Key Created Successfully",
+    "Notification-GpgKeyGenSuccess": "GPGキーの作成に成功しました",
     "Notification-Merged": "Mergeしました",
     "Notification-MergedSuccessfully": "Mergeに成功しました",
     "Notification-PulledSuccessfully": "Pullに成功しました",
