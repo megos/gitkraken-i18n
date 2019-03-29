@@ -1,9 +1,6 @@
 build:
-  - provider: GitHub
-    draft: false
-    prerelease: false
-    on:
-      APPVEYOR_REPO_TAG: true       # deploy on tag push only
+  on:
+    APPVEYOR_REPO_TAG: true       # deploy on tag push only
 
 # Test against the latest version of this Node.js version
 environment:
