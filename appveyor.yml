@@ -1,6 +1,6 @@
-build:
-  on:
-    APPVEYOR_REPO_TAG: true       # deploy on tag push only
+branches:
+  only:
+    - /v\d*\.\d*\.\d*.*/
 
 # Test against the latest version of this Node.js version
 environment:
