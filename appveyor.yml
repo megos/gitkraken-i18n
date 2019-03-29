@@ -1,5 +1,5 @@
 build:
-  - provider: Environment
+  - provider: GitHub
     draft: false
     prerelease: false
     on:
