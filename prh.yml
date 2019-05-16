@@ -1,0 +1,6 @@
+# prh version
+version: 1
+rules:
+
+  # format case-sensitive
+  - expected: commit

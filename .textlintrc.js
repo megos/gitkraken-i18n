@@ -1,16 +1,19 @@
 module.exports = {
   plugins: [
-    "json"
+    'json'
   ],
   filters: {
     whitelist: {
       allow: [
-        "...",
-        "\\n \[",
+        '...',
+        '\\n \[',
       ],
     },
   },
   rules: {
-    "preset-jtf-style": true,
+    'preset-jtf-style': true,
+    prh: {
+      rulePaths :['./prh.yml'],
+    },
   },
 }
