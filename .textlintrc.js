@@ -5,11 +5,12 @@ module.exports = {
   filters: {
     whitelist: {
       allow: [
-        "..."
-      ]
-    }
+        "...",
+        "\\n \[",
+      ],
+    },
   },
   rules: {
-    "preset-jtf-style": true
-  }
+    "preset-jtf-style": true,
+  },
 }
