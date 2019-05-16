@@ -1,8 +1,8 @@
-{
-  "plugins": [
+module.exports = {
+  plugins: [
     "json"
   ],
-  "rules": {
+  rules: {
     "preset-jtf-style": true
   }
 }
