@@ -24,6 +24,7 @@
   "homepage": "https://github.com/megos/gitkraken-i18n#readme",
   "devDependencies": {
     "asar": "^2.0.1",
-    "textlint": "^11.2.5"
+    "textlint": "^11.2.5",
+    "textlint-rule-preset-jtf-style": "^2.3.3"
   }
 }
