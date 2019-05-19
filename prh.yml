@@ -1,0 +1,11 @@
+# prh version
+version: 1
+rules:
+
+  - expected: （$1）
+    pattern: /\((.+?)\)/
+
+  # format case-sensitive
+  # - expected: commit
+  # - expected: fetch
+  # - expected: amend

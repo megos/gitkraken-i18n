@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/megos/gitkraken-i18n#readme",
   "devDependencies": {
-    "asar": "^2.0.1"
+    "asar": "^2.0.1",
+    "textlint": "^11.2.5",
+    "textlint-filter-rule-whitelist": "^2.0.0",
+    "textlint-plugin-json": "^0.0.1",
+    "textlint-rule-preset-jtf-style": "^2.3.3",
+    "textlint-rule-prh": "^5.2.0"
   }
 }
