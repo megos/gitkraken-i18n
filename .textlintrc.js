@@ -8,6 +8,8 @@ module.exports = {
         '...',
         '\\n \[',
         '.gitconfig',
+        '/Summary:.*happens\]/',
+        'Feedback about GitKraken \({0}\)',
       ],
     },
   },
