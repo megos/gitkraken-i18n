@@ -7,6 +7,7 @@ module.exports = {
       allow: [
         '...',
         '\\n \[',
+        '.gitconfig',
       ],
     },
   },
