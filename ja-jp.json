@@ -1323,7 +1323,7 @@
     "ProvideFeedback-SendUsFeedback": "フィードバックを送る",
     "SendUsFeedback": "フィードバックを送る",
     "SendUsFeedback-CantRespondToAllFeedback": "GitKrakenチームはすべてのフィードバックを読んでいますが、返信は基本的にできません",
-    "SendUsFeedback-DefaultSubject": "Feedback about GitKraken（{0}）",
+    "SendUsFeedback-DefaultSubject": "Feedback about GitKraken ({0})",
     "SendUsFeedback-EmailAddress": "メールアドレス",
     "SendUsFeedback-EmailUsYourself": "または自分でメールを作成する ",
     "SendUsFeedback-Feedback": "フィードバック",
@@ -1332,7 +1332,7 @@
     "ProvideFeedback-DefaultText": "Summary:\n\n  [A brief sentence describing the issue]\n\nSteps to Reproduce:\n\n  1. [First Step]\n  2. [Second Step]\n  3. [and so on...]\n\nExpected behavior: [What you expect to happen]\n\nActual behavior: [What actually happens]",
     "GetSupport": "サポートを受ける",
     "GetSupport-FreeUserUpSell": "GitKrakenは多くの方に利用されているため、無料版を利用している方はメールによるサポートを受けることができません。",
-    "GetSupport-DefaultSubject": "Feedback about GitKraken ({0})",
+    "GetSupport-DefaultSubject": "Support Question for GitKraken ({0})",
     "GetSupport-Subject": "題名",
     "GetSupport-SupportQuestion": "Support Question",
 
