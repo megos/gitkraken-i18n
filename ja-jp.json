@@ -971,7 +971,7 @@
     "ChangeRepo-InitRepo": "作成",
     "ChangeRepo-OpenRepo": "開く",
 
-    "CloseRepo-CloseFailed": "閉じれませんでした",
+    "CloseRepo-CloseFailed": "閉じることができませんでした",
 
     "OpenRepo-AddProjectFolder": "プロジェクトフォルダを追加",
     "OpenRepo-AddProjectFolderTooltip": "リポジトリがあるフォルダを追加することで素早く開くことができます",
