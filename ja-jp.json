@@ -32,8 +32,8 @@
 
     "File": "ファイル",
     "&File": "ファイル（&F）",
-    "NewTab": "New Tab",
-    "&NewTab": "&New Tab",
+    "NewTab": "新しいタブ",
+    "&NewTab": "新しいタブ（&N）",
     "CloneRepo": "リポジトリをClone",
     "Clo&neRepo": "リポジトリをClone（&n）",
     "InitRepo": "リポジトリを作成",
