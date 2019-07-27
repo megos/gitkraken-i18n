@@ -187,7 +187,7 @@
     "Registration-PasswordTooShort": "パスワードは少なくとも{0}文字以上である必要があります。",
     "Registration-ProLicenseExpiredTitle": "ライセンスの期限切れ",
     "Registration-ProLicenseExpiredBody1": "GitKrakenのライセンスの期限が切れました。サブスクリプションの更新が必要です。",
-    "Registration-ProLicenseExpiredBody2-1": "現在、無料版のGitKrakenを利用しています。プライベートリポジトリ、merge conflictエディタ、プロフィールの切り替え、GitHub Enterprise、GitLab（自ホスト）、Bitbucket ServerやAzure DevOpsの統合機能が利用できません。",
+    "Registration-ProLicenseExpiredBody2-1": "現在、無料版のGitKrakenを利用しています。プライベートリポジトリ、merge conflictエディタ、プロフィールの切り替え、GitHub Enterprise、GitLab（自管理）、Bitbucket ServerやAzure DevOpsの統合機能が利用できません。",
     "Registration-ProLicenseExpiredBody2-2": "サブスクリプションの更新は、メインメニューまたは {0} から行うことができます。",
     "Registration-ProLicenseExpiredCancel": "無料版に切り替える",
     "Registration-ProLicenseExpiredGoToShop": "サブスクリプションを更新",
@@ -604,7 +604,7 @@
     "RedoValidButtonTooltip": "{0} をやり直す",
     "UndoCannotButtonTooltip": "取り消しができません",
     "RedoCannotButtonTooltip": "やり直しができません",
-    "UndoInvalidButtonTooltip": "{0} を取り消しできません。現在はcommit, checkout, 取り消し操作などのみがサポートされています",
+    "UndoInvalidButtonTooltip": "{0} を取り消しできません。現在はcommit（parentを含む）, checkout, 取り消し操作などのみがサポートされています",
     "RedoInvalidButtonTooltip": "やり直す操作がありません",
     "RefreshButtonTooltip": "再読み込み",
     "SetAsDefaultOptionTooltip": "デフォルトにする",
@@ -708,7 +708,7 @@
 
     "Toolbar-CloseSubmodule": "Submoduleを閉じる",
     "Toolbar-CloseRepository": "リポジトリを閉じる",
-    
+
     "BreadCrumbs-FavoritesHeader": "お気に入り",
     "BreadCrumbs-RecentsHeader": "最近開いたリポジトリ",
 
@@ -1130,7 +1130,7 @@
     "Services-UsingQuestion": "{0}を使っていますか？",
     "Services-GitHubEnterpriseUpgradeToPro": "GitKraken ProにアップグレードしてGitHub.comと同じようにGitHub Enterpriseで開発しましょう",
     "Services-BitbucketServerUpgradeToPro": "GitKraken ProにアップグレードしてBitbucket.orgと同じようにBitBucket Serverで統合機能を利用しましょう",
-    "Services-GitLabSelfHostedUpgradeToPro": "GitKraken ProにアップグレードしてGitLab.comと同じようにGitLab（自ホスト）で開発しましょう",
+    "Services-GitLabSelfHostedUpgradeToPro": "GitKraken ProにアップグレードしてGitLab.comと同じようにGitLab（自管理）で開発しましょう",
     "Services-AzureDevopsUpgradeToPro": "GitKraken ProにアップグレードしてAzure DevOpsの統合機能を利用しましょう",
     "Services-Error-HostDomainUnreachable": "指定されたホストに到達できませんでした",
     "Services-Error-PersonalAccessTokenInvalid": "指定されたアクセストークンは利用できませんでした",
@@ -1312,6 +1312,12 @@
     "UIPreferences-Spellcheck": "スペルチェック",
     "Theme-Light": "Light",
     "Theme-Dark": "Dark",
+    "UIPreferences-NotificationLocation": "通知の表示場所",
+    "NotificationLocation-BottomLeft": "左下",
+    "NotificationLocation-BottomRight": "右下",
+    "NotificationLocation-TopLeft": "左上",
+    "NotificationLocation-TopRight": "右上",
+    "NotificationLocation-LocationUpdated": "通知の表示場所を更新しました",
     "UIPreferences-Language": "言語",
     "UIPreferences-UseAuthorInitialsForAvatars": "アバターのかわりにauthorのイニシャルを表示",
 
@@ -1401,6 +1407,7 @@
     "PromptForCreds-IncorrectSSHPassphrase": "SSHキーのパスフレーズが異なります。再度入力してください：",
     "PromptForCreds-IncorrectServiceSSHPassphrase": "{0}のSSHキーのパスフレーズが異なります。再度入力してください：",
     "PromptForCreds-PasswordPlaceholder": "パスワード",
+    "PromptForCreds-LocksIcon": "Caps Lockが有効になっています",
     "PromptForCreds-PleaseLogIn": "ログインしてください：",
     "PromptForCreds-InvalidLogin": "ログインできません。やり直してください：",
     "PromptForCreds-UsernamePlaceholder": "ユーザ名",
@@ -1453,7 +1460,7 @@
     "RemoteForm-GitHub": "GitHub.com",
     "RemoteForm-GitHubEnterprise": "GitHub Enterprise",
     "RemoteForm-GitLab": "GitLab.com",
-    "RemoteForm-GitLabSelfHosted": "GitLab（自ホスト）",
+    "RemoteForm-GitLabSelfHosted": "GitLab（自管理）",
     "RemoteForm-NoMatch": "見つかりません",
     "RemoteForm-PushURL": "Push URL",
     "RemoteForm-PullURL": "Pull URL",
@@ -1496,8 +1503,6 @@
     "ConfirmationMessage-ImmediatelyCommitRevert": "revertの変更をすぐにcommitしますか？",
     "ConfirmationMessage-InitEmptyRepo":
       "リポジトリ'{0}'を開くにはinitial commitが必要です。GitKrakenがcommitしてもよろしいですか？",
-    "ConfirmationMessage-InitRepo":
-      "リポジトリ'{0}'に互換性がありません。ここに新しいリポジトリを作成してもよろしいですか？",
     "ConfirmationMessage-MergeConflictStashAndCheckout":
       "Merge conflictsがあります。Mergeを続けるには変更や {0} branchをstashする必要があります。Stashしてもよろしいですか？",
     "ConfirmationMessage-CreateCommitForMerge": "mergeの変更をすぐにcommitしてもよろしいですか？",
@@ -1579,7 +1584,9 @@
     "KeyBinding-SelectFirst": "最初の要素を選択",
     "KeyBinding-SelectLast": "最後の要素を選択",
     "KeyBinding-SelectNext": "次の要素を選択",
+    "KeyBinding-SelectNextTopological": "branchの次の要素を選択",
     "KeyBinding-SelectPrev": "前の要素を選択",
+    "KeyBinding-SelectPrevTopological": "branchの前の要素を選択",
     "KeyBinding-Stage": "現在のファイルをStage",
     "KeyBinding-StageAll": "すべてのファイルをStage",
     "KeyBinding-ToggleFuzzyFinder": "Fuzzy Finderを切り替える",
@@ -1632,7 +1639,7 @@
     "Trial-TableFeature2": "アプリケーション内での強力なmerge conflictエディタ",
     "Trial-TableFeature3": "仕事、個人用などの複数のプロフィールの切り替え",
     "Trial-TableFeature4": "GitHub Enterpriseの統合機能",
-    "Trial-TableFeature5": "GitLab CE, EEの統合機能",
+    "Trial-TableFeature5": "GitLab （自管理）の統合機能",
     "Trial-TableFeature6": "Bitbucket Serverの統合機能",
     "Trial-TableFeature7": "Azure DevOpsの統合機能",
     "Trial-TrialStartedModalContent": "{0}日間ProのトライラルでGitKrakenのさらなる機能を利用することができます。",
@@ -1774,7 +1781,8 @@
     "ErrorMessage-MergeConflicts": "Conflictを解決する必要があります",
     "ErrorMessage-CannotOpenFileCompareToolForMultiSelectedFiles": "commitパネルで複数のファイルが選択されています",
     "ErrorMessage-CannotOpenFileCompareToolWithoutActiveFile": "commitパネルまたはmerge解決パネルにてファイルが選択されていません",
-    "ErrorMessage-CannotOpenFileCompareToolForMergedDiffs": "グラフで3つ以上のcommitが選択されています",
+    "ErrorMessage-CanCloseRepositorynotOpenFileCompareToolForMergedDiffs": "グラフで3つ以上のcommitが選択されています",
+    "ErrorMessage-CannotOpenRepo": "'{0}'で互換性のあるリポジトリが見つかりませんでした。",
     "ErrorMessage-DiffToolNotFound": "Diffツールが設定されていません",
     "ErrorMessage-MergeToolNotFound": "Mergeツールが設定されていません",
     "ErrorMessage-FailedToLaunchDiffTool": "git configに設定されたdiffツール \"{0}\" が起動できません。",
@@ -1786,6 +1794,8 @@
     "ErrorMessage-NoMergeToolSet": "Mergeツールが設定されていません",
     "ErrorMessage-PullRequestRemoteNotFoundWithNameAndHostingService": "{1} の'{0}'のpull requestsが取得できません。Remote URLが正しいこと、リポジトリにアクセスする権限があることを確認してください。",
     "ErrorMessage-PushRefToRefFailed": "{0} を {1} にpushできませんでした",
+    "ErrorMessage-RateLimitExceededFor": "{0} の制限が超えています",
+    "ErrorMessage-RateLimitReset": "再び {0} アクセスすることができます {1}",
     "ErrorMessage-RebaseConflicts": "解決が必要なconflictがrebaseにあります",
     "ErrorMessage-RemoteAccessDenied": "アクセスできません。remoteに接続できることを確認してやり直してください。",
     "ErrorMessage-RemoteAccessDeniedOrgWarning": "{0}が{1}のorganizationである場合は、organizationにリクエスト（またはアクセス権限）が必要です。",
@@ -1836,6 +1846,6 @@
 
     "SaveAndStageEditorChanges-Message": "Stagingに上げる前に変更を保存するか、保存済みの箇所のみをstagingに上げますか？",
     "SaveAndStageEditorChanges-SaveAndStage": "保存してstage",
-    "SaveAndStageEditorChanges-StageSavedChangesOnly": "Stage saved changes only"
+    "SaveAndStageEditorChanges-StageSavedChangesOnly": "変更点のみstageに保存しました"
   }
 }
