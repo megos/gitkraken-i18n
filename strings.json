@@ -186,11 +186,17 @@
     "Registration-PasswordStrengthPrefix": "Password strength: ",
     "Registration-PasswordTooShort": "Password must be at least {0} characters.",
     "Registration-ProLicenseExpiredTitle": "License Expired",
+    "Registration-StudentLicenseExpiredTitle": "Student License Expired",
     "Registration-ProLicenseExpiredBody1": "Your GitKraken license has expired. Please renew your subscription to continue using GitKraken.",
+    "Registration-StudentLicenseExpiredBody1-1": "Your GitKraken student license has expired. If you are still a student, you can regain your license by renewing your GitHub student pack, then restarting GitKraken.",
+    "Registration-StudentLicenseExpiredBody1-2": "Otherwise, please subscribe to continue using GitKraken.",
     "Registration-ProLicenseExpiredBody2-1": "You are now using the free version of GitKraken. The ability to open private repos, the merge conflict editor, Profiles, and the GitHub Enterprise, GitLab Self-Managed, Bitbucket Server, and Azure DevOps integrations have been disabled.",
     "Registration-ProLicenseExpiredBody2-2": "You can renew your subscription at any time from the main menu, or by visiting {0}.",
+    "Registration-StudentLicenseExpiredBody2-2": "You can subscribe at any time from the main menu, or by visiting {0}.",
     "Registration-ProLicenseExpiredCancel": "Switch to Free Version",
     "Registration-ProLicenseExpiredGoToShop": "Renew Subscription",
+    "Registration-StudentLicenseExpiredGoToShop": "See GitKraken plans",
+    "Registration-StudentLicenseExpiredRenewOnGitHub": "Renew on GitHub",
     "Registration-UseGitKraken": "Use GitKraken",
     "Registration-ValidateConfirmPassword": "Passwords must match.",
     "Registration-ValidateField": "This field is required.",
@@ -438,8 +444,14 @@
     "FuzzyFinder-ViewFile": "View File",
     "FuzzyFinder-ViewErrorLogs": "View Error Logs",
     "FuzzyFinder-ViewPerformanceLogs": "View Performance Logs",
+    "FuzzyFinder-ViewReleaseNotes": "View Release Notes",
+    "FuzzyFinder-ViewReleaseNotesKeywords": "patch notes changelog",
     "FuzzyFinder-ViewWorkingDirectoryChanges": "View Working Directory Changes",
     "FuzzyFinder-ViewWorkingDirectoryChangesKeywords": "changes wip workdir working",
+
+    "CommitSearch-Placeholder": "find commit",
+    "CommitSearch-ResultsText": "{0} of {1}",
+    "CommitSearch-NoResults": "0 results",
 
     "GitHook-ExitCode": "Exit Code: {0}",
     "GitHook-OpenFailureLogModal": "View Hook Output",
@@ -662,6 +674,8 @@
     "ContextMenu-DeleteTagXFromAllRemotes": "Delete {0} from all remotes",
     "ContextMenu-DropCommit": "Drop commit",
     "ContextMenu-DropCommits": "Drop {0} commits",
+    "ContextMenu-GitHubActionDelete": "Delete Workflow",
+    "ContextMenu-GitHubActionEdit": "Edit Workflow",
     "ContextMenu-MoveCommitDown": "Move commit down",
     "ContextMenu-MoveCommitUp": "Move commit up",
     "ContextMenu-MoveXCommitsDown": "Move {0} commits down",
@@ -730,7 +744,7 @@
     "Profile-RequiresPro": "Adding or switching profiles requires Pro, click here to upgrade",
     "Profile-Unlock": "Unlock profile switching by upgrading to Pro",
     "Profile-SaveChanges": "Save changes",
-    "Profile-SelectIcon": "Select an icon",
+    "Profile-SelectIcon": "Select an avatar",
     "Profile-SetUpYourProfile": "Set Up Your Profile",
     "Profile-StartAFreeProTrial": "Start a free Pro trial",
     "Profile-SwitchProfile": "Switch Profile",
@@ -743,6 +757,7 @@
 
     "RefBar-NavigateToBranch": "Navigate to branch",
     "RefBar-GroupGitFlow": "GIT FLOW",
+    "RefBar-GroupGitHubAction": "GITHUB ACTIONS",
     "RefBar-GroupLocal": "LOCAL",
     "RefBar-GroupRemote": "REMOTE",
     "RefBar-GroupPullRequests": "PULL REQUESTS",
@@ -755,6 +770,7 @@
     "RefBar-StatusViewing": "Viewing",
     "RefBar-StatusSoloing": "Soloing",
     "RefBar-AddRemote": "Add a remote",
+    "RefBar-AddGitHubAction": "Add a GitHub Action",
     "RefBar-OpenGitFlow": "Open Git Flow",
     "RefBar-AddBranch": "Create a new branch",
     "RefBar-AddSubmodule": "Add a new submodule",
@@ -766,6 +782,8 @@
 
     "PullRequest-SuccessfullyCreatePullRequest": "Successfully created pull request",
     "ViewOnHostingService": "View on {0}",
+
+    "GitHubActionBar-Menu": "GitHub Action actions",
 
     "PullRequestBar-Assignees": "Assignees",
     "PullRequestBar-Reviewers": "Reviewers",
@@ -798,6 +816,7 @@
     "PullRequestPanel-Description": "Description",
     "PullRequestPanel-EditOnService": "Edit on {0}",
     "PullRequestPanel-FromRepo": "From Repo",
+    "PullRequestPanel-HideFiles": "Hide Files",
     "PullRequestPanel-Labels": "Labels",
     "PullRequestPanel-MergeConflictDetected": "Merge conflict detected",
     "PullRequestPanel-NoAssigneesFound": "No assignees found",
@@ -808,6 +827,7 @@
     "PullRequestPanel-PullRequestDescription": "Pull request description",
     "PullRequestPanel-Repo": "Repo",
     "PullRequestPanel-Reviewers": "Reviewers",
+    "PullRequestPanel-ShowFiles": "Show Files",
     "PullRequestPanel-Template": "Template",
     "PullRequestPanel-Title": "Title",
     "PullRequestPanel-ToRepo": "To Repo",
@@ -1061,7 +1081,7 @@
     "SSHConfig-SSHPrivateKey": "SSH Private Key",
     "SSHConfig-SSHPublicKey": "SSH Public Key",
     "SSHConfig-SSHKeySaveLocation": "SSH Key save location",
-    "Authentication-ForgetAllCredentials": "Forget all Username/Passwords",
+    "Authentication-ForgetAllCredentials": "Forget all Usernames and Passwords",
     "Authentication-ForgetAll": "Forget All",
     "Authentication-NoCredentialsToRemove": "GitKraken has no stored credentials to remove",
 
@@ -1202,6 +1222,11 @@
     "GitFlow-CannotStartFeatureMissingDevelop": "{0} branch is required to start feature",
     "GitFlow-CannotStartHotfixMissingMaster": "{0} branch is required to start hotfix",
     "GitFlow-CannotStartReleaseMissingDevelop": "{0} branch is required to start release",
+
+    "GitHubActionsTemplates-DefaultCategory": "Basic templates",
+    "GitHubActionTemplates-BlankTemplate": "Blank workflow",
+    "GitHubActionsTemplates-AdditionalTemplatesCategory": "Additional templates",
+    "GitHubActionsTemplates-CCPPWithMake": "C/C++ with Make",
 
     "Lfs-TrackingPatternPlaceholder": "Enter a pattern (e.g., *.zip)",
     "Lfs-AddTrackingPattern": "Add tracking pattern",
@@ -1449,6 +1474,13 @@
     "PromptForNewBranchName-Placeholder": "new branch name",
 
     "CommitMessage-RemoteBranchCreated": "Branch: created {0}",
+
+    "GitHubActionForm-AddWorkflow": "Create a Workflow",
+    "GitHubActionForm-AddGitHubWorkflowButtonLabel": "Create Workflow",
+    "GitHubActionForm-SearchTemplates": "search templates",
+    "GitHubActionForm-SelectTemplate": "Select a template (optional)",
+    "GitHubActionForm-WorkflowFileName": "File Name",
+    "GitHubActionForm-WorkflowName": "Name",
 
     "RemoteForm-AddRemote": "Add Remote",
     "RemoteForm-AddRemoteButtonLabel": "Add Remote",
@@ -1820,7 +1852,8 @@
     "ErrorMessage-UpdateHunkFailedWithReason": "Could not update hunk for {0} for the following reason: {1}",
     "ErrorMessage-UpstreamNotInFetchData": "{0} does not exist on {1}",
 
-    "Plugin-FullviewLoadFailed": "Plugin failed to open",
+    "Plugin-GenericTabLabel": "Plugin",
+    "Plugin-TabViewLoadFailed": "Plugin failed to open",
 
     "FileSavePrompt-Detail": "Any unsaved changes will be discarded.",
     "FileSavePrompt-Message": "Do you want to save the changes you made to {0}?",
