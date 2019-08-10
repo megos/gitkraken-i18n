@@ -15,4 +15,4 @@ Unofficial GitKraken i18n project
 
 1. Copy `strings.json` to `{locale}/strings.json`. (`{locale}` is the locale to translate)
 1. Translate `{locale}/strings.json`.
-1. Check translate [Change Language](#Change Language) for reference.
+1. Check translate [Change Language](#Change%20Language) for reference.
