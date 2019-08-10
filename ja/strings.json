@@ -1,7 +1,7 @@
 {
   "languageOption": {
-    "label": "English (US)",
-    "value": "en-us"
+    "label": "Japanese (JP)",
+    "value": "ja-jp"
   },
   "menuStrings": {
     "ProductName": "<%= productName %>",
@@ -186,11 +186,17 @@
     "Registration-PasswordStrengthPrefix": "パスワードの強さ：",
     "Registration-PasswordTooShort": "パスワードは少なくとも{0}文字以上である必要があります。",
     "Registration-ProLicenseExpiredTitle": "ライセンスの期限切れ",
-    "Registration-ProLicenseExpiredBody1": "GitKrakenのライセンスの期限が切れました。サブスクリプションの更新が必要です。",
+    "Registration-StudentLicenseExpiredTitle": "学生ライセンスの期限切れ",
+    "Registration-ProLicenseExpiredBody1": "GitKrakenのライセンスの期限が切れました。サブスクリプションの更新をお願いします。",
     "Registration-ProLicenseExpiredBody2-1": "現在、無料版のGitKrakenを利用しています。プライベートリポジトリ、merge conflictエディタ、プロフィールの切り替え、GitHub Enterprise、GitLab（自管理）、Bitbucket ServerやAzure DevOpsの統合機能が利用できません。",
+    "Registration-StudentLicenseExpiredBody1-1": "学生ライセンスの期限が切れました。まだ学生である場合は、GitHub student packを更新してライセンスを復元することができます。更新後はGitKrakenを再起動してください。",
+    "Registration-StudentLicenseExpiredBody1-2": "学生ではなくなった場合は、サブスクリプションによる利用をお願いします。",
     "Registration-ProLicenseExpiredBody2-2": "サブスクリプションの更新は、メインメニューまたは {0} から行うことができます。",
+    "Registration-StudentLicenseExpiredBody2-2": "サブスクリプションの登録は、メインメニューまたは {0} からいつでも行うことができます。",
     "Registration-ProLicenseExpiredCancel": "無料版に切り替える",
     "Registration-ProLicenseExpiredGoToShop": "サブスクリプションを更新",
+    "Registration-StudentLicenseExpiredGoToShop": "GitKrakenのプランを見る",
+    "Registration-StudentLicenseExpiredRenewOnGitHub": "GitHubで更新",
     "Registration-UseGitKraken": "GitKrakenを使う",
     "Registration-ValidateConfirmPassword": "パスワードが一致しません。",
     "Registration-ValidateField": "必須項目です。",
@@ -438,8 +444,14 @@
     "FuzzyFinder-ViewFile": "View File",
     "FuzzyFinder-ViewErrorLogs": "View Error Logs",
     "FuzzyFinder-ViewPerformanceLogs": "View Performance Logs",
+    "FuzzyFinder-ViewReleaseNotes": "View Release Notes",
+    "FuzzyFinder-ViewReleaseNotesKeywords": "patch notes changelog",
     "FuzzyFinder-ViewWorkingDirectoryChanges": "View Working Directory Changes",
     "FuzzyFinder-ViewWorkingDirectoryChangesKeywords": "changes wip workdir working",
+
+    "CommitSearch-Placeholder": "commitを探す",
+    "CommitSearch-ResultsText": "{0} of {1}",
+    "CommitSearch-NoResults": "0件",
 
     "GitHook-ExitCode": "終了コード：${code}",
     "GitHook-OpenFailureLogModal": "Hookの出力を表示",
@@ -662,6 +674,8 @@
     "ContextMenu-DeleteTagXFromAllRemotes": "すべてのRemoteから {0} を削除",
     "ContextMenu-DropCommit": "commitを削除",
     "ContextMenu-DropCommits": "{0}つのcommitを削除",
+    "ContextMenu-GitHubActionDelete": "ワークフローを削除",
+    "ContextMenu-GitHubActionEdit": "ワークフローを編集",
     "ContextMenu-MoveCommitDown": "commitを下に移動",
     "ContextMenu-MoveCommitUp": "commitを上に移動",
     "ContextMenu-MoveXCommitsDown": "{0}つのcommitを下に移動",
@@ -730,7 +744,7 @@
     "Profile-RequiresPro": "プロフィールの追加や切り替えにはPro版が必要です。ここからアップグレードできます。",
     "Profile-Unlock": "Proにアップグレードしてプロフィールの切り替えを利用する",
     "Profile-SaveChanges": "変更を保存",
-    "Profile-SelectIcon": "アイコンを選択してください",
+    "Profile-SelectIcon": "アバターを選択してください",
     "Profile-SetUpYourProfile": "あなたのプロフィールを設定",
     "Profile-StartAFreeProTrial": "フリーのProトライアルを始める",
     "Profile-SwitchProfile": "プロフィールを切り替え",
@@ -743,6 +757,7 @@
 
     "RefBar-NavigateToBranch": "このbranchの位置に移動",
     "RefBar-GroupGitFlow": "GIT FLOW",
+    "RefBar-GroupGitHubAction": "GITHUB ACTIONS",
     "RefBar-GroupLocal": "LOCAL",
     "RefBar-GroupRemote": "REMOTE",
     "RefBar-GroupPullRequests": "PULL REQUESTS",
@@ -755,6 +770,7 @@
     "RefBar-StatusViewing": "表示",
     "RefBar-StatusSoloing": "ソロ中",
     "RefBar-AddRemote": "remoteを追加",
+    "RefBar-AddGitHubAction": "GitHub Actionを追加",
     "RefBar-OpenGitFlow": "Git Flowを開く",
     "RefBar-AddBranch": "新しいbranchを作成",
     "RefBar-AddSubmodule": "submoduleを追加",
@@ -766,6 +782,8 @@
 
     "PullRequest-SuccessfullyCreatePullRequest": "Pull requestの作成に成功しました",
     "ViewOnHostingService": "{0}で見る",
+
+    "GitHubActionBar-Menu": "GitHub Actionの操作",
 
     "PullRequestBar-Assignees": "担当者",
     "PullRequestBar-Reviewers": "レビュアー",
@@ -798,6 +816,7 @@
     "PullRequestPanel-Description": "概要",
     "PullRequestPanel-EditOnService": "{0}で編集",
     "PullRequestPanel-FromRepo": "リポジトリ元",
+    "PullRequestPanel-HideFiles": "ファイルを隠す",
     "PullRequestPanel-Labels": "ラベル",
     "PullRequestPanel-MergeConflictDetected": "Merge conflictを検知しました",
     "PullRequestPanel-NoAssigneesFound": "担当者が見つかりません",
@@ -808,6 +827,7 @@
     "PullRequestPanel-PullRequestDescription": "Pull request内容",
     "PullRequestPanel-Repo": "リポジトリ",
     "PullRequestPanel-Reviewers": "レビュアー",
+    "PullRequestPanel-ShowFiles": "ファイルを表示",
     "PullRequestPanel-Template": "テンプレート",
     "PullRequestPanel-Title": "タイトル",
     "PullRequestPanel-ToRepo": "リポジトリ先",
@@ -1061,7 +1081,7 @@
     "SSHConfig-SSHPrivateKey": "SSH秘密鍵",
     "SSHConfig-SSHPublicKey": "SSH公開鍵",
     "SSHConfig-SSHKeySaveLocation": "SSHキーを保存する場所",
-    "Authentication-ForgetAllCredentials": "ユーザ名/パスワードをすべて削除",
+    "Authentication-ForgetAllCredentials": "ユーザ名とパスワードをすべて削除",
     "Authentication-ForgetAll": "すべて削除",
     "Authentication-NoCredentialsToRemove": "削除された機密情報はGitKrakenからも完全に削除されます",
 
@@ -1202,6 +1222,11 @@
     "GitFlow-CannotStartFeatureMissingDevelop": "{0} branchにはfeatureの開始が必要です",
     "GitFlow-CannotStartHotfixMissingMaster": "{0} branchにはhotfixの開始が必要です",
     "GitFlow-CannotStartReleaseMissingDevelop": "{0} branchにはreleaseの開始が必要です",
+
+    "GitHubActionsTemplates-DefaultCategory": "基本のテンプレート",
+    "GitHubActionTemplates-BlankTemplate": "空のワークフロー",
+    "GitHubActionsTemplates-AdditionalTemplatesCategory": "追加のテンプレート",
+    "GitHubActionsTemplates-CCPPWithMake": "C/C++ with Make",
 
     "Lfs-TrackingPatternPlaceholder": "パターンを入力して下さい（例：*.zip）",
     "Lfs-AddTrackingPattern": "trackingするパターンを追加",
@@ -1449,6 +1474,13 @@
     "PromptForNewBranchName-Placeholder": "新しいbranch名",
 
     "CommitMessage-RemoteBranchCreated": "Branch: {0} を作成",
+
+    "GitHubActionForm-AddWorkflow": "ワークフローを作成",
+    "GitHubActionForm-AddGitHubWorkflowButtonLabel": "ワークフローを作成",
+    "GitHubActionForm-SearchTemplates": "テンプレートを検索",
+    "GitHubActionForm-SelectTemplate": "テンプレートを選択 (任意)",
+    "GitHubActionForm-WorkflowFileName": "ファイル名",
+    "GitHubActionForm-WorkflowName": "名前",
 
     "RemoteForm-AddRemote": "Remoteを追加",
     "RemoteForm-AddRemoteButtonLabel": "Remoteを追加",
@@ -1820,7 +1852,8 @@
     "ErrorMessage-UpdateHunkFailedWithReason": "{0} のHunkの更新に失敗しました：{1}",
     "ErrorMessage-UpstreamNotInFetchData": "{1} に {0} は存在しません",
 
-    "Plugin-FullviewLoadFailed": "プラグインが開けませんでした",
+    "Plugin-GenericTabLabel": "プラグイン",
+    "Plugin-TabViewLoadFailed": "プラグインが開けませんでした",
 
     "FileSavePrompt-Detail": "保存しなければ変更が消えてしまいます。",
     "FileSavePrompt-Message": "{0}の変更を保存しますか？",

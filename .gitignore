@@ -1,11 +1,3 @@
-# translate files
-*.asar
-*.original
-*.unpacked
-*.packed
-patches/*.patch
-app.extract
-
 # Mac
 .DS_Store
 
