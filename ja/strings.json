@@ -1223,10 +1223,15 @@
     "GitFlow-CannotStartHotfixMissingMaster": "{0} branchにはhotfixの開始が必要です",
     "GitFlow-CannotStartReleaseMissingDevelop": "{0} branchにはreleaseの開始が必要です",
 
+    "GitHubActions-WorkflowFileExists": "{0}はすでに存在します",
+
     "GitHubActionsTemplates-DefaultCategory": "基本のテンプレート",
     "GitHubActionTemplates-BlankTemplate": "空のワークフロー",
     "GitHubActionsTemplates-AdditionalTemplatesCategory": "追加のテンプレート",
     "GitHubActionsTemplates-CCPPWithMake": "C/C++ with Make",
+    "GitHubActionTemplates-GreetFirstTimeContributors": "はじめてのコントリビューターにあいさつする",
+    "GitHubActionTemplates-LabelPRsBasedOnFilesChanged": "ファイルが変更になったPRにラベルをつける",
+    "GitHubActionTemplates-CheckForStaleIssuesAndPRs": "古いissueやPRをチェックする",
 
     "Lfs-TrackingPatternPlaceholder": "パターンを入力して下さい（例：*.zip）",
     "Lfs-AddTrackingPattern": "trackingするパターンを追加",
@@ -1478,9 +1483,9 @@
     "GitHubActionForm-AddWorkflow": "ワークフローを作成",
     "GitHubActionForm-AddGitHubWorkflowButtonLabel": "ワークフローを作成",
     "GitHubActionForm-SearchTemplates": "テンプレートを検索",
-    "GitHubActionForm-SelectTemplate": "テンプレートを選択 (任意)",
+    "GitHubActionForm-SelectTemplate": "テンプレートを選択",
     "GitHubActionForm-WorkflowFileName": "ファイル名",
-    "GitHubActionForm-WorkflowName": "名前",
+    "GitHubActionForm-WorkflowName": "ワークフローの名前",
 
     "RemoteForm-AddRemote": "Remoteを追加",
     "RemoteForm-AddRemoteButtonLabel": "Remoteを追加",
