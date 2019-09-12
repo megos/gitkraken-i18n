@@ -329,7 +329,7 @@
     "StashMessage-Revert": "Auto stash before revert of \"{0}\"",
 
     "Ignore": "Ignore",
-    "IgnoreFile": "'Ignore {0}'",
+    "IgnoreFile": "Ignore '{0}'",
     "IgnoreNFiles": "Ignore {0} files",
 
     "AllFilesWithSameExtension": "All files with the extension '{0}'",
@@ -1223,10 +1223,15 @@
     "GitFlow-CannotStartHotfixMissingMaster": "{0} branch is required to start hotfix",
     "GitFlow-CannotStartReleaseMissingDevelop": "{0} branch is required to start release",
 
+    "GitHubActions-WorkflowFileExists": "{0} already exists",
+
     "GitHubActionsTemplates-DefaultCategory": "Basic templates",
     "GitHubActionTemplates-BlankTemplate": "Blank workflow",
     "GitHubActionsTemplates-AdditionalTemplatesCategory": "Additional templates",
     "GitHubActionsTemplates-CCPPWithMake": "C/C++ with Make",
+    "GitHubActionTemplates-GreetFirstTimeContributors": "Greet first-time contributors",
+    "GitHubActionTemplates-LabelPRsBasedOnFilesChanged": "Label PRs based on files changed",
+    "GitHubActionTemplates-CheckForStaleIssuesAndPRs": "Check for stale issues and PRs",
 
     "Lfs-TrackingPatternPlaceholder": "Enter a pattern (e.g., *.zip)",
     "Lfs-AddTrackingPattern": "Add tracking pattern",
@@ -1478,9 +1483,9 @@
     "GitHubActionForm-AddWorkflow": "Create a Workflow",
     "GitHubActionForm-AddGitHubWorkflowButtonLabel": "Create Workflow",
     "GitHubActionForm-SearchTemplates": "search templates",
-    "GitHubActionForm-SelectTemplate": "Select a template (optional)",
-    "GitHubActionForm-WorkflowFileName": "File Name",
-    "GitHubActionForm-WorkflowName": "Name",
+    "GitHubActionForm-SelectTemplate": "Select a template",
+    "GitHubActionForm-WorkflowFileName": "File name",
+    "GitHubActionForm-WorkflowName": "Workflow name",
 
     "RemoteForm-AddRemote": "Add Remote",
     "RemoteForm-AddRemoteButtonLabel": "Add Remote",
