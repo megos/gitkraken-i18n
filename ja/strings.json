@@ -1223,15 +1223,15 @@
     "GitFlow-CannotStartHotfixMissingMaster": "{0} branchにはhotfixの開始が必要です",
     "GitFlow-CannotStartReleaseMissingDevelop": "{0} branchにはreleaseの開始が必要です",
 
-    "GitHubActions-WorkflowFileExists": "{0} already exists",
+    "GitHubActions-WorkflowFileExists": "{0}はすでに存在します",
 
     "GitHubActionsTemplates-DefaultCategory": "基本のテンプレート",
     "GitHubActionTemplates-BlankTemplate": "空のワークフロー",
     "GitHubActionsTemplates-AdditionalTemplatesCategory": "追加のテンプレート",
     "GitHubActionsTemplates-CCPPWithMake": "C/C++ with Make",
-    "GitHubActionTemplates-GreetFirstTimeContributors": "Greet first-time contributors",
-    "GitHubActionTemplates-LabelPRsBasedOnFilesChanged": "Label PRs based on files changed",
-    "GitHubActionTemplates-CheckForStaleIssuesAndPRs": "Check for stale issues and PRs",
+    "GitHubActionTemplates-GreetFirstTimeContributors": "はじめてのコントリビューターにあいさつする",
+    "GitHubActionTemplates-LabelPRsBasedOnFilesChanged": "ファイルが変更になったPRにラベルをつける",
+    "GitHubActionTemplates-CheckForStaleIssuesAndPRs": "古いissueやPRをチェックする",
 
     "Lfs-TrackingPatternPlaceholder": "パターンを入力して下さい（例：*.zip）",
     "Lfs-AddTrackingPattern": "trackingするパターンを追加",
