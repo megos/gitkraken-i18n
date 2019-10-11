@@ -654,6 +654,7 @@
     "ContextMenu-AmendOrRewordCommitMessage": "Edit commit message",
     "ContextMenu-AnnotateTag": "Annotate {0}",
     "ContextMenu-CheckoutBranch": "Checkout {0}",
+    "ContextMenu-CheckoutCommit": "Checkout this commit",
     "ContextMenu-CherrypickCommit": "Cherrypick commit",
     "ContextMenu-CreateAnnotatedTag": "Create annotated tag here",
     "ContextMenu-CopyBranchName": "Copy branch name to clipboard",
@@ -722,6 +723,10 @@
 
     "Toolbar-CloseSubmodule": "Close Submodule",
     "Toolbar-CloseRepository": "Close Repository",
+    "Toolbar-PushNotAvailableInDetachedHead": "Push is not available when in a detached HEAD state",
+    "Toolbar-PullMergeNotAvailableInDetachedHead": "Pull (fast-forward if possible) is not available when in a detached HEAD state",
+    "Toolbar-PullFastForwardOnlyNotAvailableInDetachedHead": "Pull (fast-forward only) is not available when in a detached HEAD state",
+    "Toolbar-PullRebaseNotAvailableInDetachedHead": "Pull (rebase) is not available when in a detached HEAD state",
 
     "BreadCrumbs-FavoritesHeader": "Favorites",
     "BreadCrumbs-RecentsHeader": "Recently opened",
@@ -885,6 +890,8 @@
     "StagingPanel-ShowMoreFiles": "Show next {0} ({1} more)",
     "StagingPanel-Amend": "Amend",
     "StagingPanel-UseTemplate": "Use template",
+    "StagingPanel-WarningDetachedHeadState": "You are in a detached HEAD state",
+    "StagingPanel-DetachedHeadStateExplanation": "If you checkout another branch or commit, you might lose any commits created in a detached HEAD state",
     "CommitMessage-CommitMessageLabel": "Commit Message",
     "CommitMessage-SummaryPlaceholder": "Summary",
     "CommitMessage-DescriptionPlaceholder": "Description",
