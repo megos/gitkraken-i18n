@@ -6,6 +6,8 @@ Unofficial GitKraken i18n project
 
 ## Change Language
 
+**Please do this at your own risk! Please see [Known issues](https://github.com/megos/gitkraken-i18n/issues?q=is%3Aissue+is%3Aopen+label%3A%22known+issue%22).**
+
 1. Replace project dir `strings.json` to GitKraken's `strings.json`.
    - Windows: `%LOCALAPPDATA%\gitkraken\app-x.x.x\resources\app.asar.unpacked\src\strings.json` (x.x.x is version)
    - Mac: `/Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/strings.json`
