@@ -654,6 +654,7 @@
     "ContextMenu-AmendOrRewordCommitMessage": "Commitメッセージを編集",
     "ContextMenu-AnnotateTag": "{0} にannotateを追加",
     "ContextMenu-CheckoutBranch": "{0} をcheckout",
+    "ContextMenu-CheckoutCommit": "Checkout this commit",
     "ContextMenu-CherrypickCommit": "Commitをcherrypick",
     "ContextMenu-CopyBranchName": "クリップボードにbranch名をコピー",
     "ContextMenu-CreateAnnotatedTag": "ここでannotated tagを作成",
@@ -722,6 +723,10 @@
 
     "Toolbar-CloseSubmodule": "Submoduleを閉じる",
     "Toolbar-CloseRepository": "リポジトリを閉じる",
+    "Toolbar-PushNotAvailableInDetachedHead": "Push is not available when in a detached HEAD state",
+    "Toolbar-PullMergeNotAvailableInDetachedHead": "Pull (fast-forward if possible) is not available when in a detached HEAD state",
+    "Toolbar-PullFastForwardOnlyNotAvailableInDetachedHead": "Pull (fast-forward only) is not available when in a detached HEAD state",
+    "Toolbar-PullRebaseNotAvailableInDetachedHead": "Pull (rebase) is not available when in a detached HEAD state",
 
     "BreadCrumbs-FavoritesHeader": "お気に入り",
     "BreadCrumbs-RecentsHeader": "最近開いたリポジトリ",
@@ -885,6 +890,8 @@
     "StagingPanel-ShowMoreFiles": "Show next {0}（{1} more）",
     "StagingPanel-Amend": "Amend",
     "StagingPanel-UseTemplate": "テンプレートを使う",
+    "StagingPanel-WarningDetachedHeadState": "You are in a detached HEAD state",
+    "StagingPanel-DetachedHeadStateExplanation": "If you checkout another branch or commit, you might lose any commits created in a detached HEAD state",
     "CommitMessage-CommitMessageLabel": "Commitメッセージ",
     "CommitMessage-SummaryPlaceholder": "タイトル",
     "CommitMessage-DescriptionPlaceholder": "概要",
