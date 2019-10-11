@@ -654,6 +654,7 @@
     "ContextMenu-AmendOrRewordCommitMessage": "Commitメッセージを編集",
     "ContextMenu-AnnotateTag": "{0} にannotateを追加",
     "ContextMenu-CheckoutBranch": "{0} をcheckout",
+    "ContextMenu-CheckoutCommit": "このcommitをcheckout",
     "ContextMenu-CherrypickCommit": "Commitをcherrypick",
     "ContextMenu-CopyBranchName": "クリップボードにbranch名をコピー",
     "ContextMenu-CreateAnnotatedTag": "ここでannotated tagを作成",
@@ -722,6 +723,10 @@
 
     "Toolbar-CloseSubmodule": "Submoduleを閉じる",
     "Toolbar-CloseRepository": "リポジトリを閉じる",
+    "Toolbar-PushNotAvailableInDetachedHead": "detached HEADの状態でpushは利用できません",
+    "Toolbar-PullMergeNotAvailableInDetachedHead": "detached HEADの状態でpull (fast-forwardできる場合)は利用できません",
+    "Toolbar-PullFastForwardOnlyNotAvailableInDetachedHead": "detached HEADの状態でpull (fast-forwardのみ)は利用できません",
+    "Toolbar-PullRebaseNotAvailableInDetachedHead": "detached HEADの状態でpull (rebase)は利用できません",
 
     "BreadCrumbs-FavoritesHeader": "お気に入り",
     "BreadCrumbs-RecentsHeader": "最近開いたリポジトリ",
@@ -885,6 +890,8 @@
     "StagingPanel-ShowMoreFiles": "Show next {0}（{1} more）",
     "StagingPanel-Amend": "Amend",
     "StagingPanel-UseTemplate": "テンプレートを使う",
+    "StagingPanel-WarningDetachedHeadState": "detached HEADの状態です",
+    "StagingPanel-DetachedHeadStateExplanation": "他のブランチをcheckoutしたり、commitしたりすると、detached HEADの状態でのcommitが消える恐れがあります",
     "CommitMessage-CommitMessageLabel": "Commitメッセージ",
     "CommitMessage-SummaryPlaceholder": "タイトル",
     "CommitMessage-DescriptionPlaceholder": "概要",
