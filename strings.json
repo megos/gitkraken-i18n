@@ -1610,6 +1610,7 @@
     "UndoRedo-UndoSuccessful": "Undo Successful",
 
     "View-ActivityLog": "Activity Logs",
+    "View-ActivityLog-HookTitle": "Hook: {0}",
     "View-AutoUpdate": "Choose Installer",
     "View-AutoUpdate-Downloading": "Downloading update",
     "View-AutoUpdate-Downloaded": "Download completed",
