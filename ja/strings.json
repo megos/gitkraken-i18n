@@ -1610,6 +1610,7 @@
     "UndoRedo-UndoSuccessful": "やり直しに成功しました",
 
     "View-ActivityLog": "アクティビティログ",
+    "View-ActivityLog-HookTitle": "Hook: {0}",
     "View-AutoUpdate": "インストーラを選択",
     "View-AutoUpdate-Downloading": "アップデートをダウンロードしています",
     "View-AutoUpdate-Downloaded": "ダウンロードが完了しました",
