@@ -1088,6 +1088,8 @@
     "GeneralPreferences-UseSameDiffToolHelp": "Diffの表示に設定されたMergeツールを使う",
     "GeneralPreferences-ExternalMergeTool": "外部Mergeツール",
     "GeneralPreferences-MergeToolHelp": "（任意）Mergeツールを設定する",
+    "GeneralPreferences-Longpaths": "Longpaths",
+    "GeneralPreferences-LongpathsHelp": "Windowsはデフォルトで、260文字未満のファイルパスしか扱えません。これを有効にすると長いファイルパスもサポートされます。",
     "GeneralPreferences-GitConfigDefault": "Gitコンフィグのデフォルト",
     "GeneralPreferences-RememberTabs": "タブを記憶する",
     "GeneralPreferences-OptIntoAnalytics": "AxosoftにGitKrakenの利用データを送信する",
@@ -1533,12 +1535,16 @@
 
     "RemoteForm-AddRemote": "Remoteを追加",
     "RemoteForm-AddRemoteButtonLabel": "Remoteを追加",
+    "RemoteForm-AddUserRemote": "このremoteを追加",
     "RemoteForm-Bitbucket": "Bitbucket.org",
     "RemoteForm-BitbucketServer": "Bitbucket Server",
     "RemoteForm-ConnectToService": "{0}と連携する",
     "RemoteForm-EditManually": "Remoteを編集",
     "RemoteForm-EditRemote": "Remoteを編集",
     "RemoteForm-Fork": "Fork",
+    "RemoteForm-ForkAndAddRemote": "Forkしてremoteに追加",
+    "RemoteForm-ForkFound": "{0}でこのリポジトリをforkしています:",
+    "RemoteForm-ForkNotFound": "まだ{1}で{0}をforkしていません。",
     "RemoteForm-GitHub": "GitHub.com",
     "RemoteForm-GitHubEnterprise": "GitHub Enterprise",
     "RemoteForm-GitLab": "GitLab.com",
@@ -1800,6 +1806,7 @@
     "Error-GpgSigningFailed": "サインに失敗しました",
     "Error-GpgUnparseableSignature": "PGP署名がパースできません",
     "Error-InotifyLimitReached": "通知の上限エラーです",
+    "Error-InvalidPAT": "{0}のPersonal Access Tokenがリジェクトされました。トークンが無効になっているか、十分な権限が無い恐れがあります。",
     "Error-KeyAlreadyExistsOnAccount": "このアカウントにキーはすでに存在します",
     "Error-LoginRedirect": "ユーザデータを取得する際にリダイレクトが発生しました - ${0} をホワイトリストに登録してください",
     "Error-MergeAbortFailed": "Mergeの取り消しに失敗しました",
@@ -1938,6 +1945,8 @@
 
     "SaveAndStageEditorChanges-Message": "Stagingに上げる前に変更を保存するか、保存済みの箇所のみをstagingに上げますか？",
     "SaveAndStageEditorChanges-SaveAndStage": "保存してstage",
-    "SaveAndStageEditorChanges-StageSavedChangesOnly": "変更点のみstageに保存しました"
+    "SaveAndStageEditorChanges-StageSavedChangesOnly": "変更点のみstageに保存しました",
+
+    "CreateFork-ForkSuccessfullyCreated": "{0}でforkが成功しました"
   }
 }
