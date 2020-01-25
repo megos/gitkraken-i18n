@@ -1088,6 +1088,8 @@
     "GeneralPreferences-UseSameDiffToolHelp": "Diffの表示に設定されたMergeツールを使う",
     "GeneralPreferences-ExternalMergeTool": "外部Mergeツール",
     "GeneralPreferences-MergeToolHelp": "（任意）Mergeツールを設定する",
+    "GeneralPreferences-Longpaths": "Longpaths",
+    "GeneralPreferences-LongpathsHelp": "By default, Windows only supports file paths less than 260 characters. Enable support for longer file paths.",
     "GeneralPreferences-GitConfigDefault": "Gitコンフィグのデフォルト",
     "GeneralPreferences-RememberTabs": "タブを記憶する",
     "GeneralPreferences-OptIntoAnalytics": "AxosoftにGitKrakenの利用データを送信する",
@@ -1533,12 +1535,16 @@
 
     "RemoteForm-AddRemote": "Remoteを追加",
     "RemoteForm-AddRemoteButtonLabel": "Remoteを追加",
+    "RemoteForm-AddUserRemote": "Add this Remote",
     "RemoteForm-Bitbucket": "Bitbucket.org",
     "RemoteForm-BitbucketServer": "Bitbucket Server",
     "RemoteForm-ConnectToService": "{0}と連携する",
     "RemoteForm-EditManually": "Remoteを編集",
     "RemoteForm-EditRemote": "Remoteを編集",
     "RemoteForm-Fork": "Fork",
+    "RemoteForm-ForkAndAddRemote": "Fork and Add Remote",
+    "RemoteForm-ForkFound": "You have a fork of this repository on {0}:",
+    "RemoteForm-ForkNotFound": "You have not yet forked {0} on {1}.",
     "RemoteForm-GitHub": "GitHub.com",
     "RemoteForm-GitHubEnterprise": "GitHub Enterprise",
     "RemoteForm-GitLab": "GitLab.com",
@@ -1800,6 +1806,7 @@
     "Error-GpgSigningFailed": "サインに失敗しました",
     "Error-GpgUnparseableSignature": "PGP署名がパースできません",
     "Error-InotifyLimitReached": "通知の上限エラーです",
+    "Error-InvalidPAT": "Your Personal Access Token for {0} was rejected. The token may have been revoked, or it may not have enough scopes.",
     "Error-KeyAlreadyExistsOnAccount": "このアカウントにキーはすでに存在します",
     "Error-LoginRedirect": "ユーザデータを取得する際にリダイレクトが発生しました - ${0} をホワイトリストに登録してください",
     "Error-MergeAbortFailed": "Mergeの取り消しに失敗しました",
@@ -1938,6 +1945,8 @@
 
     "SaveAndStageEditorChanges-Message": "Stagingに上げる前に変更を保存するか、保存済みの箇所のみをstagingに上げますか？",
     "SaveAndStageEditorChanges-SaveAndStage": "保存してstage",
-    "SaveAndStageEditorChanges-StageSavedChangesOnly": "変更点のみstageに保存しました"
+    "SaveAndStageEditorChanges-StageSavedChangesOnly": "変更点のみstageに保存しました",
+
+    "CreateFork-ForkSuccessfullyCreated": "Fork successfully created on {0}"
   }
 }
