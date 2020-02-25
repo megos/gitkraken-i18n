@@ -1,0 +1,8 @@
+{
+  "i18n-ally.filenameMatchRegex": "strings\\.json",
+  "i18n-ally.localesPaths": ["./"],
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.displayLanguage": "en",
+  "i18n-ally.enabledFrameworks": "custom",
+  "i18n-ally.keystyle": "nested"
+}
