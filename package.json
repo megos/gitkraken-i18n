@@ -4,10 +4,9 @@
   "description": "Unofficial GitKraken i18n project",
   "main": "index.js",
   "scripts": {
-    "pull:mac": "cp /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/strings.json .",
-    "restore:mac": "cp strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/",
+    "pull:mac": "cp /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/strings.json en/",
+    "restore:mac": "cp en/strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/",
     "change:mac:jp": "cp ja/strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/",
-    "push:mac": "cp app.asar /Applications/GitKraken.app/Contents/Resources/",
     "patch:jp": "git diff HEAD~1 > diff.patch && patch -F4 -d ja < diff.patch"
   },
   "repository": {
