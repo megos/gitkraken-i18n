@@ -6,8 +6,7 @@
   "scripts": {
     "pull:mac": "cp /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/strings.json en/",
     "restore:mac": "cp en/strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/",
-    "change:mac:jp": "cp ja/strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/",
-    "patch:jp": "git diff HEAD~1 > diff.patch && patch -F4 -d ja < diff.patch"
+    "change:mac:jp": "cp ja/strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/"
   },
   "repository": {
     "type": "git",
