@@ -6,7 +6,8 @@
   "scripts": {
     "pull:mac": "cp /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/strings.json en/",
     "restore:mac": "cp en/strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/",
-    "change:mac:jp": "cp ja/strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/"
+    "change:mac:jp": "cp ja/strings.json /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/",
+    "textlint:ja": "node json2values.js > ja.md && textlint ja.md"
   },
   "repository": {
     "type": "git",

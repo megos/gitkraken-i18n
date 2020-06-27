@@ -2,8 +2,15 @@
 version: 1
 rules:
 
-  - expected: （$1）
-    pattern: /\((.+?)\)/
+  # - expected: （$1）
+  #   pattern: /\((.+?)\)/
+  - expected: GitKraken Boards
+    patterns:
+      - /GitKraken Glo/i
+      - /Glo/i
+  - expected: GitKraken Card
+    pattern: /Glo Card/i
+  
 
   # format case-sensitive
   # - expected: commit
