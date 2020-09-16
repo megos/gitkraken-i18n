@@ -418,7 +418,6 @@
     "Error-Diff3UpdateFailed": "Diffの更新に失敗しました",
     "Error-DiscardSelectionFailed": "選択箇所の取り消しに失敗しました",
     "Error-DisconnectingServiceFailed": "サービスとの接続解除に失敗しました",
-    "Error-FeedbackSendFailure": "フィードバックの送信に失敗しました",
     "Error-FetchAllPullRequestsFailed": "Pull requestのfetchに失敗しました",
     "Error-FetchFailedWithName": "'{0}'のfetchに失敗しました",
     "Error-GenerateDiff3Failed": "conflictのdiffの生成に失敗しました",

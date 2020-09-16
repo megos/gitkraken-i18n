@@ -418,7 +418,6 @@
     "Error-Diff3UpdateFailed": "Failed to update diff",
     "Error-DiscardSelectionFailed": "Discarding selection failed",
     "Error-DisconnectingServiceFailed": "Service disconnection failed",
-    "Error-FeedbackSendFailure": "Failed to send feedback",
     "Error-FetchAllPullRequestsFailed": "Fetching pull requests failed",
     "Error-FetchFailedWithName": "Fetch failed for '{0}'",
     "Error-GenerateDiff3Failed": "Generating diff for conflict failed",
