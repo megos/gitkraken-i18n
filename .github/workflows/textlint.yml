@@ -1,0 +1,15 @@
+name: textlint
+on:
+  - pull_request
+  
+jobs:
+  textlint:
+    name: textlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: yarn
+
+      - name: textlint
+        run: yarn textlint:ja
