@@ -10,6 +10,7 @@ module.exports = {
         '.gitconfig',
         '/Summary:.*happens\]/',
         'Feedback about GitKraken \({0}\)',
+        ' gitkraken.com '
       ],
     },
   },
