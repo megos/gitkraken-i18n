@@ -12,6 +12,10 @@ Unofficial GitKraken i18n project
    - Windows: `%LOCALAPPDATA%\gitkraken\app-x.x.x\resources\app.asar.unpacked\src\strings.json` (x.x.x is version)
    - Mac: `/Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/strings.json`
 1. Restart GitKraken.
+1. Open the preferences.  
+![Preferences Menu Button](./images/options_button.png)
+1. Go to "UI Customization" and select the language.  
+![UI Customization preferences](./images/ui_customization.png)
 
 ## Translate
 
