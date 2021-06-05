@@ -1858,7 +1858,7 @@
     "PullRequestViewError-ViewingFileChanges": "Failed to view file changes.",
     "PullRequestViewFilesError-CouldNotFindAncestorCommit": "Failed to find shared ancestor commit for this pull request.",
     "PullRequestViewFilesError-CouldNotFindBaseCommit": "Failed to find base commit for this pull request.",
-    "PullRequestViewFilesError-CouldNotFindHeadCommit": "Failed to find head commit for this pull request. Ensure this remote is not hidden, or try increasing the number of commits visible in the graph in Preferences > General.",
+    "PullRequestViewFilesError-CouldNotFindHeadCommit": "Failed to find head commit for this pull request. Ensure this remote is not hidden, or try increasing the number of commits visible in the graph in Preferences → General.",
     "PullRequestViewFilesError-MissingShaToViewFileChanges": "Failed to find shas for this pull request.",
     "PullRequestViewFilesError-NoAncestorCommit": "Failed to find a shared commit between the head and base of this pull request.",
     "PullRequestViewMergeForm-Merge": "Merge",
