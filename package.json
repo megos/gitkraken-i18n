@@ -1,6 +1,6 @@
 {
   "name": "gitkraken-i18n",
-  "version": "7.7.0",
+  "version": "7.7.1",
   "description": "Unofficial GitKraken i18n project",
   "scripts": {
     "pull:mac": "cp /Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/strings.json en/",
