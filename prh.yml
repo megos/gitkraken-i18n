@@ -6,8 +6,10 @@ rules:
   #   pattern: /\((.+?)\)/
   - expected: GitKraken Boards
     patterns:
+      - Glo
+  - expected: GitKraken Boards
+    patterns:
       - /GitKraken Glo/i
-      - /Glo/i
   - expected: GitKraken Card
     pattern: /Glo Card/i
   
