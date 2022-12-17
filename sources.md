@@ -1,0 +1,13 @@
+https://github.com/gucong3000/gitkraken-i18n
+https://github.com/YukiTamaoki/gitkraken-i18n
+https://github.com/yousgw/gitkraken-i18n
+https://github.com/Mr-Wallet/gitkraken-i18n
+https://github.com/mcdwayne/gitkraken-i18n
+https://github.com/komayuki/gitkraken-i18n
+https://github.com/iocscix/gitkraken-i18n
+https://github.com/hzjzxy/gitkraken-i18n
+https://github.com/hiraishikentaro/gitkraken-i18n
+https://github.com/HagiharaYoshifumi/gitkraken-i18n
+https://github.com/assen0817/gitkraken-i18n
+https://github.com/ariki4160/gitkraken-i18n
+https://github.com/zyyx-matsushita/gitkraken-i18n
