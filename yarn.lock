@@ -67,10 +67,10 @@
   resolved "https://registry.yarnpkg.com/@textlint/feature-flag/-/feature-flag-12.3.0.tgz#5eafadc4e49d17a3e8c891403132fe2d7aa9b157"
   integrity sha512-7WgC2d6gk+aeQLPz6M24Ngt4hsZkUL701CjP9R9P2RnLFMVOxwJ7YzpxcGTrlK5pmMNZ06xfbHpBd4rE0d567Q==
 
-"@textlint/fixer-formatter@^12.3.1":
-  version "12.3.1"
-  resolved "https://registry.yarnpkg.com/@textlint/fixer-formatter/-/fixer-formatter-12.3.1.tgz#4fb8b304ab9eaf5a7b0f790e96df2ee8ca406d42"
-  integrity sha512-+xYI5oOlSoKXGpV7AGuWOleUfgzLNGaCN7PuTujxdZ5czAm2LxYplJ58+0oAOYE/N3QfLN2dO+itAsEZho6vhQ==
+"@textlint/fixer-formatter@^12.4.0":
+  version "12.4.0"
+  resolved "https://registry.yarnpkg.com/@textlint/fixer-formatter/-/fixer-formatter-12.4.0.tgz#fa243c20a5234b07c7064c337bb85696e38b7f27"
+  integrity sha512-pCo/EuW8CUdF+AMPI/AhfCuDusQ19BORlKznLfCQoPBvTweSo3M2yDTDeHhi2PLNnKy812KpcJBBpZryALe2nA==
   dependencies:
     "@textlint/module-interop" "^12.3.0"
     "@textlint/types" "^12.3.0"
@@ -1749,16 +1749,16 @@ textlint-rule-prh@^5.2.1:
     textlint-rule-helper "^2.1.1"
     untildify "^3.0.3"
 
-textlint@12.3.1:
-  version "12.3.1"
-  resolved "https://registry.yarnpkg.com/textlint/-/textlint-12.3.1.tgz#a45537f6521d019c6db328290c29a68affa6ac3e"
-  integrity sha512-YrQmJBLhThUimP4eVWQAZfJBBXMdYvuuvNa4q0qmB7ibcYtTnwbysRAEI1FYx8qG/AoLtjqBcF6WO8oSGEnODg==
+textlint@12.4.0:
+  version "12.4.0"
+  resolved "https://registry.yarnpkg.com/textlint/-/textlint-12.4.0.tgz#a03f336d08b60b6953765740805b04029c67222d"
+  integrity sha512-n8WAsOf+JtDXTj12A8DF+kuaV+YVawaf8DUzdEc00AFK/qMUsvUZ79X60SBO1sEYwkjExErQv1JRIFHwOp/XEw==
   dependencies:
     "@textlint/ast-node-types" "^12.3.0"
     "@textlint/ast-traverse" "^12.3.0"
     "@textlint/config-loader" "^12.3.1"
     "@textlint/feature-flag" "^12.3.0"
-    "@textlint/fixer-formatter" "^12.3.1"
+    "@textlint/fixer-formatter" "^12.4.0"
     "@textlint/kernel" "^12.3.0"
     "@textlint/linter-formatter" "^12.3.1"
     "@textlint/module-interop" "^12.3.0"
