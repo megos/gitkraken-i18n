@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/megos/gitkraken-i18n#readme",
   "devDependencies": {
-    "textlint": "13.3.0",
+    "textlint": "13.3.1",
     "textlint-filter-rule-allowlist": "4.0.0",
     "textlint-rule-preset-jtf-style": "2.3.13",
     "textlint-rule-prh": "5.3.0"
