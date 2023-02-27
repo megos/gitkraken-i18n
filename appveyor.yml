@@ -1,0 +1,39 @@
+version: "{build}"
+skip_branch_with_pr: true
+build: off
+
+# Test against the latest version of this Node.js version
+environment:
+  nodejs_version: "stable"
+  matrix:
+    - gitkraken_platform: win64
+      platform: x64
+    - gitkraken_platform: win32
+      platform: x86
+
+cache:
+  - node_modules
+  - '%APPDATA%\npm-cache'
+  - '%USERPROFILE%\AppData\Local\Yarn\cache'
+
+# Install scripts. (runs after repo cloning)
+install:
+  # Get the latest stable version of Node.js or io.js
+  - ps: Install-Product node $env:nodejs_version $env:platform
+  # install modules
+  - npm install --ignore-scripts
+
+build_script:
+  - npm run create-patch
+
+artifacts:
+  - path: 'patches\*.patch'
+    name: patch
+
+deploy:
+  provider: GitHub
+  auth_token:
+    secure: 8hqStAGHShwpTpTvpJqw01bteLm0Z1Ob9MdFMevTlCJWb5iVXcr7dpOMGIaOdfSz
+  artifact: /.*\.patch/            # upload all git patch to release assets
+  on:
+    appveyor_repo_tag: true        # deploy on tag push only
